@@ -8,6 +8,8 @@ import sys
 import requests
 from datetime import date, datetime
 
+import json
+
 from posts_data import POSTS
 
 SLOT = os.environ.get("SLOT", "").strip()
@@ -31,17 +33,35 @@ day_index = (today - start).days % len(POSTS)
 post_data = POSTS[day_index]
 text = post_data[SLOT]
 
+# アプリで設定した上書きデータ（文章・画像URL）を読み込む
+OVERRIDE_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "posts_override.json")
+image_url = None
+if os.path.exists(OVERRIDE_FILE):
+    with open(OVERRIDE_FILE) as f:
+        overrides = json.load(f)
+    if day_index < len(overrides):
+        slot_data = overrides[day_index].get(SLOT, {})
+        text = slot_data.get("text", text)
+        image_url = slot_data.get("imageUrl")
+
 print(f"今日: {today} / 開始日: {start} / day_index: {day_index} / slot: {SLOT}")
+print(f"画像URL: {image_url or 'なし'}")
 print(f"投稿内容:\n{text}\n")
 
 # Step 1: コンテナ作成
+container_params = {
+    "text": text,
+    "access_token": ACCESS_TOKEN,
+}
+if image_url:
+    container_params["media_type"] = "IMAGE"
+    container_params["image_url"] = image_url
+else:
+    container_params["media_type"] = "TEXT"
+
 res = requests.post(
     f"https://graph.threads.net/v1.0/{USER_ID}/threads",
-    data={
-        "media_type": "TEXT",
-        "text": text,
-        "access_token": ACCESS_TOKEN,
-    }
+    data=container_params,
 )
 result = res.json()
 
