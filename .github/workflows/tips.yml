@@ -1,0 +1,22 @@
+name: 毎日Tips投稿
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # 毎日12:00 JST (= UTC 3:00)
+  workflow_dispatch:      # 手動実行も可能
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Post tip to Threads
+        run: python scripts/post_tips.py
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}

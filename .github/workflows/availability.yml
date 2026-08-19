@@ -1,0 +1,26 @@
+name: 空き枠投稿
+
+on:
+  workflow_dispatch:
+    inputs:
+      time_slots:
+        description: '本日の空き枠（例：🕙 10:00〜11:30、🕑 14:00〜15:30）'
+        required: true
+        type: string
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Post availability to Threads
+        run: python scripts/post_availability.py
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          TIME_SLOTS: ${{ github.event.inputs.time_slots }}
