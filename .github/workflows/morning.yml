@@ -1,0 +1,32 @@
+name: 朝8:00 空き枠投稿
+
+on:
+  workflow_dispatch:
+    inputs:
+      time_slots:
+        description: '空き枠の時間（例：15:00〜・17:00〜・18:00〜）'
+        required: true
+        type: string
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Post morning availability
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          TIME_SLOTS: ${{ inputs.time_slots }}
+        run: |
+          cd scripts
+          python3 post_morning.py
