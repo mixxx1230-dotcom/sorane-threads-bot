@@ -21,3 +21,10 @@ jobs:
           SLOT: evening
           START_DATE: '2026-08-19'
         run: cd scripts && python3 post_scheduled.py
+      - name: 投稿履歴をコミット
+        run: |
+          git config user.email "bot@sorane-threads"
+          git config user.name "Sorane Bot"
+          git add data/post_history.json || true
+          git diff --cached --quiet || git commit -m "投稿記録: evening $(date +%Y-%m-%d)"
+          git push || true

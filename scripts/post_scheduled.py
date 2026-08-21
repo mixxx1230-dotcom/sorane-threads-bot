@@ -117,3 +117,27 @@ if "id" not in result2:
     sys.exit(1)
 
 print(f"投稿成功！ post_id: {result2['id']}")
+
+# 投稿履歴を記録
+HISTORY_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "post_history.json")
+os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
+
+history = {}
+if os.path.exists(HISTORY_FILE):
+    with open(HISTORY_FILE) as f:
+        try:
+            history = json.load(f)
+        except Exception:
+            pass
+
+history_key = f"{today}_{SLOT}"
+history[history_key] = {
+    "posted_at": datetime.now(JST).isoformat(),
+    "post_id": result2["id"],
+    "day_index": day_index,
+}
+
+with open(HISTORY_FILE, "w") as f:
+    json.dump(history, f, indent=2, ensure_ascii=False)
+
+print(f"投稿履歴を記録: {history_key}")
