@@ -61,7 +61,7 @@ else:
 
 res = requests.post(
     f"https://graph.threads.net/v1.0/{USER_ID}/threads",
-    data=container_params,
+    params=container_params,
 )
 result = res.json()
 
@@ -78,7 +78,7 @@ time.sleep(5)
 
 res2 = requests.post(
     f"https://graph.threads.net/v1.0/{USER_ID}/threads_publish",
-    data={
+    params={
         "creation_id": container_id,
         "access_token": ACCESS_TOKEN,
     }
