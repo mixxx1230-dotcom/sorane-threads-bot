@@ -5,8 +5,9 @@ START_DATE: 運用開始日（YYYY-MM-DD）
 """
 import os
 import sys
+import time
 import requests
-from datetime import date, datetime
+from datetime import date, datetime, timezone, timedelta
 
 import json
 
@@ -20,14 +21,17 @@ if SLOT not in ("noon", "evening"):
 ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
 USER_ID = os.environ.get("THREADS_USER_ID", "").strip()
 START_DATE_STR = os.environ.get("START_DATE", "2026-08-19")
+GITHUB_REPO = "mixxx1230-dotcom/sorane-threads-bot"
+GITHUB_BRANCH = "main"
 
 if not ACCESS_TOKEN or not USER_ID:
     print("エラー: THREADS_ACCESS_TOKEN または THREADS_USER_ID が設定されていません")
     sys.exit(1)
 
-# 今日が何日目かを計算し、7日でループ
+# 日付はJST基準で計算（GitHub ActionsはUTC環境）
+JST = timezone(timedelta(hours=9))
+today = datetime.now(JST).date()
 start = date.fromisoformat(START_DATE_STR)
-today = date.today()
 day_index = (today - start).days % len(POSTS)
 
 post_data = POSTS[day_index]
@@ -36,34 +40,58 @@ text = post_data[SLOT]
 # アプリで設定した上書きデータ（文章・画像URL）を読み込む
 OVERRIDE_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "posts_override.json")
 image_url = None
+override_used = False
+
 if os.path.exists(OVERRIDE_FILE):
     with open(OVERRIDE_FILE) as f:
         overrides = json.load(f)
     if day_index < len(overrides):
         slot_data = overrides[day_index].get(SLOT, {})
-        text = slot_data.get("text", text)
-        image_url = slot_data.get("imageUrl")
-
-print(f"今日: {today} / 開始日: {start} / day_index: {day_index} / slot: {SLOT}")
-print(f"画像URL: {image_url or 'なし'}")
-print(f"投稿内容:\n{text}\n")
-
-# Step 1: コンテナ作成
-container_params = {
-    "text": text,
-    "access_token": ACCESS_TOKEN,
-}
-if image_url:
-    container_params["media_type"] = "IMAGE"
-    container_params["image_url"] = image_url
+        if slot_data.get("text"):
+            text = slot_data["text"]
+            override_used = True
+        raw_image = slot_data.get("imageUrl")
+        if raw_image:
+            # /uploads/filename → GitHub raw URL に変換
+            if raw_image.startswith("/uploads/"):
+                filename = os.path.basename(raw_image)
+                image_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}/images/{filename}"
+                print(f"画像URL変換: {raw_image} → {image_url}")
+            else:
+                image_url = raw_image
 else:
-    container_params["media_type"] = "TEXT"
+    print("警告: posts_override.json が見つかりません。デフォルトテキストを使用します。")
+    print("  → sorane-appで「GitHubに同期」ボタンを押してください。")
 
-res = requests.post(
-    f"https://graph.threads.net/v1.0/{USER_ID}/threads",
-    params=container_params,
-)
-result = res.json()
+print(f"=== 投稿情報 ===")
+print(f"JST今日: {today} / 開始日: {start} / day_index: {day_index} / slot: {SLOT}")
+print(f"override使用: {override_used}")
+print(f"画像URL: {image_url or 'なし（テキスト投稿）'}")
+print(f"投稿内容:\n{text}\n")
+print("===============")
+
+def post_container(use_image):
+    """コンテナ作成。use_image=Falseでテキスト投稿にフォールバック"""
+    params = {"text": text, "access_token": ACCESS_TOKEN}
+    if use_image and image_url:
+        params["media_type"] = "IMAGE"
+        params["image_url"] = image_url
+    else:
+        params["media_type"] = "TEXT"
+    res = requests.post(
+        f"https://graph.threads.net/v1.0/{USER_ID}/threads",
+        params=params,
+    )
+    return res.json()
+
+# Step 1: コンテナ作成（画像付きで試みる）
+result = post_container(use_image=True)
+
+# 画像エラー時はテキスト投稿にフォールバック
+if "id" not in result and image_url:
+    print(f"画像付き投稿失敗: {result}")
+    print("テキスト投稿にフォールバックします...")
+    result = post_container(use_image=False)
 
 if "id" not in result:
     print(f"エラー（コンテナ作成）: {result}")
@@ -73,7 +101,6 @@ container_id = result["id"]
 print(f"コンテナ作成成功: {container_id}")
 
 # Step 2: 公開
-import time
 time.sleep(5)
 
 res2 = requests.post(
