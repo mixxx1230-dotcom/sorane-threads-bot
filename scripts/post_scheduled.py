@@ -70,9 +70,11 @@ print(f"画像URL: {image_url or 'なし（テキスト投稿）'}")
 print(f"投稿内容:\n{text}\n")
 print("===============")
 
+TOPIC_TAG = "BEAUTY_FASHION"
+
 def post_container(use_image):
     """コンテナ作成。use_image=Falseでテキスト投稿にフォールバック"""
-    params = {"text": text, "access_token": ACCESS_TOKEN}
+    params = {"text": text, "access_token": ACCESS_TOKEN, "topic_tag": TOPIC_TAG}
     if use_image and image_url:
         params["media_type"] = "IMAGE"
         params["image_url"] = image_url
