@@ -4,135 +4,37 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "PC作業してるとき、\n奥歯ずっと当たってませんか👀？\n\n集中していると無意識に噛みしめている人もいます。\n\n一度だけ、\n奥歯を離して肩の力を抜いてみてください。",
+      "text": "今この瞬間、奥歯くっついてませんか😶\n\n集中してると気づかないうちに噛みしめてる人、かなり多いです。\n\n口を少し開けて、顎の力を一度抜いてみてください。こめかみまでじわっとゆるみます。\n\n頭の重さや目の疲れが続く人、食いしばりが関係してることがあります。",
       "photo": "PCデスクと手のイメージ",
-      "photoPrompt": "Close-up of hands typing on keyboard, soft natural light, no face, minimal clean style",
+      "photoPrompt": "Close-up of hands on keyboard, soft natural light, no face, minimal",
       "topic": "なし",
       "aim": "セルフケア"
     },
     "evening": {
-      "text": "帰ってからも仕事のことが頭から離れない、という方が施術中に多いです。\n\n身体は横になっているのに、頭だけがまだ動いている感じ。\n\n「考えないようにしよう」と思うほど逆効果なので、まずスマホを置いて、ぼーっとする時間を少しだけつくってみてください。",
+      "text": "仕事終わったのに、頭の中だけまだ仕事してる夜ありませんか。\n\n身体はソファにいるのに、脳だけ職場に置いてきた感じ。\n\nスマホを置いて、5分だけ目を閉じてみてください。仕事のことを「考えよう」としなくていい。ただ5分。\n\n意外とこれだけで頭が切り替わります🙆‍♀️",
       "photo": "薄暗い部屋でぼんやりしている人",
-      "photoPrompt": "Dimly lit cozy room, person sitting quietly, soft warm light, peaceful atmosphere, no face",
+      "photoPrompt": "Person sitting quietly in dim room, soft warm light, peaceful, no face",
       "topic": "なし",
-      "aim": "共感"
+      "aim": "共感・習慣改善"
     }
   },
   {
     "morning": {
-      "timeSlots": "13:00〜・15:00〜・18:00〜"
+      "timeSlots": ""
     },
     "noon": {
-      "text": "目が疲れたとき、\n目の周りをケアするだけでは\n足りないことがあります👀💦\n\n側頭部（こめかみの少し上）の筋肉は、\n目を動かすたびに使われています。\n\nこめかみに手を当てて、\nゆっくり円を描いてみてください。\n\n目元がじんわり楽になりますよ🙆‍♀️💫\n午後の時間も頑張っていきましょう！",
+      "text": "目薬を差してもすぐ疲れ目に戻る人、こめかみが固まってるかもしれません👀\n\n目のまわりには筋肉がつながっていて、こめかみが詰まると血流が悪くなります。\n\n両手の指でこめかみをやさしく円を描くように10秒ほぐしてみてください。\n\n目の奥のじんわり感が変わります。\n\n午後の時間も頑張っていきましょう！",
       "photo": "こめかみに手を当てている人",
-      "photoPrompt": "Person gently touching temple with fingertips, soft light, calm, side angle, no full face",
-      "topic": "なし",
-      "aim": "セルフケア・知識",
-      "imageUrl": "/uploads/1787150788274.PNG"
-    },
-    "evening": {
-      "text": "木曜の夜は、首肩の重さが一気に出てくる方は…\n\n週の前半から同じ姿勢や緊張が続いて、\n気づかないうちにずっと力が入ってる傾向が非常に高いです💦\n\nだから今日は、首をぐるぐる回すより先に\n肩をギュッとすくめて、ストンと落とすのを3回。\n\nまず「力が入ってる状態」を一回リセットしてから休む方が、身体もゆるみやすいのでおすすめです🙆‍♀️",
-      "photo": "夜の街を歩く人のシルエット",
-      "photoPrompt": "Person dropping shoulders and relaxing, home setting, warm evening light, no face",
-      "topic": "なし",
-      "aim": "共感",
-      "imageUrl": "/uploads/1787150869881.JPG"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": "17:00〜"
-    },
-    "noon": {
-      "text": "＼みなさんに質問です🙋‍♀️✨／\n「マッサージ行きたい」ってなるの、\nどの段階ですか🧐？\n\n① ちょっと疲れた\n② 首肩がしんどくなった\n③ 頭痛・眼精疲労まできた\n④ もう限界、誰とも喋りたくない",
-      "photo": "デスクで肩を軽く伸ばしている人",
-      "photoPrompt": "Simple poll question visual, light and engaging, clean Japanese minimal design",
-      "topic": "なし",
-      "aim": "セルフケア"
-    },
-    "evening": {
-      "text": "肩がしんどいとき、\n肩だけ揉んでもすぐ戻る人へ。\n\n実は、肩こりって\n「肩だけ」が原因じゃないことが多いです💦\n\nデスクワークやスマホで\n頭が前に出る\n↓\n首の筋肉がずっと頑張る\n↓\nその負担を肩が支える\n↓\n肩がガチガチになる\n\nさらに、眼精疲労や食いしばりで\n頭まわりまで緊張していることも。\n\nだから肩だけを揉んでも、\n原因になっている首や頭がそのままだと\nまた肩に負担がかかりやすいんです🌀\n\n肩がつらい日は、\n肩だけじゃなく\n首・後頭部・こめかみまで\nやさしくゆるめてみてください◎\n\n強く揉むより、\n「気持ちいい」くらいで十分です。\n\n今週もお疲れ様でした💐",
-      "photo": "夜の心斎橋・四ツ橋の街並み",
-      "photoPrompt": "Night view of Shinsaibashi street, warm lights, calm urban Friday evening atmosphere",
-      "topic": "なし",
-      "aim": "地域・店舗認知"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "休みの日に長く寝たのに、\nなんか疲れが抜けきらないことありませんか😌？\n\nそんな日は「何時間寝たか」だけじゃなく、\n起きる時間も見てみてください。\n\n休日だけ昼近くまで寝ると、\n普段との起床時間のズレで生活リズムがずれて、\n月曜にまたしんどく感じることがあります🌀\n\nまずは休日も、\n普段の起床時間＋2時間以内を目安に。\n\n足りない分は昼寝で補う方が、\nリズムを崩しにくいですよ🪽",
-      "photo": "朝の布団・窓から差し込む光",
-      "photoPrompt": "Morning light through window on white bed sheets, peaceful, soft natural light",
-      "topic": "睡眠",
-      "aim": "セルフケア・知識",
-      "imageUrl": "/uploads/1787295150299.jpg"
-    },
-    "evening": {
-      "text": "せっかくの休日なのに、\n気づいたら仕事のこと考えてる。\n\nこれ、意外と多くないですか？💦\n\n身体は休んでいても、\n仕事の連絡や来週の予定を見続けていると\n頭の中では仕事が続きやすいです。\n\n寝る前だけでも、\n仕事の情報を一回遮断する。\n\n休日なのに休んだ気がしない人、\nどのタイミングで切り替えてますか🤔？",
-      "photo": "静かな施術室・ベッドと間接照明",
-      "photoPrompt": "Quiet spa room, dim indirect lighting, treatment bed, minimalist Japanese interior",
-      "topic": "なし",
-      "aim": "店舗・予約"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "せっかくの休日なのに、\n気づいたら仕事のこと考えてる。\n\nこれ、意外と多くないですか？💦\n\n身体は休んでいても、\n仕事の連絡や来週の予定を見続けていると\n頭の中では仕事が続きやすいです。\n\n寝る前だけでも、\n仕事の情報を一回遮断する。\n\n休日なのに休んだ気がしない人、\nどのタイミングで切り替えてますか🤔？",
-      "photo": "ソファでぼんやりしている人",
-      "photoPrompt": "Person sitting on sofa gazing into space, soft afternoon light, relaxed posture, no face",
-      "topic": "なし",
-      "aim": "共感・セルフケア"
-    },
-    "evening": {
-      "text": "日曜の夜、ちゃんと休めた気がしないまま終わることないですか。\n\n明日のことがどこかにあって、なんとなくそわそわしてる感じ。\n\n寝る前だけでも、スマホを置いてみてください。それだけでも少し違います。",
-      "photo": "夜の窓辺、遠くを見ている人",
-      "photoPrompt": "Person looking out window at night, city lights in distance, calm reflective mood, no face",
-      "topic": "睡眠",
-      "aim": "共感・セルフケア"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "施術していて最近多いなと思うのが、\n後頭部から首の付け根のこわばり。\n\nスマホを下向きで見続けることで\nこの辺りに負担がかかりやすい傾向があります。\n\n今日一日、\nスマホを少しだけ目の高さに近づけて見てみてください。",
-      "photo": "スマホを操作している手、うつむいている人",
-      "photoPrompt": "Person holding smartphone at eye level, ergonomic posture, clean background",
-      "topic": "なし",
-      "aim": "施術者目線・知識"
-    },
-    "evening": {
-      "text": "月曜日が終わりました。\n\n一週間でいちばん重い日をクリアしたので、あとは少しずつ楽になっていきます。今夜はゆっくり休んでください。",
-      "photo": "夕暮れの空、または帰り道の写真",
-      "photoPrompt": "Sunset sky over urban buildings, warm orange light, end of day atmosphere",
-      "topic": "なし",
-      "aim": "共感"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "頭が重いとき、\n首をぐるぐる回してしまっていませんか。\n\n首周りが硬くなっているときは、\n大きく回すより\nゆっくり小さく動かす方が\n負担が少ないことがあります。\n\n左右に少しだけ、ゆっくりと。",
-      "photo": "首を軽くほぐしている人",
-      "photoPrompt": "Quiet personal space, person alone peacefully, soft light, minimalist, no face",
+      "photoPrompt": "Person gently touching temple with fingertips, soft light, side angle, no full face",
       "topic": "なし",
       "aim": "セルフケア・知識"
     },
     "evening": {
-      "text": "毎日よく動いているなと思います、大阪で仕事している人。\n\n頭が疲れているのに、どう休めばいいかわからなくて、気づいたらスマホ見て一日終わってた、みたいな夜ありませんか。\n\nたまには誰かに頭を預けてみてください。心斎橋でそういう時間つくっています。",
-      "photo": "施術中の横顔が分からないヘッドスパ写真",
-      "photoPrompt": "Head spa treatment, peaceful client, soft lighting, professional salon setting, no face",
+      "text": "木曜の夜って、なんか急に肩が重くなりませんか。\n\n首をぐるぐる回すより先に、肩をぎゅっとすくめてストンと落とす。3回だけ。\n\nここに力が入ったまま首を動かすより、一度リセットしてから動かした方がずっとゆるみやすいです🙆‍♀️\n\n週の後半、肩に負担かかってる証拠です。",
+      "photo": "肩を下ろしてリラックスしている人",
+      "photoPrompt": "Person dropping shoulders and relaxing, warm evening light, no face",
       "topic": "なし",
-      "aim": "地域・店舗認知"
+      "aim": "セルフケア"
     }
   },
   {
@@ -140,16 +42,76 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "目の奥がじんわり重い感じ、\n目を閉じても楽にならないことってありませんか。\n\n目の疲れは「見ること」より\n「力を入れていること」から来ている場合があります。\n\n一度、眉間の力を緩めてみてください。",
-      "photo": "目を閉じている人・眉間をほぐしている",
-      "photoPrompt": "Person with eyes closed, relaxed expression, fingertips gently on forehead, soft light",
-      "topic": "眼精疲労",
-      "aim": "セルフケア"
+      "text": "「マッサージ行きたい」ってなるのどの段階？😂\n\n① ちょっと疲れたとき\n② 首肩がしんどくなってから\n③ 頭痛や眼精疲労まできてから\n④ もう限界、誰とも話したくない\n\n正直に教えてください笑\n④の人、ちゃんといると思ってる。",
+      "photo": "選択肢イメージ・コメント誘導",
+      "photoPrompt": "Simple poll visual, light and engaging, clean minimal design",
+      "topic": "なし",
+      "aim": "エンゲージメント・投げかけ"
     },
     "evening": {
-      "text": "帰り道に、なんとなく頭が重いと感じる夜ってありますよね。\n\n肩こりより先に「頭の重さ」が気になる方は、\n首の前側が緊張していることが多いです。\n\n今夜は、あごを少し引いてゆっくり左右を向くだけでも。",
-      "photo": "帰り道、夜の街を歩く人",
-      "photoPrompt": "Person walking alone on city street at night, head slightly bowed, street lights, urban",
+      "text": "金曜の夜、首肩がずーんと重い人へ。\n\n1週間デスクワークやスマホが続くと、\n肩だけじゃなく胸まわりも縮こまりやすくなります。\n\n今日は両手を後ろで組んで、\n胸をひらいたままゆっくり3呼吸。\n\n肩を無理に引かず、\n「前側が少し伸びて気持ちいい」くらいでOKです！✨\n\n丸まりっぱなしだった姿勢を、\n週末前に一度リセットしておきましょう🙆‍♀️",
+      "photo": "夜の心斎橋・四ツ橋の街並み",
+      "photoPrompt": "Night view of Shinsaibashi, warm lights, calm Friday evening",
+      "topic": "なし",
+      "aim": "地域・店舗認知",
+      "imageUrl": "/uploads/1787301132186.png"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "せっかくの休日なのに、\n気づいたら仕事のこと考えてる🌀\n\nこれ、意外と多くないですか👀？\n\n身体は休んでいても、\n仕事の連絡や来週の予定を見続けていると\n頭の中では仕事が続きやすいです💦\n\n休日なのに休んだ気がしない方、\nどのタイミングで切り替えてますか🤔？",
+      "photo": "朝の布団・窓から差し込む光",
+      "photoPrompt": "Morning light through window on white bed, peaceful, soft natural light",
+      "topic": "睡眠",
+      "aim": "セルフケア・知識"
+    },
+    "evening": {
+      "text": "週末なのに頭が仕事モードから抜けない方、\n施術中にほんとによく寝落ちされます😪💤\n\n何も考えなくていい時間\n何もしゃべらなくていい空間\nそんな空っぽになる時間も大切ですよ😌\n\n心斎橋・完全個室でご案内します💐\n明日もお待ちしております。",
+      "photo": "静かな施術室・ベッドと間接照明",
+      "photoPrompt": "Quiet spa room, dim indirect lighting, treatment bed, minimalist Japanese interior",
+      "topic": "なし",
+      "aim": "店舗・予約",
+      "imageUrl": "/uploads/1787301559591.jpg"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "「休む」のが下手な人、意外と多いです😌\n\n横になっても5分でスマホ。何もしないと逆に落ち着かない。\n\n「休日に何もしない」って実は練習が必要で、最初は30分でいい。\n\n何も生産しない30分、今日つくってみてください。",
+      "photo": "ソファでぼんやりしている人",
+      "photoPrompt": "Person sitting on sofa gazing into space, soft afternoon light, relaxed, no face",
+      "topic": "なし",
+      "aim": "共感・習慣改善"
+    },
+    "evening": {
+      "text": "日曜の夜、ちゃんと休めた気がしないまま終わることないですか。\n\n明日のことが頭にあって、なんとなくそわそわしてる感じ。\n\n寝る前だけでも、仕事の連絡とSNSを見ない時間をつくると翌朝の感じが変わります。\n\n今夜から試してみてください🌙",
+      "photo": "夜の窓辺、遠くを見ている人",
+      "photoPrompt": "Person looking out window at night, city lights, calm reflective mood, no face",
+      "topic": "睡眠",
+      "aim": "習慣改善"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "施術をしていて最近すごく感じること。\n\nほぼ全員の後頭部が、ガチガチです😮\n\nスマホを下向きで見るとき、首の付け根だけで4〜6kgの頭を支え続けています。\n\n今日一日だけ、スマホを少し目の高さに近づけてみてください。首への負担が全然変わります。",
+      "photo": "スマホを操作している手・うつむいている人",
+      "photoPrompt": "Person holding smartphone at eye level, ergonomic posture, clean background",
+      "topic": "なし",
+      "aim": "施術者目線・知識",
+      "imageUrl": "/uploads/1787536044942.jpg"
+    },
+    "evening": {
+      "text": "月曜の夜、帰ってからも肩が下りない感じしませんか。\n\n一日中肩が上がっていると、仕事が終わっても力が入ったままになります。\n\n腕をだらんと下げて、5秒だけ肩の重さを感じてみてください。\n\n意識しただけで、すっと力が抜けます🙆‍♀️",
+      "photo": "帰宅後ほっとしている人",
+      "photoPrompt": "Person arriving home, arms hanging loosely, shoulders dropped, relief, warm interior light",
       "topic": "なし",
       "aim": "セルフケア・共感"
     }
@@ -159,35 +121,16 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "食いしばりは「噛む」ときではなく、\n「集中しているとき」「スマホ見ているとき」に\n起きていることが多いです。\n\n今この瞬間、奥歯はくっついていますか？\n離れていますか？\n\n午後も意識してみてください🙆‍♀️",
-      "photo": "集中してPC作業している人",
-      "photoPrompt": "Person focused on computer screen, tense jaw, close-up profile, soft office light",
-      "topic": "食いしばり",
-      "aim": "セルフケア・知識"
-    },
-    "evening": {
-      "text": "木曜の夜は、あごや首のつけ根がじんわり重くなる方が多いです。\n\n週の疲れが蓄積してきた証拠。\n\n寝る前に、口を少し開けて、\nあごの力を一度ゆるめてみてください。",
-      "photo": "リラックスして横になっている人",
-      "photoPrompt": "Person lying down relaxed, jaw unclenched, peaceful, warm soft light",
-      "topic": "食いしばり",
-      "aim": "セルフケア"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "疲れたとき「とにかく寝たい派」と\n「疲れすぎて眠れない派」\n\nどっちですか？\n\n後者の方が、施術中にうとうとされることが多い気がしています。笑",
-      "photo": "ベッドでぼんやりしている人",
-      "photoPrompt": "Person lying in bed looking at ceiling, unable to sleep, dim room, relatable tired mood",
-      "topic": "睡眠",
+      "text": "疲れてるとき、どっちになりますか？\n\n① 誰かに癒されたい、話したい\n② 一人でいたい、そっとしておいてほしい\n\nどちらでも正解です。\n\nただ、どっちにもなれなくてぼーっとしてる人が一番疲れてると思ってる😮‍💨",
+      "photo": "静かな一人の空間イメージ",
+      "photoPrompt": "Quiet personal space, person alone peacefully, soft light, no face",
+      "topic": "なし",
       "aim": "エンゲージメント・投げかけ"
     },
     "evening": {
-      "text": "頭が痛いとき、\n頭だけをほぐしても繰り返す人へ。\n\n実は、頭痛の多くは\n「頭だけ」が原因じゃないことがあります。\n\nデスクワークやスマホで\n首が前に出る\n↓\n後頭部の筋肉がずっと引っ張られる\n↓\n頭全体に張りと重さが出る\n\nだから首の付け根や後頭部まで\nやさしくゆるめる方が、頭が楽になりやすいです。\n\n今週もお疲れ様でした💐",
-      "photo": "夜の心斎橋・静かな通り",
-      "photoPrompt": "Quiet evening street in Shinsaibashi, soft lights, peaceful Friday night atmosphere",
+      "text": "頭が疲れてるのに、どう休めばいいかわからない夜ありませんか。\n\n気づいたらスマホ見て一日が終わってた、みたいな。\n\nたまには誰かに頭を預けてみてください。心斎橋にあります🌿",
+      "photo": "施術中のヘッドスパ写真",
+      "photoPrompt": "Head spa treatment, peaceful client, soft lighting, professional salon, no face",
       "topic": "なし",
       "aim": "地域・店舗認知"
     }
@@ -197,14 +140,71 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "寝る前にスマホを見てしまう習慣、\n「やめなきゃ」と思いながら続いていませんか。\n\n意志の問題じゃなくて、\n脳が「まだ動ける」と判断しているだけなんです。\n\n電気を消した後、スマホだけを遠ざけてみてください。",
-      "photo": "暗い部屋でスマホを見ている人",
-      "photoPrompt": "Person in dark bedroom with phone screen glow, relatable late night phone habit",
-      "topic": "睡眠",
+      "text": "目を閉じても、目の疲れが取れない夜ありませんか😞\n\n「見すぎ」よりも「ギュッとしすぎ」が原因のことが多いです。\n\n眉間と目のまわりの力を一度ゆっくり抜いてみてください。\n\n目元がふわっと軽くなる感覚があれば、そこに力が入ってた証拠です。",
+      "photo": "目を閉じている人",
+      "photoPrompt": "Person with eyes gently closed, relaxed expression, soft focus, calm",
+      "topic": "眼精疲労",
+      "aim": "セルフケア"
+    },
+    "evening": {
+      "text": "夕方になると頭が重くなる人、首の前側が緊張してるかもしれません。\n\nあごを少し引いて、ゆっくり左右に首を向けるだけでも変わります🙆‍♀️\n\n「疲れてきたな」のサインが出てる。その日のうちに少し緩めると翌日の出方が変わります。",
+      "photo": "夜の帰り道・街を歩く人",
+      "photoPrompt": "Person walking alone on city street at night, street lights, urban",
+      "topic": "なし",
+      "aim": "セルフケア・共感"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "集中してるとき、奥歯が当たっていませんか。\n\nPC作業中、スマホを見てるとき。食いしばりって「噛む」ときよりむしろ日常の「ながら」で起きています。\n\n今この瞬間、上下の歯が触れてないか確認してみてください👀\n\n午後も意識してみてください🙆‍♀️",
+      "photo": "集中してPC作業している人",
+      "photoPrompt": "Person focused on screen, tense jaw, close-up profile, soft office light",
+      "topic": "食いしばり",
       "aim": "セルフケア・知識"
     },
     "evening": {
-      "text": "休みの日に施術に来てくださる方、\n「平日は時間が取れなくて」という方がほとんど。\n\n週末だからこそ、自分の身体に時間を使ってみてください。\n\nSoraneでお待ちしています。",
+      "text": "施術をしていて気づくのですが、木曜に来てくださる方のコリ方が変わっています。\n\n月曜・火曜は「張り」、木曜になると「固まり」に変わってくる。\n\n疲れの種類が変わってくる週後半。今日の休み方が、明日の仕事の質に直接つながっています。",
+      "photo": "施術中・施術者の手元",
+      "photoPrompt": "Therapist hands on client's head and neck, focused, professional, soft light",
+      "topic": "なし",
+      "aim": "施術者目線・知識"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "＼質問です😴💤／\n\n疲れたとき、どっちになりますか？\n\n① とにかく寝たい\n② 疲れすぎて逆に眠れない\n\nみなさんどっち派ですか？\nちなみに②の方、施術中に一番ぐっすり寝落ちされます笑",
+      "photo": "ベッドでぼんやりしている人",
+      "photoPrompt": "Person lying in bed, unable to sleep, dim room, relatable tired mood",
+      "topic": "睡眠",
+      "aim": "エンゲージメント・投げかけ"
+    },
+    "evening": {
+      "text": "肩が痛いとき、肩だけ揉んでもすぐ戻る人いませんか。\n\n肩こりの多くは「肩が原因」じゃないです。\n\nスマホやPCで首が前に出る\n↓\n後頭部・首がずっと緊張する\n↓\nその負担が肩にくる\n\n肩だけ揉んでも根本が残るので繰り返します。\n\n今週もお疲れ様でした💐",
+      "photo": "肩・首のこりイメージ",
+      "photoPrompt": "Person rubbing their shoulder and neck area, tired expression, relatable",
+      "topic": "なし",
+      "aim": "知識・教育"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "寝る前にスマホを見てしまう。「やめなきゃ」と思いながら今夜もやってしまった人へ😅\n\n意志が弱いんじゃなくて、脳がまだ「活動時間」と認識しているだけです。\n\n電気を消したあと、スマホだけ手の届かない場所に置いてみてください。\n\n「見ようと思えば見れる距離」にある限り、脳はスタンバイ状態が続きます。",
+      "photo": "暗い部屋でスマホを見ている人",
+      "photoPrompt": "Person in dark bedroom with phone screen glow, relatable late night habit",
+      "topic": "睡眠",
+      "aim": "習慣改善・知識"
+    },
+    "evening": {
+      "text": "平日は後回しにしていた分を、週末にまとめてゆるめにくる方がいます。\n\n「平日に行く時間がない」という方でも、週末の60分だけなら動きやすいかもしれません。\n\n心斎橋・完全個室のドライヘッドスパです🌿\nプロフィールから予約できます。",
       "photo": "休日の施術・のんびりした雰囲気",
       "photoPrompt": "Relaxed spa atmosphere, weekend mood, soft natural light, treatment room",
       "topic": "なし",
@@ -216,18 +216,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "深く息を吸おうとすると、\n途中で止まる感じがしませんか。\n\n肩や首が緊張していると、\n呼吸が浅くなりやすいです。\n\n今日一日、\n肩をほんの少し後ろに引くだけで\n呼吸が楽になることがありますよ。",
-      "photo": "深呼吸している人・肩を後ろに引く",
-      "photoPrompt": "Person taking a deep breath with shoulders back, peaceful posture, outdoor or indoor, no face",
+      "text": "日曜の昼、ぼんやりできてますか。\n\n今、椅子に座ってるなら背もたれに少し体重を預けて、足の力を抜いてみてください😌\n\n「ちゃんと座らなきゃ」と思ってた人、力が抜けます。\n\n休日は身体に力を入れないことを意識してみてください。",
+      "photo": "ソファでぼんやりしている人",
+      "photoPrompt": "Person sitting in chair relaxed, letting go of tension, soft afternoon light, no face",
       "topic": "なし",
-      "aim": "セルフケア"
+      "aim": "身体チェック・セルフケア"
     },
     "evening": {
-      "text": "日曜の夕方から「また明日が来る」という感覚が出てくる方、結構多いです。\n\n身体が疲れているのに頭だけが先走っている状態。\n\n今夜は早めに横になってみてください。",
+      "text": "日曜夕方から「明日が憂鬱」になる人、頭が早めに月曜を始めています。\n\n原因のほとんどは、休日の昼からスマホで仕事のことを確認し続けていること。\n\n夜だけでも仕事の連絡を見ない時間をつくると、翌朝の出だしが少し変わります🌙",
       "photo": "日曜夕方の窓辺・夕焼け",
-      "photoPrompt": "Sunday afternoon light through window, warm golden hour, quiet and bittersweet mood",
+      "photoPrompt": "Sunday afternoon light through window, warm golden hour, bittersweet mood",
       "topic": "睡眠",
-      "aim": "共感"
+      "aim": "習慣改善"
     }
   },
   {
@@ -235,18 +235,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術中に「後頭部を触られるとホッとする」とおっしゃる方が多いです。\n\n後頭部の筋肉は目の動きや表情筋と連動しているため、\n画面を見続けているだけで疲弊します。\n\nこぶしで後頭部の下側を\nやさしく圧迫してみてください。",
+      "text": "後頭部を押されると「あ〜」ってなる人いませんか😮\n\n施術中に一番反応が出やすい場所です。\n\nスマホや画面を見続けるだけで首の付け根が固まります。\n\nこぶしを後頭部の下（首のつけ根あたり）に当てて、5秒だけ押してみてください。",
       "photo": "後頭部に手を当てている人",
-      "photoPrompt": "Person with hand cupped behind head at base of skull, gentle pressure, relaxed posture",
+      "photoPrompt": "Person with hand cupped behind head at base of skull, gentle pressure, relaxed",
       "topic": "なし",
       "aim": "施術者目線・セルフケア"
     },
     "evening": {
-      "text": "月曜日、お疲れさまでした。\n\n一番気力のいる日をクリアしました。\n今夜はゆっくり過ごしてください。",
-      "photo": "夕暮れ・週の始まりを乗り越えた雰囲気",
-      "photoPrompt": "Evening sky after work, sense of relief, warm sunset colors, urban setting",
+      "text": "月曜の夜、疲れてるのになんとなく画面を見続けてしまう人いませんか。\n\n眠れないわけじゃないけど、スマホを閉じるタイミングがつかめない。\n\n脳がまだ「働いてる状態」から抜け出せていないだけです。\n\n今夜だけ、画面を閉じる時間を1時間早めてみてください🌙",
+      "photo": "月曜夜・ソファでぼんやりしている人",
+      "photoPrompt": "Person sitting on sofa at night, phone in hand but hesitating, dim warm light",
       "topic": "なし",
-      "aim": "共感"
+      "aim": "習慣改善・共感"
     }
   },
   {
@@ -254,16 +254,16 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "ヘッドスパって気になるけど\n行ったことない、という方に聞きたいのですが、\n\n何が一番ハードルになっていますか？\n\n① 値段\n② 時間\n③ どこに行けばいいかわからない\n④ そもそも自分に必要か不明\n\n正直に教えてもらえると嬉しいです。",
+      "text": "＼教えてください🙏✨／\n\nスタッフで仕事終わりにご飯行くのですが、\n心斎橋・アメ村あたりでおすすめのお店ありますか？\n\nジャンルはなんでも！\n最近のお気に入りぜひ教えてください🍜",
       "photo": "疑問を感じている人・考えている人",
-      "photoPrompt": "Person thinking with thoughtful expression, neutral background, casual and approachable",
+      "photoPrompt": "Person thinking, thoughtful expression, neutral background, approachable",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ"
     },
     "evening": {
-      "text": "大阪で毎日働いている人の、頭と首の重さは本物だと思っています。\n\nたまには誰かに預けてみてください。\n心斎橋でお待ちしています。",
+      "text": "頭と首の重さを毎日感じながら働いてる人、大阪にほんとに多いと思います。\n\nたまには誰かに預けてみてください。\n\n心斎橋でお待ちしています🌿",
       "photo": "夜の大阪・心斎橋エリア",
-      "photoPrompt": "Night view of Osaka city, Shinsaibashi area, warm neon lights, city energy",
+      "photoPrompt": "Night view of Osaka, Shinsaibashi area, warm neon lights, city energy",
       "topic": "なし",
       "aim": "地域・店舗認知"
     }
@@ -273,37 +273,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "PCやスマホを長時間見た後、\n目を閉じても「目の奥に違和感が残る」感じってありませんか。\n\nそれは目の疲れというより、\n目の周りの筋肉が縮んだままになっているサインです。\n\n目をギュッと閉じて、ぱっと開く。\nこれを5回だけ。",
-      "photo": "目をギュッとしている人",
-      "photoPrompt": "Close-up of closed eyes, gentle expression, eyelashes, soft focus, calm atmosphere",
-      "topic": "眼精疲労",
-      "aim": "セルフケア"
-    },
-    "evening": {
-      "text": "仕事終わりに「何もしたくない」と感じるのは、\n怠けじゃなくて、身体が正直なんだと思います。\n\n帰ったら、まず靴を脱いで5分だけ横になってみてください。",
-      "photo": "玄関で靴を脱いでいる人・帰宅後",
-      "photoPrompt": "Person arriving home, taking off shoes at entrance, relief and exhaustion, warm home light",
-      "topic": "なし",
-      "aim": "共感"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "鏡を見たとき、\n肩の高さが左右で違うことってありませんか。\n\n利き手側・よく使う腕側が上がっていることが多いです。\n\n気づいたら、高い方の肩をゆっくり下げてみてください。\n\n午後の時間も頑張っていきましょう！",
-      "photo": "肩の高さを確認している人・鏡の前",
-      "photoPrompt": "Person checking shoulder alignment, one shoulder slightly higher, casual home setting",
+      "text": "呼吸、浅くなってませんか😮\n\nデスクワーク中は前かがみになりやすく、\n肋骨が圧迫されて自然と浅い呼吸になります。\n\n肩を少し後ろに引いて、胸が少し開いた状態で\n3回だけゆっくり息を吸ってみてください。\n\n頭への血流が変わって、午後の集中力が少し変わります。",
+      "photo": "胸を開いて呼吸している人",
+      "photoPrompt": "Person sitting upright, chest open, deep breath, natural daylight, calm",
       "topic": "なし",
       "aim": "セルフケア・知識"
     },
     "evening": {
-      "text": "木曜の夜は、背中の上の方（肩甲骨まわり）がずーんと重くなる方が多いです。\n\n週の疲れが一番出やすいのがこの辺り。\n\n両腕を前に伸ばして、肩甲骨を開く動きを3回だけやってみてください。",
-      "photo": "肩甲骨を開くストレッチをしている人",
-      "photoPrompt": "Person stretching arms forward, shoulder blades spreading, gentle movement, warm home setting",
+      "text": "「今日は何もしたくない」と感じる夜は、身体が正直に限界を出しているだけです。\n\n帰ったら靴を脱いで、照明を少し暗くする。それだけを先にやってみてください。\n\n光が少ないだけで、脳が少し休む準備を始めます🌙",
+      "photo": "玄関で靴を脱いでいる人",
+      "photoPrompt": "Person arriving home, taking off shoes, relief and exhaustion, warm dim home light",
       "topic": "なし",
-      "aim": "セルフケア"
+      "aim": "習慣改善・共感"
     }
   },
   {
@@ -311,16 +292,35 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "もし今日60分だけ\n「自分のための時間」があったら、何をしますか？\n\n① ひたすら寝る\n② ひとりでカフェ\n③ ヘッドスパや整体\n④ 特に何もしたいことが思いつかない\n\n正直、④の方が一番疲れているかもしれない。",
+      "text": "鏡を見たとき、左右の肩の高さが違いませんか😮\n\nほとんどの人が利き手側の肩が上がっています。\n\n高い方の肩をゆっくり下げて、5秒そのままでいてみてください。\n\n普段から片側に力が偏ってるサインです。\n\n午後の時間も頑張っていきましょう！",
+      "photo": "肩の高さを確認している人",
+      "photoPrompt": "Person checking shoulder alignment, one shoulder slightly higher, casual setting",
+      "topic": "なし",
+      "aim": "セルフケア・知識"
+    },
+    "evening": {
+      "text": "木曜の夜、ミスが増えたり判断が遅くなったりしませんか。\n\n「集中力がない」じゃなくて、4日分の疲れが積み重なってきてるだけです。\n\n自分を責めないで。\n\n今夜は早く眠れる準備だけしてみてください😌",
+      "photo": "疲れた木曜夜・静かな部屋",
+      "photoPrompt": "Person sitting quietly at end of week, tired but peaceful, warm dim light",
+      "topic": "なし",
+      "aim": "共感・知識"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "＼質問です❣️／\n\n仕事終わりに一番最初にやることって何ですか？\n\n① すぐ着替えてだらだらする\n② ごはんを食べる\n③ スマホを見る\n④ お風呂に入る\n\nスタッフはほぼ全員③です😂\n反省してます",
       "photo": "コーヒーを飲んでいる人・一人カフェ",
-      "photoPrompt": "Person sitting alone in cafe with coffee, quiet corner, soft afternoon light, peaceful",
+      "photoPrompt": "Person sitting alone in cafe with coffee, quiet corner, soft afternoon light",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ"
     },
     "evening": {
-      "text": "週末の入口、金曜の夜。\n\n今週がんばった自分に、何かをしてあげてください。\n\n心斎橋でそういう時間つくっています。ご予約はプロフィールから。",
+      "text": "金曜の夜、「今日は帰りたくないな」ってなることありませんか。\n\n家に帰ったら一人で疲れと向き合うだけ、みたいな金曜。\n\n何もしゃべらなくていい60分、頭だけ空っぽにしてから帰る。そういう使い方をしてくれる方が多いです。\n\n心斎橋、仕事終わりに寄れます🌿",
       "photo": "金曜夜の街・心斎橋",
-      "photoPrompt": "Friday evening street scene, people heading out, bright city lights, hopeful weekend mood",
+      "photoPrompt": "Friday evening street scene, bright city lights, hopeful weekend mood",
       "topic": "なし",
       "aim": "地域・店舗認知"
     }
@@ -330,16 +330,16 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "頭が重い、という感覚、\n実は首で支えている「頭の重さ」が原因のことが多いです。\n\n成人の頭は4〜6kgあって、\n前傾姿勢になるほど首への負担が増します。\n\n今日は枕の高さを少し変えてみるだけでも、\n明日の朝が変わることがありますよ。",
+      "text": "首で4〜6kgを支えているって知ってましたか😮\n\n前傾姿勢が続くほど首への負担が増えます。\n\n今日、枕の高さを少しだけ変えてみてください。\n\n寝る前の首への負担が変わると、翌朝の目覚めが違います。",
       "photo": "枕の高さを調整している・寝姿勢のイメージ",
-      "photoPrompt": "Person adjusting pillow height, bedroom setting, focus on neck support, soft light",
+      "photoPrompt": "Person adjusting pillow height, bedroom setting, neck support, soft light",
       "topic": "睡眠",
       "aim": "セルフケア・知識"
     },
     "evening": {
-      "text": "週末に施術を受けて\n「月曜が少し楽だった」とおっしゃる方がいます。\n\n来週の自分への先行投資として、ぜひ。\n\nSoraneでお待ちしています。",
-      "photo": "施術後のすっきりした雰囲気・施術室",
-      "photoPrompt": "Client leaving treatment room looking refreshed, sense of lightness, minimal spa interior",
+      "text": "「施術のあと、週明けがなんか違う」とよく言ってもらいます😌\n\nコリがゆるんでいると、同じ仕事量でも疲れの感じ方が変わることがあります。\n\n来週の自分に投資する感覚で、ぜひ一度試してみてください。\n心斎橋・完全個室のSoraneです。",
+      "photo": "施術後のすっきりした雰囲気",
+      "photoPrompt": "Client leaving spa looking refreshed, sense of lightness, minimal interior",
       "topic": "なし",
       "aim": "店舗・予約"
     }
@@ -349,18 +349,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "耳の後ろ（耳たぶの裏側あたり）を\n指でほぐしたことありますか。\n\nここには複数のリンパ節があり、\n頭や首まわりの流れに関係しています。\n\n今日、テレビを見ながら\n耳の後ろをゆっくり押してみてください。",
+      "text": "＼質問です🌿／\n\n休日って、どんな過ごし方が一番回復できますか？\n\n① ひたすら寝る\n② 好きな場所に出かける\n③ 家でゆっくり過ごす\n④ 予定を詰めて動く方が元気になる\n\nみなさんどれですか？\nスタッフは①と③を繰り返してます笑",
       "photo": "耳の後ろを触っている人",
-      "photoPrompt": "Person gently massaging behind their ear, relaxed home setting, fingers behind ear",
+      "photoPrompt": "Person gently massaging behind ear, relaxed home setting",
       "topic": "なし",
       "aim": "セルフケア"
     },
     "evening": {
-      "text": "日曜の夜、「明日からまた頑張らなきゃ」より\n「今夜だけはゆっくりしよう」の方が、\n実は身体には優しいです。\n\n明日のことは明日の自分に任せて、\n今夜はちゃんと休んでください。",
-      "photo": "日曜夜の静かな部屋・間接照明",
-      "photoPrompt": "Quiet Sunday evening room, soft indirect lighting, cozy and still atmosphere, no face",
-      "topic": "なし",
-      "aim": "共感"
+      "text": "日曜の夜に眠れない人へ😔\n\n「考えないようにしよう」と思うほど逆効果になります。脳は眠れないと意識するほど覚醒します。\n\n試してほしいのは、身体の重さを感じること。頭の重さ、腕の重さ、足の重さ。\n\n身体を感じていると、頭の中の考えが入ってきにくくなります。",
+      "photo": "眠れない日曜夜・静かな部屋",
+      "photoPrompt": "Quiet Sunday evening room, person lying in bed awake, soft indirect lighting",
+      "topic": "睡眠",
+      "aim": "セルフケア・知識"
     }
   },
   {
@@ -368,56 +368,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "「肩こり」と言われるものの多くは、\n実は肩甲骨が動きにくくなっていることが原因です。\n\n腕を後ろに回して、肩甲骨を寄せてみてください。\n\n「ここが動いてなかったんだ」という感覚があれば、\nそこが詰まっているサインです。",
-      "photo": "肩甲骨を寄せるストレッチ",
-      "photoPrompt": "Person with arms pulled back, shoulder blades squeezing together, posture improvement",
+      "text": "月曜の昼、ずっと正面だけ向いてませんか。\n\nPC作業中、首はほぼ動かないまま数時間続くことがあります。\n\n少し顔を左右にゆっくり向けてみてください。\n\n向きにくい方向があれば、そっちが固まってるサインです👀\n\n午後も意識してみてください🙆‍♀️",
+      "photo": "首を左右に向けている人",
+      "photoPrompt": "Person slowly turning head side to side at desk, gentle neck movement, soft office light",
       "topic": "なし",
-      "aim": "施術者目線・知識"
+      "aim": "セルフケア・身体チェック"
     },
     "evening": {
-      "text": "月曜が終わりました。\n\n今週もよろしくお願いします、ではなく——\n今日一日だけで十分です。\n\n今夜はゆっくり寝てください。",
-      "photo": "月曜夜・静かな帰り道",
-      "photoPrompt": "Monday evening, person walking home, quiet street, relief and exhaustion, warm street lights",
-      "topic": "なし",
-      "aim": "共感"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "首・肩・頭、\nどこが疲れているとき一番しんどいですか？\n\n① 首（回しにくい・痛い）\n② 肩（重い・こる）\n③ 頭（ぼんやり・痛い）\n④ 全部同時にくる\n\n全部同時の方、それが一番つらいやつです。笑",
-      "photo": "首肩頭を同時に抱えている人・疲れた様子",
-      "photoPrompt": "Tired person holding neck and head, relatable fatigue, office or home setting",
-      "topic": "なし",
-      "aim": "エンゲージメント・投げかけ"
-    },
-    "evening": {
-      "text": "大阪で毎日動き続けている人たちが\n来てくれる場所でありたいと思っています。\n\n頭と首、預けに来てください。\n心斎橋でお待ちしています。",
-      "photo": "ヘッドスパ施術の雰囲気・心斎橋",
-      "photoPrompt": "Head spa treatment, client relaxed, therapist hands on head, professional and calming",
-      "topic": "なし",
-      "aim": "地域・店舗認知"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "目とこめかみは繋がっています。\n\n目が疲れると、こめかみも固まる。\nこめかみが固まると、頭全体が重くなる。\n\n目薬より先に、\nこめかみをぐるぐるほぐしてみてください。",
-      "photo": "こめかみをぐるぐるほぐしている人",
-      "photoPrompt": "Person making circular motions at temple with fingertips, relaxed face, soft lighting",
+      "text": "月曜の夜は、身体より目が疲れている日です😮\n\n一日中画面を見ているので、目を動かす筋肉がほぼ動いていない状態です。\n\n帰ってから10分だけ、目を閉じて何も見ない時間をつくってみてください。スマホも含めて。",
+      "photo": "目を閉じて休んでいる人",
+      "photoPrompt": "Person lying with eyes closed, resting from screens, calm evening, warm room",
       "topic": "眼精疲労",
-      "aim": "セルフケア・知識"
-    },
-    "evening": {
-      "text": "「疲れた」という感覚を後回しにしていると、\n気づいたときにはかなり蓄積しています。\n\n今日少しでも「重いな」と思ったなら、\nそれが身体からのサインです。\n\n今夜は早めに横になってみてください。",
-      "photo": "疲れた夜・早めに横になっている人",
-      "photoPrompt": "Person lying down early in the evening, lights dimming, body finally resting, peaceful",
-      "topic": "なし",
-      "aim": "共感"
+      "aim": "セルフケア・共感"
     }
   },
   {
@@ -425,35 +387,16 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "デスクワーク中、\n自分の姿勢を横から見たことありますか。\n\n頭が前に出ていると、\n首の後ろ・肩・背中の上部がずっと緊張した状態になります。\n\n1時間に1回、頭を少し後ろに引いてみてください。\n\n午後も意識してみてください🙆‍♀️",
-      "photo": "横から見たデスクワーク姿勢",
-      "photoPrompt": "Side view of person at desk, head jutting forward, poor posture illustration, office setting",
-      "topic": "なし",
-      "aim": "施術者目線・知識"
-    },
-    "evening": {
-      "text": "木曜の夜は、首の後ろから背中の上にかけてが特に張りやすいです。\n\n熱いシャワーをその辺に当てながら、\nゆっくり深呼吸してみてください。\n\nそれだけでも少し違います。",
-      "photo": "シャワーを浴びている・お風呂でリラックス",
-      "photoPrompt": "Warm shower steam, person standing under hot water, neck and upper back, relaxing atmosphere",
-      "topic": "なし",
-      "aim": "セルフケア"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "自分が「疲れている」と気づくのって\nどんなとき？\n\n① 朝起きたとき既に重い\n② 夕方から集中できなくなる\n③ 週末になって急にだるくなる\n④ 気づいたら疲れてた\n\n疲れに気づかないまま動き続けている人、多そうです。",
-      "photo": "疲れに気づいていない人・日常のひとコマ",
-      "photoPrompt": "Person in daily routine looking tired without realizing, morning or evening light, relatable",
+      "text": "＼正直に教えてください👀／\n\n今週、心と体どっちが疲れましたか？\n\n① 体が先にきた\n② メンタルが先にきた\n③ 両方いっぺんに😭\n\nみなさんどれですか？\nスタッフは今週②気味でした笑",
+      "photo": "首肩頭を同時に抱えている人",
+      "photoPrompt": "Tired person holding neck and head, relatable fatigue expression",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ"
     },
     "evening": {
-      "text": "金曜の夜。\n\n今週も本当にお疲れさまでした。\n\n来週の自分のために、この週末は少しゆっくりしてください。\n心斎橋でお待ちしています。",
-      "photo": "金曜夜・心斎橋の夜景",
-      "photoPrompt": "Friday night Shinsaibashi, relaxed atmosphere, warm lights, end of week feeling",
+      "text": "ヘッドスパって頭だけを触るものと思っていませんか。\n\nSoraneでは首・肩・目まわりも含めてゆるめます。\n\n「肩こりがひどくてヘッドスパに来ました」という方も多いです🙆‍♀️",
+      "photo": "ヘッドスパ施術の雰囲気",
+      "photoPrompt": "Head spa treatment, client relaxed, therapist hands on head, calming",
       "topic": "なし",
       "aim": "地域・店舗認知"
     }
@@ -463,36 +406,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "寝る前に首を温めたことありますか。\n\nホットタオルや温めたペットボトルを\n首の後ろに当てるだけで、\n筋肉がゆるみやすくなります。\n\n5分だけ試してみてください。",
-      "photo": "首にホットタオルを当てている人",
-      "photoPrompt": "Person with warm towel on back of neck, lying down, relaxing before sleep, soft lighting",
-      "topic": "睡眠",
-      "aim": "セルフケア"
-    },
-    "evening": {
-      "text": "土曜の午後や夕方に来てくださる方、\n「一週間分の疲れを落としに来た」とおっしゃる方が多いです。\n\n週に一度、自分の身体と向き合う時間をつくるのも、\n習慣になると楽ですよ。\n\nSoraneでお待ちしています。",
-      "photo": "週末の施術・リラックス",
-      "photoPrompt": "Weekend spa session, relaxed client, Saturday afternoon light, professional head massage",
-      "topic": "なし",
-      "aim": "店舗・予約"
-    }
-  },
-  {
-    "morning": {
-      "timeSlots": ""
-    },
-    "noon": {
-      "text": "頭皮が固いと感じたことありますか。\n\nストレスや血行不良で頭皮が硬くなると、\n頭痛や目の疲れにもつながりやすいです。\n\n指の腹で頭皮を前後に動かすように\nほぐしてみてください。",
-      "photo": "頭皮をほぐしている人",
-      "photoPrompt": "Person massaging their own scalp with fingertips, eyes closed, relaxed, soft light",
+      "text": "水曜の昼、気づいたらずっと座ったままになっていませんか。\n\n座り続けると骨盤が後傾して、腰から首まで連動して固まります😮\n\n一度立ち上がって、足踏みを10回するだけで血流が変わります。\n\n30分に一度立てると理想的です。",
+      "photo": "デスクで立ち上がっている人",
+      "photoPrompt": "Person standing up from desk to stretch, office setting, midday light",
       "topic": "なし",
       "aim": "セルフケア・知識"
     },
     "evening": {
-      "text": "日曜の夜に「明日のことを考えてしまう」と\n眠れなくなる方、施術中によく話してくださいます。\n\n眠れないときは、\n考えをやめようとするより、\n呼吸に意識を向けた方が少し楽になります。",
-      "photo": "眠れない日曜夜・呼吸を意識している人",
-      "photoPrompt": "Person in bed at night, taking a deep breath, soft moonlight, trying to relax and sleep",
-      "topic": "睡眠",
+      "text": "「疲れた」と気づいたときには、かなり蓄積しています。\n\n身体が「重いな」と感じたらもうサインが出てる。\n\nその日のうちに少しでもゆるめておくと、翌日の疲れの出方が変わります。\n\n帰ったら首の力だけでも一度抜いてみてください🙆‍♀️",
+      "photo": "夕方の帰り道・疲れた雰囲気",
+      "photoPrompt": "Person walking home tired in evening, heavy feeling, urban street light",
+      "topic": "なし",
       "aim": "共感・セルフケア"
     }
   },
@@ -501,18 +425,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "スマホを見るとき、\nどのくらい首が前に倒れているか\n意識したことありますか。\n\n耳の位置が肩より前に出るほど、\n首への負担は増します。\n\n今日一日、スマホを持つ腕を少し上げてみてください。",
-      "photo": "スマホを目の高さで持っている人",
-      "photoPrompt": "Person holding smartphone at eye level, correct posture, minimal background",
+      "text": "首が前に出ていると、首・肩・背中の上がずっと緊張した状態になります。\n\nデスクで作業しながら、頭を少し後ろに引いてみてください。\n\n1時間に1回それだけでいいです😌\n\n午後も意識してみてください🙆‍♀️",
+      "photo": "横から見たデスクワーク姿勢",
+      "photoPrompt": "Side view of person at desk, head jutting forward, posture illustration",
       "topic": "なし",
       "aim": "施術者目線・知識"
     },
     "evening": {
-      "text": "月曜が終わりました。\n\n今日一日、よく動きましたね。\n\n今夜はその疲れをそのまま眠りに変えてください。",
-      "photo": "月曜夜・静かに休む人",
-      "photoPrompt": "Person resting on couch Monday evening, exhausted but relieved, dim warm light",
+      "text": "木曜の夜の疲れ、どう回復してますか？\n\n① とにかく早く寝る\n② お風呂でゆっくりする\n③ 好きなものを食べる\n④ もう手遅れで何もできない😂\n\n④の人が一番多い気がしてる笑",
+      "photo": "木曜夜・帰宅後の人",
+      "photoPrompt": "Person arriving home Thursday evening, tired but relieved, casual home setting",
       "topic": "なし",
-      "aim": "共感"
+      "aim": "エンゲージメント・投げかけ"
     }
   },
   {
@@ -520,16 +444,92 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "マッサージとヘッドスパ、\nどっちに先に行きたくなりますか？\n\n① 全身のコリがきついからマッサージ\n② 頭と首が重いからヘッドスパ\n③ どっちも行きたい\n④ どっちが自分に合うかわからない\n\n選べない方、まず頭から来てみてください。",
-      "photo": "選択肢イメージ・投げかけ",
-      "photoPrompt": "Two paths or choices concept, light and friendly visual, Japanese minimal aesthetic",
+      "text": "＼質問です🎉／\n\n今週の自分へのご褒美、何にしましたか？\n\n① 好きなものを食べた\n② ゆっくり寝た\n③ 好きな場所・お店に行った\n④ 何もしてない😶\n\n④の人、週末は少し自分を甘やかしてください✨",
+      "photo": "疲れに気づいていない人・日常",
+      "photoPrompt": "Person in daily routine looking tired without realizing, morning or evening light",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ"
     },
     "evening": {
-      "text": "毎週火曜日の夜、\nもう少しで折り返しという感じがしませんか。\n\n今週の疲れを来週に持ち越さないために、\nたまには誰かに預けてみてください。\n\n心斎橋でお待ちしています。",
+      "text": "仕事帰りに「なんか一人になりたい」ってなる金曜ありませんか。\n\nにぎやかな場所じゃなく、静かに頭を空っぽにできる場所がほしい夜。\n\n完全個室で60分、何もしゃべらなくていいです。\n\n心斎橋、仕事帰りに寄れます🌿",
+      "photo": "金曜夜・心斎橋の夜景",
+      "photoPrompt": "Friday night Shinsaibashi, relaxed atmosphere, warm lights, end of week",
+      "topic": "なし",
+      "aim": "地域・店舗認知"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "寝る前に首を温めると、筋肉がゆるみやすくなります。\n\nホットタオルでも、シャワーでも5分だけ。\n\n睡眠中に首が緩んでいると、翌朝の重さが全然違います😌\n\n今夜試してみてください。",
+      "photo": "首にホットタオルを当てている人",
+      "photoPrompt": "Person with warm towel on back of neck, relaxing before sleep, soft light",
+      "topic": "睡眠",
+      "aim": "セルフケア"
+    },
+    "evening": {
+      "text": "「一週間分の疲れを落としに来た」という方が週末に多いです。\n\nドライヘッドスパは、触れたあとの軽さが独特です😌\n\n一度体験してみてください。心斎橋でお待ちしています。",
+      "photo": "週末の施術・リラックス",
+      "photoPrompt": "Weekend spa session, relaxed client, Saturday afternoon light",
+      "topic": "なし",
+      "aim": "店舗・予約"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "頭皮が固い人、意外とけっこう多いです😮\n\nストレスや血行不良で固くなると、頭痛や目の疲れにもつながります。\n\n指の腹で頭皮を前後に動かしてみてください。\n\n動きにくい場所が固まっているサインです。",
+      "photo": "頭皮をほぐしている人",
+      "photoPrompt": "Person massaging their own scalp with fingertips, eyes closed, relaxed, soft light",
+      "topic": "なし",
+      "aim": "セルフケア・知識"
+    },
+    "evening": {
+      "text": "日曜の夜に「あ、休めなかった」と気づく人へ。\n\nソファでスマホを長時間見ていると、首と背中が固まります。\n\n今夜は横になって、画面を見ない時間を30分だけつくってみてください🌙",
+      "photo": "日曜夜の静かな部屋",
+      "photoPrompt": "Quiet Sunday evening, person lying down without phone, dim warm light",
+      "topic": "なし",
+      "aim": "習慣改善"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "月曜の昼、キーボードやスマホを操作し続けると手首から肘の筋肉が縮んだままになります。\n\n腕を前に伸ばして、手首を手前に折り返して10秒。反対も同じに🙆‍♀️\n\n肩まで楽になることがあります。",
+      "photo": "手首ストレッチをしている人",
+      "photoPrompt": "Person stretching wrist and forearm at desk, office setting, midday",
+      "topic": "なし",
+      "aim": "セルフケア・知識"
+    },
+    "evening": {
+      "text": "月曜の夜は、身体より頭が疲れている日です😮\n\n判断・確認・対応を繰り返している分、脳の消耗は週の中で一番大きい。\n\n食事が終わったら、スマホを机に置いて離れてみてください。\n\n見ていいのは翌朝から。",
+      "photo": "月曜夜・スマホを置いて休む人",
+      "photoPrompt": "Person placing phone face down on table, intentional rest, Monday evening, warm dim light",
+      "topic": "なし",
+      "aim": "習慣改善・共感"
+    }
+  },
+  {
+    "morning": {
+      "timeSlots": ""
+    },
+    "noon": {
+      "text": "＼教えてください🎵／\n\n仕事中のBGM、どうしてますか？\n\n① 音楽・ラジオをかけてる\n② 無音じゃないと集中できない\n③ カフェや職場の音がちょうどいい\n④ 気にしたことない\n\nSoraneの施術中は睡眠の質を上げるようなヒーリング系の音楽をかけています🎵\nそのせいか、よく寝落ちされます😴",
+      "photo": "選択肢イメージ・投げかけ",
+      "photoPrompt": "Two paths or choices concept, light and friendly visual, minimal",
+      "topic": "なし",
+      "aim": "エンゲージメント・投げかけ"
+    },
+    "evening": {
+      "text": "週の折り返しです。\n\n火曜の夜に「あと何日ある」と思った人、今週はなかなかきてるかもしれない😅\n\n頭と首だけでも誰かに預けると、後半が少し楽になることがあります。心斎橋でお待ちしています。",
       "photo": "火曜夜・週の折り返し",
-      "photoPrompt": "Tuesday evening city scene, people heading home, midweek atmosphere, warm street lights",
+      "photoPrompt": "Tuesday evening city scene, midweek atmosphere, warm street lights",
       "topic": "なし",
       "aim": "地域・店舗認知"
     }
