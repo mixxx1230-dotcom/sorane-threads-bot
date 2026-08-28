@@ -1,13 +1,19 @@
-name: 毎日夜投稿 18:00
+name: 毎日夜投稿 18:07
 
 on:
   schedule:
-    - cron: '0 9 * * *'    # 18:00 JST (UTC 9:00)
+    - cron: '7 9 * * *'    # 18:07 JST (UTC 9:07)
   workflow_dispatch:
+
+concurrency:
+  group: threads-publishing
+  cancel-in-progress: false
 
 jobs:
   post:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,4 +33,4 @@ jobs:
           git config user.name "Sorane Bot"
           git add data/post_history.json || true
           git diff --cached --quiet || git commit -m "投稿記録: evening $(date +%Y-%m-%d)"
-          git push || true
+          git push

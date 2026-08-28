@@ -1,8 +1,8 @@
-name: 毎日昼投稿 12:17
+name: Hot Pepperブログ新着通知
 
 on:
   schedule:
-    - cron: '17 3 * * *'   # 12:17 JST (UTC 3:17)
+    - cron: '12 1,11 * * *' # 毎日10:12/20:12 JSTに確認
   workflow_dispatch:
 
 concurrency:
@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  post:
+  check:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,17 +20,15 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - name: Post noon
+      - name: ブログ新着を確認して告知
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-          SLOT: noon
-          START_DATE: '2026-08-19'
-        run: cd scripts && python3 post_scheduled.py
-      - name: 投稿履歴をコミット
+        run: python3 scripts/post_blog_update.py
+      - name: 最新ブログ状態を保存
         run: |
           git config user.email "bot@sorane-threads"
           git config user.name "Sorane Bot"
-          git add data/post_history.json || true
-          git diff --cached --quiet || git commit -m "投稿記録: noon $(date +%Y-%m-%d)"
+          git add data/hotpepper_blog_state.json || true
+          git diff --cached --quiet || git commit -m "Hot Pepperブログ状態を更新"
           git push

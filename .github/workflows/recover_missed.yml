@@ -1,8 +1,8 @@
-name: 毎日昼投稿 12:17
+name: 予定投稿の未投稿チェック
 
 on:
   schedule:
-    - cron: '17 3 * * *'   # 12:17 JST (UTC 3:17)
+    - cron: '47 3,4,9,10 * * *' # 12:47/13:47/18:47/19:47 JST
   workflow_dispatch:
 
 concurrency:
@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  post:
+  recover:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,17 +20,17 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - name: Post noon
+      - name: 未投稿分を復旧
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-          SLOT: noon
           START_DATE: '2026-08-19'
-        run: cd scripts && python3 post_scheduled.py
-      - name: 投稿履歴をコミット
+        run: python3 scripts/recover_missed.py
+      - name: 投稿履歴を保存
+        if: always()
         run: |
           git config user.email "bot@sorane-threads"
           git config user.name "Sorane Bot"
           git add data/post_history.json || true
-          git diff --cached --quiet || git commit -m "投稿記録: noon $(date +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "未投稿を自動復旧"
           git push
