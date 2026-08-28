@@ -24,6 +24,7 @@ jobs:
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          AUTOMATION_START_DATE: '2026-08-29'
         run: python3 scripts/post_blog_update.py
       - name: 最新ブログ状態を保存
         run: |

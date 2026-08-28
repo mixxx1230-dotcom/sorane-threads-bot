@@ -1,8 +1,8 @@
-name: 予定投稿の未投稿チェック
+name: 投稿スケジューラー監視
 
 on:
   schedule:
-    - cron: '47 3,4,9,10 * * *' # 12:47/13:47/18:47/19:47 JST
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  recover:
+  recover-and-check-blog:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,18 +20,24 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - name: 未投稿分を復旧
+      - name: 今日の昼・夜未投稿を復旧
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           START_DATE: '2026-08-19'
           AUTOMATION_START_DATE: '2026-08-29'
         run: python3 scripts/recover_missed.py
-      - name: 投稿履歴を保存
+      - name: Hot Pepperブログ新着を確認
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          AUTOMATION_START_DATE: '2026-08-29'
+        run: python3 scripts/post_blog_update.py
+      - name: 履歴とブログ状態を保存
         if: always()
         run: |
           git config user.email "bot@sorane-threads"
           git config user.name "Sorane Bot"
-          git add data/post_history.json || true
-          git diff --cached --quiet || git commit -m "未投稿を自動復旧"
+          git add data/post_history.json data/hotpepper_blog_state.json || true
+          git diff --cached --quiet || git commit -m "投稿監視の状態を更新"
           git push

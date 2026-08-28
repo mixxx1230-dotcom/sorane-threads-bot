@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HISTORY_FILE = ROOT / "data" / "post_history.json"
 SCHEDULE = {"noon": (12, 17), "evening": (18, 7)}
 GRACE_MINUTES = 23
+AUTOMATION_START_DATE = os.environ.get("AUTOMATION_START_DATE", "2026-08-29")
 
 
 def load_history():
@@ -23,9 +24,11 @@ def load_history():
 
 
 def due_targets(now):
+    if str(now.date()) < AUTOMATION_START_DATE:
+        return
     history = load_history()
-    # 昨日と今日だけを見る。過去分の誤再投稿を防ぐ。
-    for days_ago in (1, 0):
+    # 当日分だけを見る。翌日に前日分を誤投稿しない。
+    for days_ago in (0,):
         target = (now - timedelta(days=days_ago)).date()
         for slot, (hour, minute) in SCHEDULE.items():
             scheduled = datetime.combine(target, datetime.min.time(), JST).replace(
