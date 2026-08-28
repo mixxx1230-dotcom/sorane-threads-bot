@@ -2,7 +2,8 @@ name: 投稿スケジューラー監視
 
 on:
   schedule:
-    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
+    # GitHub予約が復旧した場合の第2経路。JST 10/12/18/20時台のみ確認。
+    - cron: '3,23,43 1,3,9,11 * * *'
   workflow_dispatch:
 
 concurrency:
