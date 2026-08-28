@@ -10,7 +10,7 @@ JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 HISTORY_FILE = ROOT / "data" / "post_history.json"
 SCHEDULE = {"noon": (12, 17), "evening": (18, 7)}
-GRACE_MINUTES = 23
+GRACE_MINUTES = 8
 AUTOMATION_START_DATE = os.environ.get("AUTOMATION_START_DATE", "2026-08-29")
 
 
