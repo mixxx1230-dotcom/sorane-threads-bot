@@ -24,6 +24,7 @@ ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
 USER_ID = os.environ.get("THREADS_USER_ID", "").strip()
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+ENABLE_EXTERNAL_AI = os.environ.get("ENABLE_EXTERNAL_AI", "false").lower() == "true"
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "mixxx1230-dotcom/sorane-threads-bot")
 OVERRIDE_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "posts_override.json")
 HISTORY_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "insights_history.json")
@@ -642,7 +643,7 @@ def main():
     # 7. Claude API呼び出し
     analysis = ""
     changed = []
-    if ANTHROPIC_API_KEY:
+    if ANTHROPIC_API_KEY and ENABLE_EXTERNAL_AI:
         print("\nClaude AIで分析中...")
         claude_response = call_claude(performance_text, upcoming_text, learning_text, trends_text)
         if claude_response:
@@ -652,7 +653,7 @@ def main():
                 print("posts_override.jsonを更新中...")
                 changed = apply_improvements(improvements, allowed_indices)
     else:
-        print("ANTHROPIC_API_KEY未設定のためAI分析をスキップ")
+        print("外部AI分析は無効です（ENABLE_EXTERNAL_AI=true で有効化）")
 
     # analysis確定後にhistoryを上書き保存
     if analysis:
