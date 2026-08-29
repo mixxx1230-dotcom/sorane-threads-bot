@@ -18,6 +18,7 @@ from datetime import datetime, timezone, timedelta, date
 
 sys.path.insert(0, os.path.dirname(__file__))
 from posts_data import POSTS
+from learning_engine import build_learning_profile, profile_as_prompt
 
 ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
 USER_ID = os.environ.get("THREADS_USER_ID", "").strip()
@@ -26,6 +27,9 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "mixxx1230-dotcom/sorane-threads-bot")
 OVERRIDE_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "posts_override.json")
 HISTORY_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "insights_history.json")
+POST_RECORDS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "post_performance.json")
+LEARNING_PROFILE_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "learning_profile.json")
+THREADS_TRENDS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "threads_trends.json")
 START_DATE_STR = os.environ.get("START_DATE", "2026-08-19")
 
 JST = timezone(timedelta(hours=9))
@@ -42,28 +46,34 @@ if not ACCESS_TOKEN or not USER_ID:
 # ── Threads API ──────────────────────────────────────────────
 
 def get_posts():
-    since = now_jst - timedelta(days=7)
-    res = requests.get(
-        f"https://graph.threads.net/v1.0/{USER_ID}/threads",
-        params={
-            "fields": "id,text,timestamp,media_type",
-            "since": int(since.timestamp()),
-            "access_token": ACCESS_TOKEN,
-            "limit": 50,
-        }
-    )
-    data = res.json()
-    if "error" in data:
-        print(f"投稿取得エラー: {data}")
-        return []
-    return [p for p in data.get("data", []) if p.get("media_type") != "REPOST_FACADE"]
+    since = now_jst - timedelta(days=90)
+    url = f"https://graph.threads.net/v1.0/{USER_ID}/threads"
+    params = {
+        "fields": "id,text,timestamp,media_type,permalink",
+        "since": int(since.timestamp()),
+        "access_token": ACCESS_TOKEN,
+        "limit": 100,
+    }
+    posts = []
+    for _ in range(10):
+        res = requests.get(url, params=params, timeout=30)
+        data = res.json()
+        if "error" in data:
+            print(f"投稿取得エラー: {data}")
+            break
+        posts.extend(data.get("data", []))
+        url = data.get("paging", {}).get("next")
+        if not url:
+            break
+        params = None
+    return [p for p in posts if p.get("media_type") != "REPOST_FACADE"]
 
 
 def get_insights(media_id):
     res = requests.get(
         f"https://graph.threads.net/v1.0/{media_id}/insights",
         params={
-            "metric": "views,likes,replies,reposts,quotes",
+            "metric": "views,likes,replies,reposts,quotes,shares",
             "access_token": ACCESS_TOKEN,
         }
     )
@@ -167,6 +177,37 @@ def get_google_trends():
         return {}
 
 
+def get_threads_trend_signals(limit_per_keyword=25):
+    """個別投稿を保存せず、Threads内のキーワード出現件数だけ集計する。"""
+    signals = []
+    for keyword in TREND_KEYWORDS:
+        try:
+            res = requests.get(
+                "https://graph.threads.net/v1.0/keyword_search",
+                params={
+                    "q": keyword,
+                    "search_type": "RECENT",
+                    "search_mode": "KEYWORD",
+                    "fields": "id",
+                    "limit": limit_per_keyword,
+                    "access_token": ACCESS_TOKEN,
+                },
+                timeout=30,
+            )
+            data = res.json()
+            if "error" in data:
+                print(f"  Threads検索スキップ（{keyword}）: {data['error'].get('message', '権限エラー')}")
+                continue
+            signals.append({"keyword": keyword, "recent_count": len(data.get("data", []))})
+        except requests.RequestException as exc:
+            print(f"  Threads検索エラー（{keyword}）: {exc}")
+    signals.sort(key=lambda item: item["recent_count"], reverse=True)
+    payload = {"generated_at": now_jst.isoformat(), "signals": signals}
+    with open(THREADS_TRENDS_FILE, "w") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    return signals
+
+
 def format_trends_text(trends):
     if not trends:
         return ""
@@ -185,11 +226,11 @@ def format_trends_text(trends):
 
 # ── Upcoming posts ────────────────────────────────────────────
 
-def get_upcoming_posts(n=7):
+def get_upcoming_posts(n=14, start_offset=1):
     upcoming = []
-    for i in range(n):
-        idx = (current_day_index + i) % len(POSTS)
-        day_offset = timedelta(days=i)
+    for offset in range(start_offset, start_offset + n):
+        idx = (current_day_index + offset) % len(POSTS)
+        day_offset = timedelta(days=offset)
         day_date = today + day_offset
         upcoming.append({
             "day_index": idx,
@@ -214,7 +255,7 @@ GUIDELINES = """
 - 引っかかり → 自分ごと化 → 少し役立つ情報 → 読者が入れる余白
 """
 
-def call_claude(performance_text, upcoming_text, trends_text=""):
+def call_claude(performance_text, upcoming_text, learning_text, trends_text=""):
     if not ANTHROPIC_API_KEY:
         return None
 
@@ -230,6 +271,12 @@ Threadsアカウントの投稿を担当しています。
 ## 先週のThreads投稿パフォーマンス
 
 {performance_text}{trends_section}
+
+---
+
+## 累積学習プロファイル
+
+{learning_text}
 
 ---
 
@@ -258,8 +305,9 @@ Threadsアカウントの投稿を担当しています。
 </analysis>
 
 <improvements>
-今後7日間の投稿を上記の分析をもとに改善してください。
+今後14日間の未投稿分を上記の分析をもとに改善してください。
 改善が必要な投稿だけでOKです（良いものはそのままで）。
+過去の勝ちパターンをコピーするのではなく、フック・具体性・会話余地を再利用してください。
 
 以下のJSON形式で出力してください（day_indexとslotとtextのみ）:
 [
@@ -322,10 +370,8 @@ def load_override():
     return []
 
 
-def apply_improvements(improvements):
+def apply_improvements(improvements, allowed_indices):
     override = load_override()
-    # 今日以前の投稿は変更しない（投稿済み or 本日分）
-    confirmed_count = current_day_index + 1
     changed = []
 
     for imp in improvements:
@@ -336,9 +382,8 @@ def apply_improvements(improvements):
         if idx is None or not slot or not text:
             continue
 
-        # ユーザーが確認済みのインデックスはスキップ
-        if idx < confirmed_count:
-            print(f"  スキップ（確認済み）: day_index={idx} slot={slot}")
+        if idx not in allowed_indices:
+            print(f"  スキップ（未投稿期間外）: day_index={idx} slot={slot}")
             continue
 
         # 配列を必要な長さに拡張（空エントリで埋める）
@@ -425,6 +470,44 @@ def build_trend_text(history):
     return text
 
 
+def save_post_performance(records):
+    existing = []
+    if os.path.exists(POST_RECORDS_FILE):
+        try:
+            with open(POST_RECORDS_FILE) as f:
+                existing = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            existing = []
+    merged = {item.get("id"): item for item in existing if item.get("id")}
+    for item in records:
+        if item.get("id"):
+            merged[item["id"]] = item
+    values = sorted(merged.values(), key=lambda item: item.get("timestamp", ""))[-1000:]
+    with open(POST_RECORDS_FILE, "w") as f:
+        json.dump(values, f, indent=2, ensure_ascii=False)
+    return values
+
+
+def parse_timestamp(timestamp):
+    normalized = (timestamp or "").replace("Z", "+00:00")
+    if re.search(r"[+-]\\d{4}$", normalized):
+        normalized = normalized[:-5] + normalized[-5:-2] + ":" + normalized[-2:]
+    try:
+        return datetime.fromisoformat(normalized)
+    except (TypeError, ValueError):
+        return None
+
+
+def is_recent(timestamp, days=7):
+    try:
+        value = parse_timestamp(timestamp)
+        if value is None:
+            return False
+        return value >= now_jst.astimezone(timezone.utc) - timedelta(days=days)
+    except TypeError:
+        return False
+
+
 # ── GitHub Issue ──────────────────────────────────────────────
 
 def create_github_issue(title, body):
@@ -459,19 +542,47 @@ def main():
         print("先週の投稿が見つかりませんでした")
         return
 
-    results = []
+    fetched_results = []
     for post in posts:
         insights = get_insights(post["id"])
-        results.append({
+        published_at = parse_timestamp(post.get("timestamp", ""))
+        age_hours = None
+        if published_at:
+            age_hours = round(
+                (now_jst.astimezone(timezone.utc) - published_at.astimezone(timezone.utc)).total_seconds() / 3600,
+                1,
+            )
+        fetched_results.append({
+            "id": post["id"],
             "text": post.get("text", ""),
             "timestamp": post.get("timestamp", ""),
+            "permalink": post.get("permalink", ""),
+            "media_type": post.get("media_type", ""),
             "type": classify_post(post.get("text", "")),
             "views": insights.get("views", 0),
             "likes": insights.get("likes", 0),
             "replies": insights.get("replies", 0),
             "reposts": insights.get("reposts", 0),
+            "quotes": insights.get("quotes", 0),
+            "shares": insights.get("shares", 0),
+            "age_hours": age_hours,
         })
         print(f"  {fmt(post.get('text',''), 25)} → 👁{insights.get('views',0)} 💬{insights.get('replies',0)}")
+
+    all_records = save_post_performance(fetched_results)
+    mature_records = [
+        item for item in all_records
+        if item.get("age_hours") is None or item.get("age_hours", 0) >= 24
+    ]
+    learning_profile = build_learning_profile(mature_records)
+    learning_profile["generated_at"] = now_jst.isoformat()
+    with open(LEARNING_PROFILE_FILE, "w") as f:
+        json.dump(learning_profile, f, indent=2, ensure_ascii=False)
+    learning_text = profile_as_prompt(learning_profile)
+    results = [item for item in fetched_results if is_recent(item.get("timestamp", ""))]
+    if not results:
+        print("直近7日間の投稿がないため、取得できた最新データで分析します")
+        results = fetched_results[:20]
 
     # 2. 集計
     total_views = sum(r["views"] for r in results)
@@ -491,7 +602,8 @@ def main():
         type_stats[t]["replies"] += r["replies"]
 
     # 3. 今後の投稿を取得
-    upcoming = get_upcoming_posts(7)
+    upcoming = get_upcoming_posts(14, start_offset=1)
+    allowed_indices = {item["day_index"] for item in upcoming}
 
     # 4. Claude用テキスト生成
     performance_text = "### 投稿一覧（インプ順）\n"
@@ -519,6 +631,10 @@ def main():
     if trends_text:
         print(f"  {len(trends)}キーワードのトレンドを取得しました")
 
+    print("Threads内のトレンドシグナルを集計中...")
+    threads_trends = get_threads_trend_signals()
+    print(f"  集計キーワード: {len(threads_trends)}件")
+
     # 6. データ蓄積
     week_str = (now_jst - timedelta(days=7)).strftime("%m/%d") + "〜" + (now_jst - timedelta(days=1)).strftime("%m/%d")
     history = save_history(week_str, results, type_stats, "")  # analysis後に上書き
@@ -528,13 +644,13 @@ def main():
     changed = []
     if ANTHROPIC_API_KEY:
         print("\nClaude AIで分析中...")
-        claude_response = call_claude(performance_text, upcoming_text, trends_text)
+        claude_response = call_claude(performance_text, upcoming_text, learning_text, trends_text)
         if claude_response:
             analysis, improvements = parse_claude_response(claude_response)
             print(f"改善提案: {len(improvements)}件")
             if improvements:
                 print("posts_override.jsonを更新中...")
-                changed = apply_improvements(improvements)
+                changed = apply_improvements(improvements, allowed_indices)
     else:
         print("ANTHROPIC_API_KEY未設定のためAI分析をスキップ")
 
@@ -582,6 +698,16 @@ def main():
 
     if analysis:
         report += f"\n---\n\n## 🤖 AI分析\n\n{analysis}"
+
+    report += f"\n\n---\n\n## 🧠 累積学習\n\n- 学習済み投稿: {learning_profile['sample_size']}件\n"
+    for stat in learning_profile.get("feature_stats", [])[:5]:
+        report += f"- {stat['feature']}: 平均インプ {stat['avg_views']:,}（{stat['count']}件）\n"
+
+    if threads_trends:
+        report += "\n---\n\n## 🔥 Threads内トレンドシグナル\n"
+        report += "個別投稿・ユーザー情報は保存せず、直近検索の件数だけを集計しています。\n\n"
+        for item in threads_trends:
+            report += f"- {item['keyword']}: 直近 {item['recent_count']}件\n"
 
     if changed:
         report += f"\n\n---\n\n## ✅ 自動更新された投稿（{len(changed)}件）\n"

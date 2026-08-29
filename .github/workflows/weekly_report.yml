@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/posts_override.json data/insights_history.json
+          git add data/posts_override.json data/insights_history.json data/post_performance.json data/learning_profile.json data/threads_trends.json
           git diff --staged --quiet || git commit -m "auto: AI分析・インサイト蓄積 $(date +'%Y-%m-%d')"
           git push
