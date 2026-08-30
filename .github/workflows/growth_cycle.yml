@@ -1,8 +1,6 @@
 name: Growth Analysis Cycle
 
 on:
-  schedule:
-    - cron: '10 13 * * *'  # JST 22:10。昼・夜投稿後の実績を更新
   workflow_dispatch:
 
 concurrency:
