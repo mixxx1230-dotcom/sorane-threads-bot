@@ -247,7 +247,7 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術していて最近かなり多いのが、後頭部から首の付け根のこわばりです。\n\nスマホやPCを見続けると、ここがずっと頭を支えた状態になります。\n\n今、首の付け根を触ってみてください。\n硬い・重い・押すと気持ちいい、どれに近いですか？👀",
+      "text": "施術していて最近かなり多いのが、\n後頭部から首の付け根のこわばりです。\n\nスマホやPCを見続けると、ここがずっと頭を支えた状態になります。\n\n今、首の付け根を触ってみてください。\n硬い・重い・押すと気持ちいい、どれに近いですか？👀",
       "photo": "後頭部に手を当てている人",
       "photoPrompt": "Person with hand cupped behind head at base of skull, gentle pressure, relaxed",
       "topic": "なし",
@@ -256,10 +256,11 @@
         "experimentId": "2026-08-growth-12-noon",
         "variant": "B_practitioner",
         "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
-      }
+      },
+      "imageUrl": "/uploads/1788098272916.png"
     },
     "evening": {
-      "text": "月曜の夜、疲れているのに画面を閉じられない人へ。\n\n今の状態はどれに近いですか？\n① なんとなくSNS\n② 仕事の連絡を確認\n③ 動画が止められない\n④ 全部😂\n\n意志が弱いのではなく、頭がまだ仕事モードなだけ。今夜はスマホを手の届かない場所へ置いてみてください🌙",
+      "text": "月曜の夜、疲れているのに画面を閉じられない人へ。\n\n今の状態はどれに近いですか？\n① なんとなくSNS\n② 仕事の連絡を確認\n③ 動画が止められない\n④ 全部😂\n\n意志が弱いのではなく、頭がまだ仕事モードなだけ。\n今夜はスマホを手の届かない場所へ置いてみてください🌙",
       "photo": "月曜夜・ソファでぼんやりしている人",
       "photoPrompt": "Person sitting on sofa at night, phone in hand but hesitating, dim warm light",
       "topic": "なし",
