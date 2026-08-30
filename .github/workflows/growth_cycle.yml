@@ -1,0 +1,35 @@
+name: Growth Analysis Cycle
+
+on:
+  schedule:
+    - cron: '10 13 * * *'  # JST 22:10。昼・夜投稿後の実績を更新
+  workflow_dispatch:
+
+concurrency:
+  group: growth-analysis
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: 実績・予測・A/B結果を更新
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          START_DATE: '2026-08-19'
+        run: python3 scripts/growth_cycle.py
+      - name: 分析データを保存
+        run: |
+          git config user.email "bot@sorane-threads"
+          git config user.name "Sorane Growth Bot"
+          git add data/post_performance.json data/learning_profile.json data/growth_forecasts.json
+          git diff --cached --quiet || git commit -m "成長分析データを更新"
+          git push
