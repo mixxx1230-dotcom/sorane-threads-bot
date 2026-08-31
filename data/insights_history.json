@@ -1,0 +1,60 @@
+[
+  {
+    "week": "08/24〜08/30",
+    "recorded_at": "2026-08-31 09:11",
+    "totals": {
+      "views": 4215,
+      "likes": 56,
+      "replies": 1,
+      "posts": 27
+    },
+    "type_stats": {
+      "問いかけ（＼質問／形式）": {
+        "count": 8,
+        "avg_views": 85,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 7,
+        "avg_views": 163,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 2,
+        "avg_views": 71,
+        "avg_replies": 0.0
+      },
+      "共感・習慣改善": {
+        "count": 3,
+        "avg_views": 155,
+        "avg_replies": 0.33
+      },
+      "セルフケア": {
+        "count": 6,
+        "avg_views": 254,
+        "avg_replies": 0.0
+      },
+      "店舗・地域": {
+        "count": 1,
+        "avg_views": 254,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "17981179233120304",
+      "text": "未経験だけどヘッドスパやってみたいって方いませんか🙋🏻‍♀️",
+      "timestamp": "2026-08-29T05:44:48+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcnNz_TmN9y",
+      "media_type": "TEXT_POST",
+      "type": "セルフケア",
+      "views": 636,
+      "likes": 8,
+      "replies": 0,
+      "reposts": 1,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 42.4
+    },
+    "ai_summary": ""
+  }
+]

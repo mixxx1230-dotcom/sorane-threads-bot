@@ -1,0 +1,620 @@
+{
+  "sample_size": 35,
+  "median_views": 128,
+  "feature_stats": [
+    {
+      "feature": "length_band:medium",
+      "count": 8,
+      "avg_views": 108,
+      "avg_score": 102.24,
+      "view_lift": 0.84
+    },
+    {
+      "feature": "hour:10",
+      "count": 6,
+      "avg_views": 88,
+      "avg_score": 94.53,
+      "view_lift": 0.69
+    },
+    {
+      "feature": "weekday:5",
+      "count": 10,
+      "avg_views": 152,
+      "avg_score": 89.9,
+      "view_lift": 1.19
+    },
+    {
+      "feature": "weekday:4",
+      "count": 7,
+      "avg_views": 195,
+      "avg_score": 88.14,
+      "view_lift": 1.53
+    },
+    {
+      "feature": "topic:neck_shoulder",
+      "count": 5,
+      "avg_views": 141,
+      "avg_score": 83.11,
+      "view_lift": 1.1
+    },
+    {
+      "feature": "has_booking_link:false",
+      "count": 20,
+      "avg_views": 201,
+      "avg_score": 80.32,
+      "view_lift": 1.57
+    },
+    {
+      "feature": "topic:eye_strain",
+      "count": 4,
+      "avg_views": 234,
+      "avg_score": 80.0,
+      "view_lift": 1.83
+    },
+    {
+      "feature": "opening_type:question",
+      "count": 7,
+      "avg_views": 251,
+      "avg_score": 79.42,
+      "view_lift": 1.96
+    },
+    {
+      "feature": "time_band:morning",
+      "count": 10,
+      "avg_views": 84,
+      "avg_score": 78.9,
+      "view_lift": 0.66
+    },
+    {
+      "feature": "has_local_cta:false",
+      "count": 20,
+      "avg_views": 189,
+      "avg_score": 74.74,
+      "view_lift": 1.48
+    },
+    {
+      "feature": "hook_question:true",
+      "count": 8,
+      "avg_views": 226,
+      "avg_score": 74.45,
+      "view_lift": 1.77
+    },
+    {
+      "feature": "topic:blog",
+      "count": 3,
+      "avg_views": 136,
+      "avg_score": 74.43,
+      "view_lift": 1.06
+    },
+    {
+      "feature": "time_band:evening",
+      "count": 11,
+      "avg_views": 147,
+      "avg_score": 73.64,
+      "view_lift": 1.15
+    },
+    {
+      "feature": "has_selfcare:false",
+      "count": 28,
+      "avg_views": 148,
+      "avg_score": 73.52,
+      "view_lift": 1.15
+    },
+    {
+      "feature": "has_numbered_choices:false",
+      "count": 31,
+      "avg_views": 147,
+      "avg_score": 73.19,
+      "view_lift": 1.15
+    },
+    {
+      "feature": "media:image_or_video",
+      "count": 10,
+      "avg_views": 120,
+      "avg_score": 73.13,
+      "view_lift": 0.94
+    },
+    {
+      "feature": "hour:14",
+      "count": 5,
+      "avg_views": 350,
+      "avg_score": 72.66,
+      "view_lift": 2.74
+    },
+    {
+      "feature": "emoji_band:present",
+      "count": 33,
+      "avg_views": 148,
+      "avg_score": 72.44,
+      "view_lift": 1.15
+    },
+    {
+      "feature": "media:text",
+      "count": 25,
+      "avg_views": 165,
+      "avg_score": 71.78,
+      "view_lift": 1.29
+    },
+    {
+      "feature": "opening_type:statement",
+      "count": 26,
+      "avg_views": 127,
+      "avg_score": 71.63,
+      "view_lift": 0.99
+    },
+    {
+      "feature": "hook_question:false",
+      "count": 27,
+      "avg_views": 130,
+      "avg_score": 71.48,
+      "view_lift": 1.02
+    },
+    {
+      "feature": "topic:other",
+      "count": 7,
+      "avg_views": 228,
+      "avg_score": 70.18,
+      "view_lift": 1.78
+    },
+    {
+      "feature": "length_band:short",
+      "count": 16,
+      "avg_views": 229,
+      "avg_score": 70.02,
+      "view_lift": 1.79
+    },
+    {
+      "feature": "has_local_cta:true",
+      "count": 15,
+      "avg_views": 103,
+      "avg_score": 68.72,
+      "view_lift": 0.8
+    },
+    {
+      "feature": "emoji_band:none",
+      "count": 2,
+      "avg_views": 220,
+      "avg_score": 67.63,
+      "view_lift": 1.72
+    },
+    {
+      "feature": "has_selfcare:true",
+      "count": 7,
+      "avg_views": 169,
+      "avg_score": 66.72,
+      "view_lift": 1.32
+    },
+    {
+      "feature": "time_band:noon",
+      "count": 14,
+      "avg_views": 204,
+      "avg_score": 66.19,
+      "view_lift": 1.59
+    },
+    {
+      "feature": "hour:20",
+      "count": 3,
+      "avg_views": 145,
+      "avg_score": 66.09,
+      "view_lift": 1.13
+    },
+    {
+      "feature": "topic:sleep",
+      "count": 3,
+      "avg_views": 129,
+      "avg_score": 64.98,
+      "view_lift": 1.01
+    },
+    {
+      "feature": "has_numbered_choices:true",
+      "count": 4,
+      "avg_views": 193,
+      "avg_score": 64.23,
+      "view_lift": 1.51
+    },
+    {
+      "feature": "weekday:3",
+      "count": 4,
+      "avg_views": 106,
+      "avg_score": 63.83,
+      "view_lift": 0.83
+    },
+    {
+      "feature": "hour:11",
+      "count": 6,
+      "avg_views": 144,
+      "avg_score": 63.28,
+      "view_lift": 1.13
+    },
+    {
+      "feature": "weekday:0",
+      "count": 3,
+      "avg_views": 172,
+      "avg_score": 62.58,
+      "view_lift": 1.34
+    },
+    {
+      "feature": "has_booking_link:true",
+      "count": 15,
+      "avg_views": 86,
+      "avg_score": 61.29,
+      "view_lift": 0.67
+    },
+    {
+      "feature": "hour:19",
+      "count": 2,
+      "avg_views": 234,
+      "avg_score": 58.85,
+      "view_lift": 1.82
+    },
+    {
+      "feature": "hour:18",
+      "count": 3,
+      "avg_views": 112,
+      "avg_score": 58.26,
+      "view_lift": 0.87
+    },
+    {
+      "feature": "hour:12",
+      "count": 2,
+      "avg_views": 66,
+      "avg_score": 54.23,
+      "view_lift": 0.52
+    },
+    {
+      "feature": "weekday:6",
+      "count": 2,
+      "avg_views": 144,
+      "avg_score": 54.21,
+      "view_lift": 1.12
+    },
+    {
+      "feature": "hour:8",
+      "count": 3,
+      "avg_views": 87,
+      "avg_score": 54.01,
+      "view_lift": 0.68
+    },
+    {
+      "feature": "length_band:long",
+      "count": 11,
+      "avg_views": 72,
+      "avg_score": 53.41,
+      "view_lift": 0.56
+    },
+    {
+      "feature": "weekday:1",
+      "count": 4,
+      "avg_views": 159,
+      "avg_score": 53.38,
+      "view_lift": 1.24
+    },
+    {
+      "feature": "topic:availability",
+      "count": 10,
+      "avg_views": 70,
+      "avg_score": 53.13,
+      "view_lift": 0.55
+    },
+    {
+      "feature": "weekday:2",
+      "count": 5,
+      "avg_views": 113,
+      "avg_score": 48.93,
+      "view_lift": 0.88
+    }
+  ],
+  "top_posts": [
+    {
+      "id": "17968477980135393",
+      "text": "心斎橋、四つ葉で、\nドライヘッドスパ受けてみたい方いませんか🤔？\n\nInstagramのリール撮影で\n施術風景を撮らせてもらえる方は、\n少しお得に受けられるようにしようかなと思っています📷\n\n「撮影協力してもいいよ〜🙋🏻‍♀️🙋🏻‍♂️」という方いたらぜひDMください💌\n男性も女性もOKです！",
+      "timestamp": "2026-08-22T01:21:28+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcUuHLHmOEp",
+      "media_type": "TEXT_POST",
+      "type": "店舗・地域",
+      "views": 129,
+      "likes": 4,
+      "replies": 2,
+      "reposts": 3,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 214.8,
+      "features": {
+        "length_band": "medium",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": true,
+        "has_booking_link": false,
+        "opening_type": "statement",
+        "topic": "recruitment",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 10,
+        "time_band": "morning",
+        "weekday": 5
+      },
+      "score": 219.22
+    },
+    {
+      "id": "18240530173332418",
+      "text": "肩が痛いとき、肩だけ揉んでもすぐ戻る人いませんか？\n\n肩こりの多くは「肩が原因」じゃないんです💦\n\nスマホやPCで首が前に出る\n↓\n後頭部・首がずっと緊張する\n↓\nその負担が肩にくる\n\n肩だけ揉んでも根本が残るので繰り返します。\n\n大事なのは…👇",
+      "timestamp": "2026-08-28T13:13:39+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DclcYmRGB5X",
+      "media_type": "IMAGE",
+      "type": "共感・習慣改善",
+      "views": 42,
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 59.0,
+      "features": {
+        "length_band": "medium",
+        "hook_question": true,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": false,
+        "has_booking_link": false,
+        "opening_type": "question",
+        "topic": "neck_shoulder",
+        "media": "image_or_video",
+        "emoji_band": "present",
+        "hour": 22,
+        "time_band": "evening",
+        "weekday": 4
+      },
+      "score": 156.66
+    },
+    {
+      "id": "18119485147926205",
+      "text": "ドライヘッドスパ未経験の方🙋‍♀️\nまだやったことないけど実はずっと気になってる！！！\nみたいな方いますか…👀✨？ｵｼｴﾃ🤍",
+      "timestamp": "2026-08-21T08:13:42+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcS4fiLmJKX",
+      "media_type": "TEXT_POST",
+      "type": "共感・習慣改善",
+      "views": 255,
+      "likes": 5,
+      "replies": 0,
+      "reposts": 2,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 232.0,
+      "features": {
+        "length_band": "short",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": false,
+        "has_booking_link": false,
+        "opening_type": "statement",
+        "topic": "other",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 17,
+        "time_band": "evening",
+        "weekday": 4
+      },
+      "score": 106.43
+    },
+    {
+      "id": "18174680077447050",
+      "text": "ブログを更新しました🌿\n\n「寝ても目の疲れが取れない方へ」\n\nぜひご覧ください✨\nhttps://beauty.hotpepper.jp/kr/slnH000803720/blog/bidA123629626.html",
+      "timestamp": "2026-08-29T01:13:50+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcmuyXaAMeu",
+      "media_type": "IMAGE",
+      "type": "その他",
+      "views": 100,
+      "likes": 5,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 47.0,
+      "features": {
+        "length_band": "short",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": false,
+        "has_booking_link": true,
+        "opening_type": "statement",
+        "topic": "blog",
+        "media": "image_or_video",
+        "emoji_band": "present",
+        "hour": 10,
+        "time_band": "morning",
+        "weekday": 5
+      },
+      "score": 96.15
+    },
+    {
+      "id": "18118349315292485",
+      "text": "＼みなさんに質問です🙋‍♀️✨／\n「マッサージ行きたい」ってなるの、\nどの段階ですか🧐？\n\n① ちょっと疲れた\n② 首肩がしんどくなった\n③ 頭痛・眼精疲労まできた\n④ もう限界、誰とも喋りたくない",
+      "timestamp": "2026-08-21T05:07:09+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcSjIJcHObg",
+      "media_type": "TEXT_POST",
+      "type": "問いかけ（＼質問／形式）",
+      "views": 550,
+      "likes": 10,
+      "replies": 2,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 235.1,
+      "features": {
+        "length_band": "short",
+        "hook_question": false,
+        "has_numbered_choices": true,
+        "has_selfcare": false,
+        "has_local_cta": false,
+        "has_booking_link": false,
+        "opening_type": "statement",
+        "topic": "eye_strain",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 14,
+        "time_band": "noon",
+        "weekday": 4
+      },
+      "score": 92.21
+    },
+    {
+      "id": "18028854581913793",
+      "text": "＼新人スタッフ 川東／\n練習風景をのぞき見しました👀✨\n\n未経験ながら毎日がんばって練習してます✊🏻🤍\nよく話してよく笑う川東🐰\nぜひ応援お願いします🥰✨\n\n【Sorane心斎橋店】\n大阪府大阪市中央区西心斎橋１丁目９－２８ \nリーストラクチャー西心斎橋 307\n\nWEB予約はこちらから💁🏻‍♀️\nhttps://beauty.hotpepper.jp/kr/slnH000803720/\n\n#大阪 #ヘッドスパ #肩こり #眼精疲労 #headspa",
+      "timestamp": "2026-08-29T02:26:09+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/Dcm3FBEmIiS",
+      "media_type": "TEXT_POST",
+      "type": "問いかけ（＼質問／形式）",
+      "views": 128,
+      "likes": 5,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 45.8,
+      "features": {
+        "length_band": "medium",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": true,
+        "has_booking_link": true,
+        "opening_type": "statement",
+        "topic": "eye_strain",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 11,
+        "time_band": "noon",
+        "weekday": 5
+      },
+      "score": 87.66
+    },
+    {
+      "id": "17981179233120304",
+      "text": "未経験だけどヘッドスパやってみたいって方いませんか🙋🏻‍♀️",
+      "timestamp": "2026-08-29T05:44:48+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcnNz_TmN9y",
+      "media_type": "TEXT_POST",
+      "type": "セルフケア",
+      "views": 636,
+      "likes": 8,
+      "replies": 0,
+      "reposts": 1,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 42.4,
+      "features": {
+        "length_band": "short",
+        "hook_question": true,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": false,
+        "has_booking_link": false,
+        "opening_type": "question",
+        "topic": "other",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 14,
+        "time_band": "noon",
+        "weekday": 5
+      },
+      "score": 83.44
+    },
+    {
+      "id": "17953927863226419",
+      "text": "大阪・心斎橋で\n首肩ガチガチ、\n目も疲れてる、\nでもマッサージ行くほどではないかも…🫠🌀\n\nって放置してる方いませんか？\n\nSoraneでは、頭だけではなく\n首肩まわり、眼精疲労までしっかりケア💪🏻\n\n初回は60分 6,280円 / 90分 ¥9,980\nぜひSoraneの極上ヘッドスパをご体感ください👼🏻🪽\n\nご予約はこちら💁🏻‍♀️\nhttps://beauty.hotpepper.jp/kr/slnH000803720/",
+      "timestamp": "2026-08-22T01:11:34+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcUs-j5GPr9",
+      "media_type": "TEXT_POST",
+      "type": "店舗・地域",
+      "views": 54,
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 215.0,
+      "features": {
+        "length_band": "medium",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": true,
+        "has_booking_link": true,
+        "opening_type": "statement",
+        "topic": "eye_strain",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 10,
+        "time_band": "morning",
+        "weekday": 5
+      },
+      "score": 77.11
+    },
+    {
+      "id": "18141938803569233",
+      "text": "休みの日に長く寝たのに、\nなんか疲れが抜けきらないことありませんか😌？\n\nそんな日は「何時間寝たか」だけじゃなく、\n起きる時間も見てみてください。\n\n休日だけ昼近くまで寝ると、\n普段との起床時間のズレで生活リズムがずれて、\n月曜にまたしんどく感じることがあります🌀\n\nまずは休日も、\n普段の起床時間＋2時間以内を目安に。\n\n足りない分は昼寝で補う方が、\nリズムを崩しにくいですよ🪽",
+      "timestamp": "2026-08-22T04:57:15+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DcVGya4DiZy",
+      "media_type": "IMAGE",
+      "type": "セルフケア",
+      "views": 105,
+      "likes": 3,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 211.2,
+      "features": {
+        "length_band": "medium",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": true,
+        "has_local_cta": false,
+        "has_booking_link": false,
+        "opening_type": "statement",
+        "topic": "other",
+        "media": "image_or_video",
+        "emoji_band": "present",
+        "hour": 13,
+        "time_band": "noon",
+        "weekday": 5
+      },
+      "score": 75.21
+    },
+    {
+      "id": "17894232024398983",
+      "text": "集中してるとき、奥歯が当たっていませんか。\n\nPC作業中、スマホを見てるとき。食いしばりって「噛む」ときよりむしろ日常の「ながら」で起きています。\n\n今この瞬間、上下の歯が触れてないか確認してみてください👀\n\n午後も意識してみてください🙆‍♀️",
+      "timestamp": "2026-08-28T02:01:37+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DckPddEGni3",
+      "media_type": "TEXT_POST",
+      "type": "セルフケア",
+      "views": 183,
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 70.2,
+      "features": {
+        "length_band": "medium",
+        "hook_question": true,
+        "has_numbered_choices": false,
+        "has_selfcare": true,
+        "has_local_cta": false,
+        "has_booking_link": false,
+        "opening_type": "question",
+        "topic": "jaw_clenching",
+        "media": "text",
+        "emoji_band": "present",
+        "hour": 11,
+        "time_band": "noon",
+        "weekday": 4
+      },
+      "score": 74.01
+    }
+  ],
+  "generated_at": "2026-08-31T09:11:34.949545+09:00"
+}
