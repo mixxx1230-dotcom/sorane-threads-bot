@@ -277,15 +277,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "＼教えてください🙏✨／\n\nスタッフで仕事終わりによくご飯行くのですが、\n心斎橋・アメ村あたりでおすすめのお店ありますか？\n\nジャンルはなんでも！\n最近のお気に入りぜひ教えてください🍜",
+      "text": "正直、仕事終わりのごはん屋さんが毎回決まりません😂\n\n心斎橋・アメ村あたりで「ここはまた行きたい」と思ったお店、ありますか？\n\nジャンルは何でも大歓迎です。スタッフの次のごはん会、みなさんのおすすめに乗っからせてください🍜",
       "photo": "疑問を感じている人・考えている人",
       "photoPrompt": "Person thinking, thoughtful expression, neutral background, approachable",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-08-growth-13-noon",
-        "variant": "D_statement",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-13-noon",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     },
     "evening": {
@@ -295,9 +295,9 @@
       "topic": "なし",
       "aim": "地域・店舗認知",
       "growthTest": {
-        "experimentId": "2026-08-growth-13-evening",
+        "experimentId": "2026-09-human-13-evening",
         "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     }
   },
@@ -312,21 +312,21 @@
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-14-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-14-noon",
+        "variant": "C_question",
+        "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
       }
     },
     "evening": {
-      "text": "「今日は何もしたくない」夜、最初に手放したいのはどれですか？\n\n① 仕事の連絡\n② 家事\n③ スマホ\n④ 考えること全部😂\n\n何もできないのではなく、身体が休ませてと伝えているだけです。\n今夜は照明を少し暗くすることだけ先にやってみてください🌙",
+      "text": "今日は「何もしたくない」って思いながら、帰ってからずっとスマホを見てました😂\n\n休みたいのに、画面だけは閉じられない。不思議ですよね。\n\n同じ状態の人いますか？今日は照明だけ暗くして、少し早めに休みます🌙",
       "photo": "玄関で靴を脱いでいる人",
       "photoPrompt": "Person arriving home, taking off shoes, relief and exhaustion, warm dim home light",
       "topic": "なし",
       "aim": "習慣改善・共感",
       "growthTest": {
-        "experimentId": "2026-08-growth-14-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-14-evening",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     }
   },
@@ -335,15 +335,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術前に肩の左右差を確認すると、片側だけ上がっている方がよくいます。\n\n今、鏡で見るとどちらが高いですか？\n① 右\n② 左\n③ 同じ\n④ よく分からない\n\n高い側を無理に下げず、両肩を一度すくめてストン。3回だけ試してみてください🙆‍♀️",
+      "text": "施術前に肩を見ると、本人が気づいていない左右差がけっこうあります。\n\n「右肩だけ上がってますね」とお伝えすると、だいたい皆さん驚きます👀\n\n今、鏡で見たらどうですか？右・左・ほぼ同じ、どれでした？",
       "photo": "肩の高さを確認している人",
       "photoPrompt": "Person checking shoulder alignment, one shoulder slightly higher, casual setting",
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-15-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-15-noon",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     },
     "evening": {
@@ -353,9 +353,9 @@
       "topic": "なし",
       "aim": "共感・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-15-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-15-evening",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     }
   },
@@ -364,15 +364,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "＼質問です❣️／\n\n仕事終わりに一番最初にやることって何ですか？\n\n① すぐ着替えてだらだらする\n② ごはんを食べる\n③ スマホを見る\n④ お風呂に入る\n\nスタッフはほぼ全員③です😂\n反省してます",
+      "text": "人には「寝る前はスマホを置いてくださいね」って言うのに、スタッフも帰宅後は普通に見てます😂\n\n仕事終わり、最初にすることは何ですか？\n\nうちは着替える前にスマホ派が多めです。",
       "photo": "コーヒーを飲んでいる人・一人カフェ",
       "photoPrompt": "Person sitting alone in cafe with coffee, quiet corner, soft afternoon light",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-08-growth-16-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-16-noon",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     },
     "evening": {
@@ -382,9 +382,9 @@
       "topic": "なし",
       "aim": "地域・店舗認知",
       "growthTest": {
-        "experimentId": "2026-08-growth-16-evening",
-        "variant": "C_question",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-16-evening",
+        "variant": "A_choice",
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     }
   },
@@ -399,21 +399,21 @@
       "topic": "睡眠",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-17-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-17-noon",
+        "variant": "C_question",
+        "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
       }
     },
     "evening": {
-      "text": "「施術のあと、週明けの感じが違った」\nそう言っていただくことがあります😌\n\n週末に疲れを整えるなら、どの時間が一番うれしいですか？\n① 土曜の朝\n② 土曜の夜\n③ 日曜の昼\n④ 日曜の夜\n\n今後の空き枠づくりの参考にさせてください🌿",
+      "text": "この前「施術のあと、週明けの感じが違った」と言っていただけて、内心かなりうれしかったです😌\n\n気持ちよかった、だけじゃなく翌日の変化まで届いていると、施術者をやっていてよかったと思います。\n\nみなさんが週末に身体を整えるなら、土曜と日曜どちらがうれしいですか？",
       "photo": "施術後のすっきりした雰囲気",
       "photoPrompt": "Client leaving spa looking refreshed, sense of lightness, minimal interior",
       "topic": "なし",
       "aim": "店舗・予約",
       "growthTest": {
-        "experimentId": "2026-08-growth-17-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-17-evening",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     }
   },
@@ -422,15 +422,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "＼質問です🌿／\n\n休日って、どんな過ごし方が一番回復できますか？\n\n① ひたすら寝る\n② 好きな場所に出かける\n③ 家でゆっくり過ごす\n④ 予定を詰めて動く方が元気になる\n\nみなさんどれですか？\nスタッフは①と③を繰り返してます笑",
+      "text": "休日、ちゃんと休もうと思っていたのに、気づいたら寝てスマホを見て一日が終わることがあります😂\n\nでも何もしなかった日ほど、意外と必要な休みだったのかもしれません。\n\nみなさんは「予定のない休日」、好きですか？",
       "photo": "耳の後ろを触っている人",
       "photoPrompt": "Person gently massaging behind ear, relaxed home setting",
       "topic": "なし",
       "aim": "セルフケア",
       "growthTest": {
-        "experimentId": "2026-08-growth-18-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-18-noon",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     },
     "evening": {
@@ -440,9 +440,9 @@
       "topic": "睡眠",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-18-evening",
+        "experimentId": "2026-09-human-18-evening",
         "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     }
   },
@@ -451,15 +451,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術していて月曜に多いのが、「首が片方向だけ向きにくい」という方です。\n\n今、ゆっくり左右を向いてみてください。\n① 右が向きにくい\n② 左が向きにくい\n③ 両方固い\n④ 問題なし\n\n無理に回さず、向きにくい側を知るだけでも身体の使い方に気づけます👀",
+      "text": "月曜の施術でよく聞くのが「なぜか首が片方だけ向きにくい」です。\n\n試しに今、ゆっくり左右を向いてみてください。\n\n右・左・両方。どこが向きにくかったですか？私はスマホを持つ側が固まりやすいです👀",
       "photo": "首を左右に向けている人",
       "photoPrompt": "Person slowly turning head side to side at desk, gentle neck movement, soft office light",
       "topic": "なし",
       "aim": "セルフケア・身体チェック",
       "growthTest": {
-        "experimentId": "2026-08-growth-19-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-19-noon",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     },
     "evening": {
@@ -469,9 +469,9 @@
       "topic": "眼精疲労",
       "aim": "セルフケア・共感",
       "growthTest": {
-        "experimentId": "2026-08-growth-19-evening",
+        "experimentId": "2026-09-human-19-evening",
         "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     }
   },
@@ -480,15 +480,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "＼正直に教えてください👀／\n\n今週、心と体どっちが疲れましたか？\n\n① 体が先にきた\n② メンタルが先にきた\n③ 両方いっぺんに😭\n\nみなさんどれですか？\nスタッフは今週②気味でした笑",
+      "text": "正直に言うと、今週は身体より先に気持ちが疲れました😂\n\n施術する側も、いつも完璧に整っているわけではありません。\n\n今週のみなさんは、身体と気持ち、どちらが先に疲れましたか？",
       "photo": "首肩頭を同時に抱えている人",
       "photoPrompt": "Tired person holding neck and head, relatable fatigue expression",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-08-growth-20-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-20-noon",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     },
     "evening": {
@@ -498,9 +498,9 @@
       "topic": "なし",
       "aim": "地域・店舗認知",
       "growthTest": {
-        "experimentId": "2026-08-growth-20-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-20-evening",
+        "variant": "C_question",
+        "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
       }
     }
   },
@@ -515,21 +515,21 @@
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-21-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-21-noon",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     },
     "evening": {
-      "text": "施術していて感じるのが、「疲れた」と自覚したときには首肩がかなり固まっている方が多いこと。\n\n皆さんが疲れに気づく最初のサインはどれですか？\n① 頭が重い\n② 肩が上がる\n③ 目が開きにくい\n④ 無口になる\n\n自分の最初のサインを知っておくと、限界前に休みやすくなります🌿",
+      "text": "施術中、「疲れている自覚はなかったんです」と言われることがよくあります。\n\nでも首や肩に触れると、ずっと頑張っていたのが伝わってきます。\n\nみなさんが疲れに気づく最初のサインは何ですか？私は無口になります😂",
       "photo": "夕方の帰り道・疲れた雰囲気",
       "photoPrompt": "Person walking home tired in evening, heavy feeling, urban street light",
       "topic": "なし",
       "aim": "共感・セルフケア",
       "growthTest": {
-        "experimentId": "2026-08-growth-21-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-21-evening",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     }
   },
@@ -544,21 +544,21 @@
       "topic": "なし",
       "aim": "施術者目線・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-22-noon",
+        "experimentId": "2026-09-human-22-noon",
         "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     },
     "evening": {
-      "text": "木曜の夜の疲れ、どう回復してますか？\n\n① とにかく早く寝る\n② お風呂でゆっくりする\n③ 好きなものを食べる\n④ もう手遅れで何もできない😂\n\n④の人が一番多い気がしてる笑",
+      "text": "木曜の夜になると、スタッフ同士の会話が少し静かになります😂\n\nみんな疲れてるけど「あと一日」の気持ちで動いてる。\n\n木曜の疲れ、どうやって回復していますか？私は好きなものを食べる派です。",
       "photo": "木曜夜・帰宅後の人",
       "photoPrompt": "Person arriving home Thursday evening, tired but relieved, casual home setting",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-08-growth-22-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-22-evening",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     }
   },
@@ -567,15 +567,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "＼質問です🎉／\n\n今週の自分へのご褒美、何にしましたか？\n\n① 好きなものを食べた\n② ゆっくり寝た\n③ 好きな場所・お店に行った\n④ 何もしてない😶\n\n④の人、週末は少し自分を甘やかしてください✨",
+      "text": "今週も頑張ったので、自分へのご褒美を決めたいのですが、まだ何も思いついてません😂\n\n食べる・寝る・出かけるなら、みなさんはどれを選びますか？\n\nよかったら今週のご褒美を教えてください。参考にします✨",
       "photo": "疲れに気づいていない人・日常",
       "photoPrompt": "Person in daily routine looking tired without realizing, morning or evening light",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-08-growth-23-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-23-noon",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       }
     },
     "evening": {
@@ -585,9 +585,9 @@
       "topic": "なし",
       "aim": "地域・店舗認知",
       "growthTest": {
-        "experimentId": "2026-08-growth-23-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-23-evening",
+        "variant": "C_question",
+        "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
       }
     }
   },
@@ -602,21 +602,21 @@
       "topic": "睡眠",
       "aim": "セルフケア",
       "growthTest": {
-        "experimentId": "2026-08-growth-24-noon",
+        "experimentId": "2026-09-human-24-noon",
         "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     },
     "evening": {
-      "text": "「一週間分の疲れを落としに来ました」\n週末によく聞く言葉です。\n\n皆さんが一番リセットしたいのはどれですか？\n① 頭の重さ\n② 目の疲れ\n③ 首肩こり\n④ 気持ちの疲れ\n\n今後の投稿でも、番号が多かった悩みを詳しく取り上げます👀",
+      "text": "週末になると「一週間分の疲れを落としに来ました」と言われることが増えます。\n\nその言葉を聞くたびに、みんな本当に一週間頑張ってきたんだなと思います。\n\n今いちばん誰かに預けたい疲れは、頭・目・首肩・気持ちのどれですか？",
       "photo": "週末の施術・リラックス",
       "photoPrompt": "Weekend spa session, relaxed client, Saturday afternoon light",
       "topic": "なし",
       "aim": "店舗・予約",
       "growthTest": {
-        "experimentId": "2026-08-growth-24-evening",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-24-evening",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     }
   },
@@ -625,15 +625,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術で頭皮に触れると、「こんなに固いと思わなかった」と驚く方が多いです。\n\n指の腹で頭皮を前後に動かすとどうですか？\n① よく動く\n② 少し動く\n③ ほとんど動かない\n④ 場所によって違う\n\n無理に強く押さず、まず動き方を確認してみてください👀",
+      "text": "頭皮に触れた瞬間、「え、私こんなに固いんですか？」と驚かれることがあります。\n\n自分の頭皮って、普段ほとんど触らないですよね。\n\n今、指の腹で少し動かしてみてください。思ったより動く・動かない、どちらでした？",
       "photo": "頭皮をほぐしている人",
       "photoPrompt": "Person massaging their own scalp with fingertips, eyes closed, relaxed, soft light",
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-08-growth-25-noon",
-        "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "experimentId": "2026-09-human-25-noon",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
       }
     },
     "evening": {
@@ -643,9 +643,9 @@
       "topic": "なし",
       "aim": "習慣改善",
       "growthTest": {
-        "experimentId": "2026-08-growth-25-evening",
+        "experimentId": "2026-09-human-25-evening",
         "variant": "A_choice",
-        "hypothesis": "質問・施術者視点・選択肢による返信率と非フォロワー到達の改善"
+        "hypothesis": "回答しやすい選択肢が返信率を改善する"
       }
     }
   },
@@ -658,14 +658,24 @@
       "photo": "手首ストレッチをしている人",
       "photoPrompt": "Person stretching wrist and forearm at desk, office setting, midday",
       "topic": "なし",
-      "aim": "セルフケア・知識"
+      "aim": "セルフケア・知識",
+      "growthTest": {
+        "experimentId": "2026-09-human-26-noon",
+        "variant": "C_question",
+        "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
+      }
     },
     "evening": {
-      "text": "月曜の夜は、身体より頭が疲れている日です😮\n\n判断・確認・対応を繰り返している分、脳の消耗は週の中で一番大きい。\n\n食事が終わったら、スマホを机に置いて離れてみてください。\n\n見ていいのは翌朝から。",
+      "text": "月曜は、身体より頭が先に疲れる日だと思っています。\n\n私も帰宅後まで仕事のことを考えて、スマホを机に置いたのにまた取りに戻ることがあります😂\n\n仕事モードを切るために、みなさんがしていることありますか？",
       "photo": "月曜夜・スマホを置いて休む人",
       "photoPrompt": "Person placing phone face down on table, intentional rest, Monday evening, warm dim light",
       "topic": "なし",
-      "aim": "習慣改善・共感"
+      "aim": "習慣改善・共感",
+      "growthTest": {
+        "experimentId": "2026-09-human-26-evening",
+        "variant": "D_human",
+        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
+      }
     }
   },
   {
