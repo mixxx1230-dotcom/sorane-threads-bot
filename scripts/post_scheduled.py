@@ -47,6 +47,7 @@ text = post_data[SLOT]
 OVERRIDE_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "posts_override.json")
 image_url = None
 override_used = False
+topic_tag = "BEAUTY_FASHION"
 
 if os.path.exists(OVERRIDE_FILE):
     with open(OVERRIDE_FILE) as f:
@@ -56,6 +57,10 @@ if os.path.exists(OVERRIDE_FILE):
         if slot_data.get("text"):
             text = slot_data["text"]
             override_used = True
+        # 投稿内容ごとにコミュニティを切り替える。未設定は従来値を使用。
+        raw_topic_tag = slot_data.get("communityTag")
+        if raw_topic_tag is not None:
+            topic_tag = str(raw_topic_tag).strip()
         raw_image = slot_data.get("imageUrl")
         if raw_image:
             # /uploads/filename → GitHub raw URL に変換
@@ -73,10 +78,10 @@ print(f"=== 投稿情報 ===")
 print(f"JST今日: {today} / 対象日: {target_date} / 開始日: {start} / day_index: {day_index} / slot: {SLOT}")
 print(f"override使用: {override_used}")
 print(f"画像URL: {image_url or 'なし（テキスト投稿）'}")
+print(f"コミュニティ: {topic_tag or 'なし'}")
 print(f"投稿内容:\n{text}\n")
 print("===============")
 
-TOPIC_TAG = "BEAUTY_FASHION"
 
 # 通常実行と復旧実行が近接しても二重投稿しない
 HISTORY_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "post_history.json")
@@ -95,7 +100,9 @@ if history_key in history:
 
 def post_container(use_image):
     """コンテナ作成。use_image=Falseでテキスト投稿にフォールバック"""
-    params = {"text": text, "access_token": ACCESS_TOKEN, "topic_tag": TOPIC_TAG}
+    params = {"text": text, "access_token": ACCESS_TOKEN}
+    if topic_tag:
+        params["topic_tag"] = topic_tag
     if use_image and image_url:
         params["media_type"] = "IMAGE"
         params["image_url"] = image_url
