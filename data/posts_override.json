@@ -315,7 +315,8 @@
         "experimentId": "2026-09-human-14-noon",
         "variant": "C_question",
         "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "今日は「何もしたくない」って思いながら、帰ってからずっとスマホを見てました😂\n\n休みたいのに、画面だけは閉じられない。不思議ですよね。\n\n同じ状態の人いますか？今日は照明だけ暗くして、少し早めに休みます🌙",
@@ -327,7 +328,8 @@
         "experimentId": "2026-09-human-14-evening",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "美容"
     }
   },
   {
@@ -344,7 +346,8 @@
         "experimentId": "2026-09-human-15-noon",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "木曜になると出てくる疲れ、どれが一番近いですか？\n\n① ミスが増える\n② 判断が遅くなる\n③ 人と話したくない\n④ 全部😂\n\n集中力がないのではなく、4日分の疲れが積み重なっているだけ。\n今日は自分を責めず、早く休む準備だけで十分です。",
@@ -356,7 +359,8 @@
         "experimentId": "2026-09-human-15-evening",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     }
   },
   {
@@ -373,7 +377,8 @@
         "experimentId": "2026-09-human-16-noon",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     },
     "evening": {
       "text": "金曜の夜、「すぐ家に帰りたくない」ってなることありませんか。\n\n家に帰ったら一人で疲れと向き合うだけ、みたいな夜。\n\n何も話さず、頭を空っぽにする60分を選ぶ方も多いです。\n仕事終わりに一人で静かに過ごしたい夜、皆さんはどこへ行きますか？\n心斎橋周辺のおすすめも知りたいです🌿",
@@ -385,7 +390,8 @@
         "experimentId": "2026-09-human-16-evening",
         "variant": "A_choice",
         "hypothesis": "回答しやすい選択肢が返信率を改善する"
-      }
+      },
+      "communityTag": "大阪"
     }
   },
   {
@@ -402,7 +408,8 @@
         "experimentId": "2026-09-human-17-noon",
         "variant": "C_question",
         "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     },
     "evening": {
       "text": "この前「施術のあと、週明けの感じが違った」と言っていただけて、内心かなりうれしかったです😌\n\n気持ちよかった、だけじゃなく翌日の変化まで届いていると、施術者をやっていてよかったと思います。\n\nみなさんが週末に身体を整えるなら、土曜と日曜どちらがうれしいですか？",
@@ -414,7 +421,8 @@
         "experimentId": "2026-09-human-17-evening",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "美容"
     }
   },
   {
@@ -431,7 +439,8 @@
         "experimentId": "2026-09-human-18-noon",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     },
     "evening": {
       "text": "日曜の夜、眠れないとき何をしていますか？\n\n① スマホを見る\n② 無理に寝ようとする\n③ 明日の予定を確認\n④ 目を閉じてじっとする\n\n「考えないようにする」ほど頭は冴えやすくなります。\nそんなときは頭・腕・足の重さを順番に感じてみてください🌙",
@@ -443,7 +452,8 @@
         "experimentId": "2026-09-human-18-evening",
         "variant": "A_choice",
         "hypothesis": "回答しやすい選択肢が返信率を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     }
   },
   {
@@ -460,7 +470,8 @@
         "experimentId": "2026-09-human-19-noon",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "月曜の夜、身体より目が疲れていませんか？\n\n① 目の奥が重い\n② まぶたが重い\n③ 眉間に力が入る\n④ 全部\n\n一日中画面を見た目は、閉じる時間がほとんどありません。\n帰宅後10分だけ、スマホも置いて何も見ない時間をつくってみてください。",
@@ -472,7 +483,8 @@
         "experimentId": "2026-09-human-19-evening",
         "variant": "A_choice",
         "hypothesis": "回答しやすい選択肢が返信率を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     }
   },
   {
@@ -489,7 +501,8 @@
         "experimentId": "2026-09-human-20-noon",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "ドライヘッドスパ、気になっているけどまだ受けたことがない方いますか？👀\n\n① 何をされるか分からない\n② 効果が分からない\n③ 寝てしまいそう\n④ 行くタイミングがない\n\nSoraneでは頭だけでなく、首・肩・目まわりまでゆるめます。\n気になる番号があれば教えてください🙆‍♀️",
@@ -501,7 +514,8 @@
         "experimentId": "2026-09-human-20-evening",
         "variant": "C_question",
         "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     }
   },
   {
@@ -518,7 +532,8 @@
         "experimentId": "2026-09-human-21-noon",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "施術中、「疲れている自覚はなかったんです」と言われることがよくあります。\n\nでも首や肩に触れると、ずっと頑張っていたのが伝わってきます。\n\nみなさんが疲れに気づく最初のサインは何ですか？私は無口になります😂",
@@ -530,7 +545,8 @@
         "experimentId": "2026-09-human-21-evening",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "健康"
     }
   },
   {
@@ -547,7 +563,8 @@
         "experimentId": "2026-09-human-22-noon",
         "variant": "A_choice",
         "hypothesis": "回答しやすい選択肢が返信率を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "木曜の夜になると、スタッフ同士の会話が少し静かになります😂\n\nみんな疲れてるけど「あと一日」の気持ちで動いてる。\n\n木曜の疲れ、どうやって回復していますか？私は好きなものを食べる派です。",
@@ -559,7 +576,8 @@
         "experimentId": "2026-09-human-22-evening",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     }
   },
   {
@@ -576,7 +594,8 @@
         "experimentId": "2026-09-human-23-noon",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     },
     "evening": {
       "text": "心斎橋で働いている方へ。\n仕事帰りに「一人で静かに過ごしたい」とき、どこへ行きますか？\n\n① カフェ\n② ごはん屋さん\n③ まっすぐ帰る\n④ マッサージ・サロン\n\nにぎやかではなく、頭を空っぽにできる場所をスタッフも開拓したいです🌿",
@@ -588,7 +607,8 @@
         "experimentId": "2026-09-human-23-evening",
         "variant": "C_question",
         "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "大阪"
     }
   },
   {
@@ -605,7 +625,8 @@
         "experimentId": "2026-09-human-24-noon",
         "variant": "A_choice",
         "hypothesis": "回答しやすい選択肢が返信率を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     },
     "evening": {
       "text": "週末になると「一週間分の疲れを落としに来ました」と言われることが増えます。\n\nその言葉を聞くたびに、みんな本当に一週間頑張ってきたんだなと思います。\n\n今いちばん誰かに預けたい疲れは、頭・目・首肩・気持ちのどれですか？",
@@ -617,7 +638,8 @@
         "experimentId": "2026-09-human-24-evening",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "健康"
     }
   },
   {
@@ -634,7 +656,8 @@
         "experimentId": "2026-09-human-25-noon",
         "variant": "B_practitioner",
         "hypothesis": "施術者だけが気づく具体的な観察が信頼と滞在を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "日曜の夜、「休めなかった」と感じる理由はどれですか？\n\n① 仕事を考えていた\n② 予定を詰めすぎた\n③ スマホを見続けた\n④ 何もしてないのに疲れた\n\nどれも珍しくありません。\n今夜は画面を見ない時間を30分だけつくって、頭を月曜から離してみてください🌙",
@@ -646,7 +669,8 @@
         "experimentId": "2026-09-human-25-evening",
         "variant": "A_choice",
         "hypothesis": "回答しやすい選択肢が返信率を改善する"
-      }
+      },
+      "communityTag": "睡眠"
     }
   },
   {
@@ -663,7 +687,8 @@
         "experimentId": "2026-09-human-26-noon",
         "variant": "C_question",
         "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "健康"
     },
     "evening": {
       "text": "月曜は、身体より頭が先に疲れる日だと思っています。\n\n私も帰宅後まで仕事のことを考えて、スマホを机に置いたのにまた取りに戻ることがあります😂\n\n仕事モードを切るために、みなさんがしていることありますか？",
@@ -675,7 +700,8 @@
         "experimentId": "2026-09-human-26-evening",
         "variant": "D_human",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
-      }
+      },
+      "communityTag": "健康"
     }
   },
   {
@@ -687,14 +713,16 @@
       "photo": "選択肢イメージ・投げかけ",
       "photoPrompt": "Two paths or choices concept, light and friendly visual, minimal",
       "topic": "なし",
-      "aim": "エンゲージメント・投げかけ"
+      "aim": "エンゲージメント・投げかけ",
+      "communityTag": "睡眠"
     },
     "evening": {
       "text": "週の折り返しです。\n\n火曜の夜に「あと何日ある」と思った人、今週はなかなかきてるかもしれない😅\n\n頭と首だけでも誰かに預けると、後半が少し楽になることがあります。心斎橋でお待ちしています。",
       "photo": "火曜夜・週の折り返し",
       "photoPrompt": "Tuesday evening city scene, midweek atmosphere, warm street lights",
       "topic": "なし",
-      "aim": "地域・店舗認知"
+      "aim": "地域・店舗認知",
+      "communityTag": "大阪"
     }
   }
 ]
