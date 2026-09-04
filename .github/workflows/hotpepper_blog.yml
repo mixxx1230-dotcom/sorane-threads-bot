@@ -2,7 +2,7 @@ name: Hot Pepperブログ新着通知
 
 on:
   schedule:
-    - cron: '12 1,11 * * *' # 毎日10:12/20:12 JSTに確認
+    - cron: '12 11 * * *' # 毎日20:12 JSTにのみ確認
   workflow_dispatch:
 
 concurrency:

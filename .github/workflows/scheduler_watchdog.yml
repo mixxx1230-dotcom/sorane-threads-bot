@@ -33,7 +33,13 @@ jobs:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           AUTOMATION_START_DATE: '2026-08-29'
-        run: python3 scripts/post_blog_update.py
+        run: |
+          # ブログのThreads告知は20時台（UTC 11時）だけ実行する
+          if [ "$(date -u +%H)" = "11" ]; then
+            python3 scripts/post_blog_update.py
+          else
+            echo "ブログ告知は20時台のみのためスキップ"
+          fi
       - name: 履歴とブログ状態を保存
         if: always()
         run: |
