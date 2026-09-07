@@ -56,5 +56,63 @@
       "age_hours": 42.4
     },
     "ai_summary": ""
+  },
+  {
+    "week": "08/31〜09/06",
+    "recorded_at": "2026-09-07 09:28",
+    "totals": {
+      "views": 1456,
+      "likes": 9,
+      "replies": 1,
+      "posts": 29
+    },
+    "type_stats": {
+      "その他": {
+        "count": 12,
+        "avg_views": 61,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 5,
+        "avg_views": 30,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 2,
+        "avg_views": 17,
+        "avg_replies": 0.0
+      },
+      "共感・習慣改善": {
+        "count": 6,
+        "avg_views": 29,
+        "avg_replies": 0.0
+      },
+      "問いかけ（＼質問／形式）": {
+        "count": 3,
+        "avg_views": 48,
+        "avg_replies": 0.0
+      },
+      "セルフケア": {
+        "count": 1,
+        "avg_views": 217,
+        "avg_replies": 1.0
+      }
+    },
+    "top_post": {
+      "id": "18213393331352592",
+      "text": "ブログを更新しました🌿\n\n「考え事が多い日に、なかなか寝つけないのはなぜ？」\n\nぜひご覧ください✨\nhttps://beauty.hotpepper.jp/kr/slnH000803720/blog/bidA123772507.html",
+      "timestamp": "2026-08-31T11:05:53+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/Dcs8IXZjcPR",
+      "media_type": "IMAGE",
+      "type": "その他",
+      "views": 280,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 157.4
+    },
+    "ai_summary": ""
   }
 ]
