@@ -114,5 +114,63 @@
       "age_hours": 157.4
     },
     "ai_summary": ""
+  },
+  {
+    "week": "09/07〜09/13",
+    "recorded_at": "2026-09-14 09:24",
+    "totals": {
+      "views": 1064,
+      "likes": 4,
+      "replies": 0,
+      "posts": 19
+    },
+    "type_stats": {
+      "その他": {
+        "count": 7,
+        "avg_views": 27,
+        "avg_replies": 0.0
+      },
+      "店舗・地域": {
+        "count": 2,
+        "avg_views": 173,
+        "avg_replies": 0.0
+      },
+      "共感・習慣改善": {
+        "count": 3,
+        "avg_views": 105,
+        "avg_replies": 0.0
+      },
+      "セルフケア": {
+        "count": 2,
+        "avg_views": 16,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 4,
+        "avg_views": 14,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 1,
+        "avg_views": 118,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "17944853874325101",
+      "text": "今日心斎橋でヘッドスパ受けたい方🙋🏻‍♀️\n残り1名様ご案内可能です！\nご希望の方はお気軽にDMください！✨",
+      "timestamp": "2026-09-13T02:24:19+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DdNeyplGHZd",
+      "media_type": "TEXT_POST",
+      "type": "店舗・地域",
+      "views": 289,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 22.0
+    },
+    "ai_summary": ""
   }
 ]
