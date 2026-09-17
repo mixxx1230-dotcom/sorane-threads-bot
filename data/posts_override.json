@@ -62,28 +62,32 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "『マッサージに行きたい』と思うのはどの段階？😂\n\n①少し疲れた\n②首肩がしんどい\n③頭痛や眼精疲労まできた\n④もう限界、誰とも話したくない\n\n正直に教えてください。④になる前に休めたら理想です。",
+      "text": "金曜の昼、もう疲れているのはどこですか？\n\n①目\n②首肩\n③頭\n④全部😂\n\n私は夕方になると②が一気にきます。みなさんは何番ですか？",
       "photo": "選択肢イメージ・コメント誘導",
       "photoPrompt": "Simple poll visual, light and engaging, clean minimal design",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-18-noon",
+        "experimentId": "2026-09-reset-2026-09-18-noon",
         "variant": "A_choice",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "施術をしていると、肩だけ揉んでも戻りやすい方は後頭部まで固いことが多いです。\n\n頭・首・肩を一緒にゆるめると、力が抜けやすくなります。\n\n心斎橋で今週休みたい方は、DMで『空き』と送ってください。ご案内できる時間を確認します🌿",
+      "text": "施術をしていると、肩だけ揉んでも戻りやすい方は後頭部まで固いことが多いです。\n\n頭・首・肩を一緒にゆるめると、力が抜けやすくなります。\n\n今週末、心斎橋で休みたい方はDMで『週末』と送ってください。合うコースをご案内します🌿",
       "photo": "夜の心斎橋・四ツ橋の街並み",
       "photoPrompt": "Night view of Shinsaibashi, warm lights, calm Friday evening",
       "topic": "なし",
       "aim": "地域・店舗認知",
       "imageUrl": "/uploads/1787301132186.png",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-18-evening",
+        "experimentId": "2026-09-reset-2026-09-18-evening",
         "variant": "B_practitioner",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
@@ -92,28 +96,32 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "休日なのに、気づいたら仕事のことを考えていませんか？\n\n身体は休んでいても、連絡や予定を見続けると頭の中では仕事が続きます。\n\n皆さんは、何をすると仕事モードから切り替わりますか？",
+      "text": "今日のお客様に『休みの日も、頭の中だけ仕事してます』と言われました。\n\n身体は座っていても、連絡や予定を見続けると頭は仕事中のまま。\n\n皆さんは何をすると仕事モードが切れますか？",
       "photo": "朝の布団・窓から差し込む光",
       "photoPrompt": "Morning light through window on white bed, peaceful, soft natural light",
       "topic": "睡眠",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-19-noon",
-        "variant": "C_question",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "experimentId": "2026-09-reset-2026-09-19-noon",
+        "variant": "B_practitioner",
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "週末なのに頭が仕事モードから抜けない方、施術中によく寝落ちされます😴\n\n何も考えなくていい、話さなくていい時間も大切です。\n\n心斎橋の完全個室で休みたい方は、DMで『週末』と送ってください。初めての方も大丈夫です。",
+      "text": "週末なのに頭が仕事モードから抜けない方、施術中によく寝落ちされます😴\n\n何も考えなくていい、話さなくていい時間も大切です。\n\n今日は私も帰ったら、スマホを置いて10分だけぼんやりします。",
       "photo": "静かな施術室・ベッドと間接照明",
       "photoPrompt": "Quiet spa room, dim indirect lighting, treatment bed, minimalist Japanese interior",
       "topic": "なし",
       "aim": "店舗・予約",
       "imageUrl": "/uploads/1787301559591.jpg",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-19-evening",
+        "experimentId": "2026-09-reset-2026-09-19-evening",
         "variant": "B_practitioner",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
@@ -128,21 +136,25 @@
       "topic": "なし",
       "aim": "共感・習慣改善",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-20-noon",
+        "experimentId": "2026-09-reset-2026-09-20-noon",
         "variant": "C_question",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "日曜の夜、休んだはずなのに疲れが残っていませんか？\n\n①目が重い\n②首肩が固い\n③頭が休まらない\n④全部\n\n④の方は、DMで『相談』と送ってください。合う施術内容を一緒に考えます🌙",
+      "text": "日曜の夜、休んだはずなのに疲れが残っていませんか？\n\n明日の準備を始める前に、肩を一度ぎゅっと上げてストン。\n\n今夜は少し早く画面を閉じようと思います🌙",
       "photo": "夜の窓辺、遠くを見ている人",
       "photoPrompt": "Person looking out window at night, city lights, calm reflective mood, no face",
       "topic": "睡眠",
       "aim": "習慣改善",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-20-evening",
-        "variant": "A_choice",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "experimentId": "2026-09-reset-2026-09-20-evening",
+        "variant": "C_question",
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
@@ -158,21 +170,25 @@
       "aim": "施術者目線・知識",
       "imageUrl": "/uploads/1787536044942.jpg",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-21-noon",
+        "experimentId": "2026-09-reset-2026-09-21-noon",
         "variant": "B_practitioner",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "月曜の夜、帰宅しても肩が下りない感じありませんか？\n\n一日中力が入っていると、仕事が終わっても身体は緊張したまま。\n\n自分では抜けない疲れを休ませたい方は、DMで『仕事帰り』と送ってください。心斎橋でご案内します🌿",
+      "text": "月曜の夜、帰宅しても肩が下りない感じありませんか？\n\n私は忙しい日ほど、歯まで噛みしめていることがあります。\n\n今だけ腕をだらんと下げて、5秒。少し力が抜けましたか？",
       "photo": "帰宅後ほっとしている人",
       "photoPrompt": "Person arriving home, arms hanging loosely, shoulders dropped, relief, warm interior light",
       "topic": "なし",
       "aim": "セルフケア・共感",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-21-evening",
+        "experimentId": "2026-09-reset-2026-09-21-evening",
         "variant": "C_question",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
@@ -181,28 +197,32 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "疲れているとき、どちらになりますか？\n\n①誰かに癒されたい・話したい\n②一人で静かにしてほしい\n\nSoraneは、②の方も会話なしで過ごせます。今の自分はどちらですか？",
+      "text": "疲れているとき、どちらになりますか？\n\n①誰かに話したい\n②一人で静かにしてほしい\n\nSoraneでは②の方も会話なしで過ごせます。今の自分はどちらですか？",
       "photo": "静かな一人の空間イメージ",
       "photoPrompt": "Quiet personal space, person alone peacefully, soft light, no face",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-22-noon",
+        "experimentId": "2026-09-reset-2026-09-22-noon",
         "variant": "A_choice",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "頭は疲れているのに、どう休めばいいか分からない夜ありませんか？\n\n完全個室で、話さず頭を預けるだけでも大丈夫です。\n\nメニュー選びに迷ったらDMで『相談』と送ってください。状態に合わせてご案内します🌿",
+      "text": "頭は疲れているのに、どう休めばいいか分からない夜ありませんか？\n\n完全個室で、話さず頭を預けるだけでも大丈夫です。\n\n初めてでメニューに迷う方は、DMで『相談』と送ってください。状態に合わせてご案内します🌿",
       "photo": "施術中のヘッドスパ写真",
       "photoPrompt": "Head spa treatment, peaceful client, soft lighting, professional salon, no face",
       "topic": "なし",
       "aim": "地域・店舗認知",
       "imageUrl": "/uploads/1787623450671.png",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-22-evening",
+        "experimentId": "2026-09-reset-2026-09-22-evening",
         "variant": "C_question",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
@@ -217,21 +237,25 @@
       "topic": "眼精疲労",
       "aim": "セルフケア",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-23-noon",
+        "experimentId": "2026-09-reset-2026-09-23-noon",
         "variant": "C_question",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "夕方になると頭が重い方は、首の前側まで緊張していることがあります。\n\nSoraneでは頭だけでなく、首肩の状態も見ながら施術します。\n\n同じ疲れを繰り返している方は、DMで『首肩』と送ってください。コース選びをお手伝いします。",
+      "text": "夕方になると頭が重い方は、首の前側まで緊張していることがあります。\n\n施術中も、頭だけでなく首肩まで一緒にゆるめると呼吸が深くなる方が多いです。\n\n今日は帰り道、あごを少し引いて歩いてみてください。",
       "photo": "夜の帰り道・街を歩く人",
       "photoPrompt": "Person walking alone on city street at night, street lights, urban",
       "topic": "なし",
       "aim": "セルフケア・共感",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-23-evening",
+        "experimentId": "2026-09-reset-2026-09-23-evening",
         "variant": "B_practitioner",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
@@ -246,22 +270,26 @@
       "topic": "食いしばり",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-24-noon",
+        "experimentId": "2026-09-reset-2026-09-24-noon",
         "variant": "B_practitioner",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     },
     "evening": {
-      "text": "木曜あたりから『肩こり』より『首肩がずっと固い』と話す方が増えます。\n\n週前半の疲れを金曜まで持ち越す前に、静かな個室で一度リセットしませんか？\n\nDMで『空き』と送っていただければ、ご案内できる時間を確認します🌿",
+      "text": "木曜になると『肩が凝った』より『首肩がずっと固い』と話す方が増えます。\n\n週前半の疲れを持ち越して、身体が力の抜き方を忘れてくる頃。\n\n今夜は湯船で肩を上げず、ただ温まるだけでも十分です😌",
       "photo": "施術中・施術者の手元",
       "photoPrompt": "Therapist hands on client's head and neck, focused, professional, soft light",
       "topic": "なし",
       "aim": "施術者目線・知識",
       "imageUrl": "/uploads/1787796516580.png",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-24-evening",
+        "experimentId": "2026-09-reset-2026-09-24-evening",
         "variant": "B_practitioner",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "固定時刻で人間味・質問・施術者視点を比較し、24時間表示数と反応率を改善する",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views"
       }
     }
   },
