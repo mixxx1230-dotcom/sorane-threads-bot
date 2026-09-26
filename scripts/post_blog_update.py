@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+from publishing_policy import should_publish
 
 BLOG_LIST_URL = "https://beauty.hotpepper.jp/kr/slnH000803720/blog/"
 ROOT = Path(__file__).resolve().parent.parent
@@ -115,9 +116,13 @@ def main():
     if str(today_jst) < AUTOMATION_START_DATE:
         print(f"自動運用開始前のためスキップ: {today_jst}")
         return 0
+    force_post = os.environ.get("FORCE_POST", "").strip() == "1"
+    publish_allowed, policy_reason = should_publish("blog", today_jst, force=force_post)
+    if not publish_allowed:
+        print(f"配信ポリシーによりブログ告知をスキップ: {policy_reason}")
+        return 0
     item = latest_blog()
     state = load_state()
-    force_post = os.environ.get("FORCE_POST", "").strip() == "1"
     print(f"最新ブログ: {item['title']} {item['url']}")
     print(f"記事画像: {item.get('image_url') or 'なし（テキスト投稿へフォールバック）'}")
     if not state and not force_post:

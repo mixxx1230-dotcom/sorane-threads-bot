@@ -13,6 +13,7 @@ from datetime import date, datetime, timezone, timedelta
 import json
 
 from posts_data import POSTS
+from publishing_policy import should_publish
 
 SLOT = os.environ.get("SLOT", "").strip()
 if SLOT not in ("noon", "evening"):
@@ -37,6 +38,12 @@ target_date = date.fromisoformat(target_date_str) if target_date_str else today
 if target_date > today:
     print(f"エラー: 未来日は投稿できません ({target_date})")
     sys.exit(1)
+publish_allowed, policy_reason = should_publish(
+    SLOT, target_date, force=os.environ.get("FORCE_POST", "").strip() == "1"
+)
+if not publish_allowed:
+    print(f"配信ポリシーによりスキップ: {target_date} / {SLOT} / {policy_reason}")
+    sys.exit(0)
 start = date.fromisoformat(START_DATE_STR)
 day_index = (target_date - start).days % len(POSTS)
 

@@ -537,15 +537,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術していて感じるのが、首がつらい人ほど「枕が合わない気がする」と話すこと。\n\n皆さんの枕はどれですか？\n① 低め\n② 高め\n③ 枕なし\n④ 合っているか分からない\n\n朝から首が重い人は、寝る姿勢も一度見直すサインかもしれません👀",
+      "text": "施術をしていると、首がつらい方ほど『どのコースを選べばいいか分からなかった』と話されます。\n\nSoraneでは最初に疲れている場所を伺い、頭・目元・首肩から重点箇所を決めます。施術中は話さず眠っても大丈夫です。\n\n初めてで迷っている方は、DMで『相談』と送ってください。予約前の質問だけでも大丈夫です🌿",
       "photo": "枕の高さを調整している・寝姿勢のイメージ",
       "photoPrompt": "Person adjusting pillow height, bedroom setting, neck support, soft light",
-      "topic": "睡眠",
-      "aim": "セルフケア・知識",
+      "topic": "なし",
+      "aim": "店舗・予約",
       "growthTest": {
-        "experimentId": "2026-09-recovery-17-noon",
-        "variant": "A_choice",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "experimentId": "2026-09-reset-booking-2026-10-03",
+        "variant": "B_practitioner",
+        "hypothesis": "施術者視点と統一DMキーワードで、初回不安から相談への遷移を増やす",
+        "measurementWindowHours": 72,
+        "primaryMetric": "dm_inquiries"
       },
       "communityTag": "BEAUTY_FASHION"
     },

@@ -1,0 +1,9 @@
+{
+  "mode": "two_week_reset",
+  "active_from": "2026-09-26",
+  "active_until": "2026-10-09",
+  "allowed_slots": ["noon"],
+  "skip_weekdays": [6],
+  "blog_enabled": false,
+  "reason": "投稿頻度を1日1本以下へ抑え、昼の施術者目線・質問型を検証する"
+}
