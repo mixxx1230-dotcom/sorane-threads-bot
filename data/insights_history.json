@@ -225,5 +225,63 @@
       "age_hours": 22.6
     },
     "ai_summary": ""
+  },
+  {
+    "week": "09/21〜09/27",
+    "recorded_at": "2026-09-28 14:01",
+    "totals": {
+      "views": 2782,
+      "likes": 17,
+      "replies": 3,
+      "posts": 28
+    },
+    "type_stats": {
+      "その他": {
+        "count": 16,
+        "avg_views": 87,
+        "avg_replies": 0.0
+      },
+      "セルフケア": {
+        "count": 1,
+        "avg_views": 28,
+        "avg_replies": 0.0
+      },
+      "共感・習慣改善": {
+        "count": 5,
+        "avg_views": 153,
+        "avg_replies": 0.0
+      },
+      "店舗・地域": {
+        "count": 2,
+        "avg_views": 204,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 2,
+        "avg_views": 47,
+        "avg_replies": 1.5
+      },
+      "施術者目線": {
+        "count": 2,
+        "avg_views": 42,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "18411710089084042",
+      "text": "頭は疲れているのに、どう休めばいいか分からない夜ありませんか？\n\n完全個室で、話さず頭を預けるだけでも大丈夫です。\n\n初めてでメニューに迷う方は、DMで『相談』と送ってください。状態に合わせてご案内します🌿",
+      "timestamp": "2026-09-21T15:49:07+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DdjhPDPkYdW",
+      "media_type": "IMAGE",
+      "type": "共感・習慣改善",
+      "views": 410,
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 157.2
+    },
+    "ai_summary": ""
   }
 ]

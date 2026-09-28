@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-09-21T13:35:02.969738+09:00",
+  "generated_at": "2026-09-28T14:01:21.381561+09:00",
   "signals": [
     {
       "keyword": "ヘッドスパ",
+      "recent_count": 25
+    },
+    {
+      "keyword": "眼精疲労",
       "recent_count": 25
     },
     {
@@ -10,12 +14,8 @@
       "recent_count": 24
     },
     {
-      "keyword": "眼精疲労",
-      "recent_count": 24
-    },
-    {
       "keyword": "ドライヘッドスパ",
-      "recent_count": 16
+      "recent_count": 20
     },
     {
       "keyword": "マッサージ 大阪",
