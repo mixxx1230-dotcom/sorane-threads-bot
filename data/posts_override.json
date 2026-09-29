@@ -444,14 +444,14 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "今、呼吸が浅いかもと思った人いますか？\n\n① 胸だけで呼吸してる\n② 肩が上下してる\n③ 息を止めていた\n④ よく分からない\n\nデスクワーク中は前かがみになり、呼吸も小さくなりがちです。\n肩を少し後ろへ引いて、ゆっくり3呼吸してみてください🌿",
+      "text": "デスクワーク中、気づかないうちに呼吸が浅くなっている人は多いです。\n\n肩が上下する、息を止めていた、胸だけで呼吸している。ひとつでも当てはまれば、肩を少し後ろへ引いてゆっくり3呼吸。\n\n昼のうちに一度リセットしておくと、夕方の首肩が少し楽です🌿",
       "photo": "胸を開いて呼吸している人",
       "photoPrompt": "Person sitting upright, chest open, deep breath, natural daylight, calm",
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
         "experimentId": "2026-09-human-14-noon",
-        "variant": "C_question",
+        "variant": "D_statement",
         "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
       },
       "communityTag": "健康"
@@ -464,7 +464,7 @@
       "aim": "習慣改善・共感",
       "growthTest": {
         "experimentId": "2026-09-human-14-evening",
-        "variant": "D_human",
+        "variant": "D_statement",
         "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
       },
       "communityTag": "美容"
@@ -475,7 +475,7 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術前に肩を見ると、本人が気づいていない左右差がけっこうあります。\n\n「右肩だけ上がってますね」とお伝えすると、だいたい皆さん驚きます👀\n\n今、鏡で見たらどうですか？右・左・ほぼ同じ、どれでした？",
+      "text": "施術していてよく気づくのは、本人が自覚していない肩の左右差です。\n\n「右肩だけ上がっていますね」とお伝えすると、だいたい皆さん驚きます👀\n\n今、鏡で見たらどうですか？右・左・ほぼ同じ、どれでした？",
       "photo": "肩の高さを確認している人",
       "photoPrompt": "Person checking shoulder alignment, one shoulder slightly higher, casual setting",
       "topic": "なし",
@@ -526,7 +526,7 @@
       "aim": "地域・店舗認知",
       "growthTest": {
         "experimentId": "2026-09-recovery-16-evening",
-        "variant": "B_practitioner",
+        "variant": "C_question",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -552,7 +552,7 @@
       "communityTag": "BEAUTY_FASHION"
     },
     "evening": {
-      "text": "この前「施術のあと、週明けの感じが違った」と言っていただけて、内心かなりうれしかったです😌\n\n気持ちよかった、だけじゃなく翌日の変化まで届いていると、施術者をやっていてよかったと思います。\n\nみなさんが週末に身体を整えるなら、土曜と日曜どちらがうれしいですか？",
+      "text": "施術していてうれしいのは、「施術のあと、週明けの感じが違った」と聞けたときです😌\n\n気持ちよかった、だけでなく翌日の変化まで届いていると、この仕事をしていてよかったと思います。\n\nみなさんが週末に身体を整えるなら、土曜と日曜どちらがうれしいですか？",
       "photo": "施術後のすっきりした雰囲気",
       "photoPrompt": "Client leaving spa looking refreshed, sense of lightness, minimal interior",
       "topic": "なし",
@@ -577,7 +577,7 @@
       "aim": "セルフケア",
       "growthTest": {
         "experimentId": "2026-09-recovery-18-noon",
-        "variant": "B_practitioner",
+        "variant": "C_question",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -608,7 +608,7 @@
       "aim": "セルフケア・身体チェック",
       "growthTest": {
         "experimentId": "2026-09-recovery-19-noon",
-        "variant": "B_practitioner",
+        "variant": "D_statement",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -676,7 +676,7 @@
       "communityTag": "BEAUTY_FASHION"
     },
     "evening": {
-      "text": "施術中、「疲れている自覚はなかったんです」と言われることがよくあります。\n\nでも首や肩に触れると、ずっと頑張っていたのが伝わってきます。\n\nみなさんが疲れに気づく最初のサインは何ですか？私は無口になります😂",
+      "text": "施術していてよく聞くのが、「疲れている自覚はなかったんです」という言葉です。\n\nでも首や肩に触れると、ずっと頑張っていたのが伝わってきます。\n\nみなさんが疲れに気づく最初のサインは何ですか？私は無口になります😂",
       "photo": "夕方の帰り道・疲れた雰囲気",
       "photoPrompt": "Person walking home tired in evening, heavy feeling, urban street light",
       "topic": "なし",
@@ -714,7 +714,7 @@
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
         "experimentId": "2026-09-recovery-22-evening",
-        "variant": "C_question",
+        "variant": "D_statement",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -732,7 +732,7 @@
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
         "experimentId": "2026-09-recovery-23-noon",
-        "variant": "A_choice",
+        "variant": "C_question",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -745,7 +745,7 @@
       "aim": "地域・店舗認知",
       "growthTest": {
         "experimentId": "2026-09-recovery-23-evening",
-        "variant": "A_choice",
+        "variant": "D_statement",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -763,7 +763,7 @@
       "aim": "セルフケア",
       "growthTest": {
         "experimentId": "2026-09-recovery-24-noon",
-        "variant": "A_choice",
+        "variant": "B_practitioner",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -776,7 +776,7 @@
       "aim": "店舗・予約",
       "growthTest": {
         "experimentId": "2026-09-recovery-24-evening",
-        "variant": "C_question",
+        "variant": "D_statement",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -807,7 +807,7 @@
       "aim": "習慣改善",
       "growthTest": {
         "experimentId": "2026-09-recovery-25-evening",
-        "variant": "A_choice",
+        "variant": "C_question",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -825,13 +825,13 @@
       "aim": "セルフケア・知識",
       "growthTest": {
         "experimentId": "2026-09-recovery-26-noon",
-        "variant": "C_question",
+        "variant": "D_statement",
         "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
       },
       "communityTag": "BEAUTY_FASHION"
     },
     "evening": {
-      "text": "ヘッドスパが気になるけど、初めてのお店は少し緊張する方へ。\n\nSoraneは普段着・メイクをしたままでOK。完全個室で、男性もご利用いただけます。施術中は眠っても、静かに過ごしても大丈夫です😌\n\n痛さ・コース・空き時間が気になる方は、DMで『初めて』と送ってください。予約前の質問だけでも大歓迎です。",
+      "text": "施術していて感じるのは、初めてのお店では内容より先に「緊張しないか」が気になる方が多いことです。\n\nSoraneは普段着・メイクをしたままでOK。完全個室で、男性もご利用いただけます。施術中は眠っても、静かに過ごしても大丈夫です😌\n\n痛さ・コース・空き時間が気になる方は、DMで『初めて』と送ってください。予約前の質問だけでも大歓迎です。",
       "photo": "月曜夜・スマホを置いて休む人",
       "photoPrompt": "Person placing phone face down on table, intentional rest, Monday evening, warm dim light",
       "topic": "なし",
