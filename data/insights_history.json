@@ -283,5 +283,53 @@
       "age_hours": 157.2
     },
     "ai_summary": ""
+  },
+  {
+    "week": "09/28〜10/04",
+    "recorded_at": "2026-10-05 14:15",
+    "totals": {
+      "views": 411,
+      "likes": 3,
+      "replies": 0,
+      "posts": 7
+    },
+    "type_stats": {
+      "セルフケア": {
+        "count": 1,
+        "avg_views": 35,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 2,
+        "avg_views": 57,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 2,
+        "avg_views": 56,
+        "avg_replies": 0.0
+      },
+      "共感・習慣改善": {
+        "count": 2,
+        "avg_views": 74,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "18125600296884194",
+      "text": "男性のお客様を施術していて多いのが、「肩こりはあるけど、サロンへ行くほどではないと思っていた」という声です。\n\nでも頭と首に触れると、かなり力が入っていることも。\n\n男性のみなさん、ヘッドスパに行ったことありますか？ある・ないだけでも教えてください🙋🏻‍♂️",
+      "timestamp": "2026-10-02T03:15:28+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/Dd-fvFBESTY",
+      "media_type": "TEXT_POST",
+      "type": "共感・習慣改善",
+      "views": 127,
+      "likes": 3,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 74.0
+    },
+    "ai_summary": ""
   }
 ]

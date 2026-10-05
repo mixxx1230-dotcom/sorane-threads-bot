@@ -1,370 +1,370 @@
 {
-  "sample_size": 139,
-  "median_views": 54,
+  "sample_size": 146,
+  "median_views": 55,
   "feature_stats": [
     {
       "feature": "topic:recruitment",
       "count": 4,
-      "avg_views": 169,
-      "avg_score": 91.44,
-      "view_lift": 3.13
+      "avg_views": 172,
+      "avg_score": 92.37,
+      "view_lift": 3.14
     },
     {
       "feature": "hour:17",
       "count": 2,
       "avg_views": 262,
       "avg_score": 80.57,
-      "view_lift": 4.84
+      "view_lift": 4.75
     },
     {
       "feature": "topic:eye_strain",
       "count": 8,
       "avg_views": 132,
       "avg_score": 73.81,
-      "view_lift": 2.45
+      "view_lift": 2.41
     },
     {
       "feature": "hour:10",
       "count": 13,
       "avg_views": 91,
-      "avg_score": 71.28,
-      "view_lift": 1.68
+      "avg_score": 71.26,
+      "view_lift": 1.65
     },
     {
       "feature": "hour:22",
       "count": 3,
       "avg_views": 35,
       "avg_score": 70.23,
-      "view_lift": 0.65
+      "view_lift": 0.64
     },
     {
       "feature": "length_band:medium",
-      "count": 24,
-      "avg_views": 66,
-      "avg_score": 67.11,
-      "view_lift": 1.22
-    },
-    {
-      "feature": "weekday:5",
-      "count": 21,
-      "avg_views": 101,
-      "avg_score": 63.19,
-      "view_lift": 1.88
+      "count": 27,
+      "avg_views": 65,
+      "avg_score": 64.73,
+      "view_lift": 1.19
     },
     {
       "feature": "hour:11",
       "count": 8,
-      "avg_views": 164,
-      "avg_score": 61.99,
-      "view_lift": 3.03
+      "avg_views": 165,
+      "avg_score": 62.0,
+      "view_lift": 2.99
+    },
+    {
+      "feature": "weekday:5",
+      "count": 22,
+      "avg_views": 99,
+      "avg_score": 62.0,
+      "view_lift": 1.8
     },
     {
       "feature": "time_band:morning",
       "count": 27,
       "avg_views": 91,
-      "avg_score": 59.72,
-      "view_lift": 1.69
+      "avg_score": 59.71,
+      "view_lift": 1.66
     },
     {
       "feature": "hour:19",
       "count": 2,
       "avg_views": 237,
       "avg_score": 58.94,
-      "view_lift": 4.39
-    },
-    {
-      "feature": "has_local_cta:true",
-      "count": 37,
-      "avg_views": 101,
-      "avg_score": 56.83,
-      "view_lift": 1.88
+      "view_lift": 4.31
     },
     {
       "feature": "hour:14",
       "count": 12,
       "avg_views": 218,
       "avg_score": 56.63,
-      "view_lift": 4.04
+      "view_lift": 3.97
+    },
+    {
+      "feature": "has_local_cta:true",
+      "count": 39,
+      "avg_views": 99,
+      "avg_score": 55.87,
+      "view_lift": 1.81
     },
     {
       "feature": "emoji_band:none",
-      "count": 15,
-      "avg_views": 67,
-      "avg_score": 56.63,
-      "view_lift": 1.24
+      "count": 16,
+      "avg_views": 65,
+      "avg_score": 55.25,
+      "view_lift": 1.19
     },
     {
       "feature": "opening_type:practitioner_observation",
-      "count": 7,
-      "avg_views": 101,
-      "avg_score": 56.38,
-      "view_lift": 1.87
+      "count": 10,
+      "avg_views": 95,
+      "avg_score": 54.64,
+      "view_lift": 1.73
     },
     {
       "feature": "time_band:noon",
-      "count": 54,
-      "avg_views": 119,
-      "avg_score": 56.06,
-      "view_lift": 2.21
-    },
-    {
-      "feature": "hour:12",
-      "count": 26,
-      "avg_views": 50,
-      "avg_score": 55.07,
-      "view_lift": 0.93
-    },
-    {
-      "feature": "weekday:1",
-      "count": 19,
-      "avg_views": 99,
-      "avg_score": 54.33,
-      "view_lift": 1.83
-    },
-    {
-      "feature": "has_booking_link:false",
-      "count": 87,
-      "avg_views": 112,
-      "avg_score": 54.29,
-      "view_lift": 2.08
-    },
-    {
-      "feature": "hour:13",
-      "count": 6,
-      "avg_views": 160,
-      "avg_score": 54.23,
-      "view_lift": 2.97
+      "count": 61,
+      "avg_views": 113,
+      "avg_score": 54.57,
+      "view_lift": 2.05
     },
     {
       "feature": "topic:jaw_clenching",
       "count": 2,
       "avg_views": 108,
       "avg_score": 54.08,
-      "view_lift": 2.0
-    },
-    {
-      "feature": "weekday:3",
-      "count": 15,
-      "avg_views": 84,
-      "avg_score": 53.85,
-      "view_lift": 1.56
-    },
-    {
-      "feature": "media:text",
-      "count": 87,
-      "avg_views": 104,
-      "avg_score": 53.71,
-      "view_lift": 1.92
+      "view_lift": 1.96
     },
     {
       "feature": "has_numbered_choices:true",
       "count": 17,
       "avg_views": 75,
-      "avg_score": 53.53,
-      "view_lift": 1.38
+      "avg_score": 53.58,
+      "view_lift": 1.36
+    },
+    {
+      "feature": "has_booking_link:false",
+      "count": 94,
+      "avg_views": 109,
+      "avg_score": 53.46,
+      "view_lift": 1.97
+    },
+    {
+      "feature": "hour:12",
+      "count": 31,
+      "avg_views": 52,
+      "avg_score": 53.28,
+      "view_lift": 0.95
+    },
+    {
+      "feature": "weekday:3",
+      "count": 16,
+      "avg_views": 84,
+      "avg_score": 53.24,
+      "view_lift": 1.53
+    },
+    {
+      "feature": "weekday:1",
+      "count": 20,
+      "avg_views": 95,
+      "avg_score": 53.2,
+      "view_lift": 1.73
+    },
+    {
+      "feature": "media:text",
+      "count": 93,
+      "avg_views": 102,
+      "avg_score": 53.13,
+      "view_lift": 1.85
     },
     {
       "feature": "topic:availability",
       "count": 15,
       "avg_views": 103,
-      "avg_score": 53.08,
-      "view_lift": 1.91
+      "avg_score": 53.06,
+      "view_lift": 1.88
     },
     {
       "feature": "opening_type:question",
-      "count": 35,
-      "avg_views": 102,
-      "avg_score": 52.99,
-      "view_lift": 1.89
-    },
-    {
-      "feature": "has_selfcare:true",
-      "count": 22,
-      "avg_views": 100,
-      "avg_score": 52.91,
-      "view_lift": 1.85
+      "count": 36,
+      "avg_views": 101,
+      "avg_score": 52.52,
+      "view_lift": 1.83
     },
     {
       "feature": "hook_question:true",
-      "count": 36,
-      "avg_views": 101,
-      "avg_score": 52.64,
-      "view_lift": 1.87
-    },
-    {
-      "feature": "topic:other",
-      "count": 46,
-      "avg_views": 113,
-      "avg_score": 52.32,
-      "view_lift": 2.08
-    },
-    {
-      "feature": "hook_question:false",
-      "count": 103,
-      "avg_views": 94,
-      "avg_score": 52.26,
-      "view_lift": 1.74
-    },
-    {
-      "feature": "has_selfcare:false",
-      "count": 117,
-      "avg_views": 95,
-      "avg_score": 52.25,
-      "view_lift": 1.76
-    },
-    {
-      "feature": "has_numbered_choices:false",
-      "count": 122,
+      "count": 37,
       "avg_views": 99,
       "avg_score": 52.19,
-      "view_lift": 1.83
+      "view_lift": 1.81
+    },
+    {
+      "feature": "weekday:4",
+      "count": 29,
+      "avg_views": 96,
+      "avg_score": 52.15,
+      "view_lift": 1.74
     },
     {
       "feature": "length_band:long",
       "count": 14,
-      "avg_views": 78,
-      "avg_score": 52.05,
-      "view_lift": 1.45
+      "avg_views": 79,
+      "avg_score": 52.03,
+      "view_lift": 1.43
+    },
+    {
+      "feature": "has_selfcare:false",
+      "count": 123,
+      "avg_views": 94,
+      "avg_score": 51.92,
+      "view_lift": 1.71
+    },
+    {
+      "feature": "has_selfcare:true",
+      "count": 23,
+      "avg_views": 96,
+      "avg_score": 51.88,
+      "view_lift": 1.75
+    },
+    {
+      "feature": "hook_question:false",
+      "count": 109,
+      "avg_views": 93,
+      "avg_score": 51.82,
+      "view_lift": 1.68
+    },
+    {
+      "feature": "has_numbered_choices:false",
+      "count": 129,
+      "avg_views": 97,
+      "avg_score": 51.7,
+      "view_lift": 1.76
+    },
+    {
+      "feature": "topic:other",
+      "count": 49,
+      "avg_views": 110,
+      "avg_score": 51.68,
+      "view_lift": 2.0
     },
     {
       "feature": "opening_type:statement",
-      "count": 96,
-      "avg_views": 93,
-      "avg_score": 51.96,
-      "view_lift": 1.73
+      "count": 99,
+      "avg_views": 92,
+      "avg_score": 51.54,
+      "view_lift": 1.68
     },
     {
       "feature": "emoji_band:present",
-      "count": 124,
-      "avg_views": 99,
-      "avg_score": 51.84,
-      "view_lift": 1.84
+      "count": 130,
+      "avg_views": 98,
+      "avg_score": 51.51,
+      "view_lift": 1.78
     },
     {
-      "feature": "weekday:4",
-      "count": 27,
-      "avg_views": 94,
-      "avg_score": 51.62,
-      "view_lift": 1.74
-    },
-    {
-      "feature": "topic:neck_shoulder",
-      "count": 22,
-      "avg_views": 73,
-      "avg_score": 51.18,
-      "view_lift": 1.35
+      "feature": "hour:13",
+      "count": 8,
+      "avg_views": 136,
+      "avg_score": 50.89,
+      "view_lift": 2.47
     },
     {
       "feature": "has_local_cta:false",
-      "count": 102,
-      "avg_views": 94,
-      "avg_score": 50.73,
-      "view_lift": 1.73
-    },
-    {
-      "feature": "media:image_or_video",
-      "count": 52,
-      "avg_views": 82,
-      "avg_score": 50.08,
-      "view_lift": 1.52
+      "count": 107,
+      "avg_views": 92,
+      "avg_score": 50.47,
+      "view_lift": 1.68
     },
     {
       "feature": "topic:sleep",
       "count": 6,
-      "avg_views": 85,
-      "avg_score": 49.91,
-      "view_lift": 1.57
+      "avg_views": 87,
+      "avg_score": 50.14,
+      "view_lift": 1.58
+    },
+    {
+      "feature": "topic:neck_shoulder",
+      "count": 26,
+      "avg_views": 70,
+      "avg_score": 49.9,
+      "view_lift": 1.27
+    },
+    {
+      "feature": "media:image_or_video",
+      "count": 53,
+      "avg_views": 81,
+      "avg_score": 49.78,
+      "view_lift": 1.48
     },
     {
       "feature": "has_booking_link:true",
       "count": 52,
       "avg_views": 68,
-      "avg_score": 49.12,
-      "view_lift": 1.26
-    },
-    {
-      "feature": "length_band:short",
-      "count": 101,
-      "avg_views": 105,
-      "avg_score": 48.89,
-      "view_lift": 1.95
+      "avg_score": 49.13,
+      "view_lift": 1.24
     },
     {
       "feature": "weekday:6",
       "count": 18,
-      "avg_views": 123,
-      "avg_score": 48.67,
-      "view_lift": 2.29
+      "avg_views": 125,
+      "avg_score": 49.13,
+      "view_lift": 2.27
+    },
+    {
+      "feature": "length_band:short",
+      "count": 105,
+      "avg_views": 104,
+      "avg_score": 48.61,
+      "view_lift": 1.89
     },
     {
       "feature": "hour:8",
       "count": 7,
       "avg_views": 84,
       "avg_score": 48.58,
-      "view_lift": 1.56
-    },
-    {
-      "feature": "weekday:2",
-      "count": 19,
-      "avg_views": 57,
-      "avg_score": 47.35,
-      "view_lift": 1.05
+      "view_lift": 1.53
     },
     {
       "feature": "hour:15",
       "count": 2,
       "avg_views": 122,
       "avg_score": 47.3,
-      "view_lift": 2.26
+      "view_lift": 2.22
+    },
+    {
+      "feature": "weekday:2",
+      "count": 20,
+      "avg_views": 55,
+      "avg_score": 46.45,
+      "view_lift": 1.0
     },
     {
       "feature": "weekday:0",
-      "count": 20,
-      "avg_views": 110,
-      "avg_score": 47.05,
-      "view_lift": 2.03
+      "count": 21,
+      "avg_views": 106,
+      "avg_score": 46.4,
+      "view_lift": 1.92
     },
     {
       "feature": "time_band:evening",
       "count": 58,
       "avg_views": 76,
-      "avg_score": 45.48,
-      "view_lift": 1.41
+      "avg_score": 45.49,
+      "view_lift": 1.38
     },
     {
       "feature": "hour:0",
       "count": 5,
       "avg_views": 101,
       "avg_score": 44.53,
-      "view_lift": 1.87
+      "view_lift": 1.84
     },
     {
       "feature": "topic:blog",
       "count": 35,
       "avg_views": 64,
-      "avg_score": 43.67,
-      "view_lift": 1.18
+      "avg_score": 43.69,
+      "view_lift": 1.16
     },
     {
       "feature": "hour:18",
       "count": 22,
       "avg_views": 57,
-      "avg_score": 43.62,
-      "view_lift": 1.06
+      "avg_score": 43.61,
+      "view_lift": 1.04
     },
     {
       "feature": "hour:20",
       "count": 25,
-      "avg_views": 75,
-      "avg_score": 41.46,
-      "view_lift": 1.39
+      "avg_views": 76,
+      "avg_score": 41.51,
+      "view_lift": 1.38
     },
     {
       "feature": "hour:23",
       "count": 3,
       "avg_views": 23,
       "avg_score": 31.86,
-      "view_lift": 0.43
+      "view_lift": 0.42
     }
   ],
   "top_posts": [
@@ -381,7 +381,7 @@
       "reposts": 3,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 891.7,
+      "age_hours": 1059.9,
       "features": {
         "length_band": "medium",
         "hook_question": false,
@@ -412,7 +412,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 145.8,
+      "age_hours": 314.0,
       "features": {
         "length_band": "short",
         "hook_question": true,
@@ -443,7 +443,7 @@
       "reposts": 1,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 601.2,
+      "age_hours": 769.4,
       "features": {
         "length_band": "medium",
         "hook_question": false,
@@ -474,7 +474,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 735.8,
+      "age_hours": 904.0,
       "features": {
         "length_band": "medium",
         "hook_question": true,
@@ -505,7 +505,7 @@
       "reposts": 2,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 908.8,
+      "age_hours": 1077.0,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -536,7 +536,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 723.8,
+      "age_hours": 892.0,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -567,7 +567,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 911.9,
+      "age_hours": 1080.1,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -598,7 +598,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 722.6,
+      "age_hours": 890.8,
       "features": {
         "length_band": "medium",
         "hook_question": false,
@@ -629,7 +629,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 627.9,
+      "age_hours": 796.1,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -660,7 +660,7 @@
       "reposts": 1,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 719.3,
+      "age_hours": 887.5,
       "features": {
         "length_band": "short",
         "hook_question": true,
@@ -679,5 +679,5 @@
       "score": 83.33
     }
   ],
-  "generated_at": "2026-09-28T14:01:21.381561+09:00"
+  "generated_at": "2026-10-05T14:15:33.399645+09:00"
 }
