@@ -331,5 +331,58 @@
       "age_hours": 74.0
     },
     "ai_summary": ""
+  },
+  {
+    "week": "10/05〜10/11",
+    "recorded_at": "2026-10-12 14:36",
+    "totals": {
+      "views": 771,
+      "likes": 11,
+      "replies": 0,
+      "posts": 15
+    },
+    "type_stats": {
+      "店舗・地域": {
+        "count": 3,
+        "avg_views": 50,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 1,
+        "avg_views": 106,
+        "avg_replies": 0.0
+      },
+      "共感・習慣改善": {
+        "count": 4,
+        "avg_views": 76,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 4,
+        "avg_views": 23,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 3,
+        "avg_views": 38,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "17911047606480667",
+      "text": "心斎橋・アメ村あたりで、ひとりでも入りやすい休憩場所ありませんか？\n\nスタッフも休憩中は、にぎやかなお店より静かな場所を探しがちです😂\n\nカフェでも公園でも、おすすめを教えてください。",
+      "timestamp": "2026-10-11T03:22:27+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DeVrsHBFY3N",
+      "media_type": "TEXT_POST",
+      "type": "共感・習慣改善",
+      "views": 206,
+      "likes": 3,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 26.2
+    },
+    "ai_summary": ""
   }
 ]

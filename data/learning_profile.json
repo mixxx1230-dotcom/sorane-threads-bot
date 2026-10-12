@@ -1,370 +1,377 @@
 {
-  "sample_size": 146,
-  "median_views": 55,
+  "sample_size": 159,
+  "median_views": 52,
   "feature_stats": [
+    {
+      "feature": "hour:2",
+      "count": 2,
+      "avg_views": 80,
+      "avg_score": 105.13,
+      "view_lift": 1.53
+    },
     {
       "feature": "topic:recruitment",
       "count": 4,
-      "avg_views": 172,
-      "avg_score": 92.37,
-      "view_lift": 3.14
+      "avg_views": 174,
+      "avg_score": 92.61,
+      "view_lift": 3.35
     },
     {
       "feature": "hour:17",
       "count": 2,
       "avg_views": 262,
-      "avg_score": 80.57,
-      "view_lift": 4.75
+      "avg_score": 78.84,
+      "view_lift": 5.05
     },
     {
       "feature": "topic:eye_strain",
       "count": 8,
-      "avg_views": 132,
-      "avg_score": 73.81,
-      "view_lift": 2.41
+      "avg_views": 133,
+      "avg_score": 73.56,
+      "view_lift": 2.55
     },
     {
       "feature": "hour:10",
       "count": 13,
       "avg_views": 91,
-      "avg_score": 71.26,
-      "view_lift": 1.65
+      "avg_score": 71.28,
+      "view_lift": 1.75
     },
     {
       "feature": "hour:22",
       "count": 3,
-      "avg_views": 35,
-      "avg_score": 70.23,
-      "view_lift": 0.64
-    },
-    {
-      "feature": "length_band:medium",
-      "count": 27,
-      "avg_views": 65,
-      "avg_score": 64.73,
-      "view_lift": 1.19
-    },
-    {
-      "feature": "hour:11",
-      "count": 8,
-      "avg_views": 165,
-      "avg_score": 62.0,
-      "view_lift": 2.99
-    },
-    {
-      "feature": "weekday:5",
-      "count": 22,
-      "avg_views": 99,
-      "avg_score": 62.0,
-      "view_lift": 1.8
+      "avg_views": 36,
+      "avg_score": 70.37,
+      "view_lift": 0.69
     },
     {
       "feature": "time_band:morning",
-      "count": 27,
-      "avg_views": 91,
-      "avg_score": 59.71,
-      "view_lift": 1.66
+      "count": 30,
+      "avg_views": 87,
+      "avg_score": 63.41,
+      "view_lift": 1.68
+    },
+    {
+      "feature": "length_band:medium",
+      "count": 28,
+      "avg_views": 64,
+      "avg_score": 63.35,
+      "view_lift": 1.24
+    },
+    {
+      "feature": "weekday:5",
+      "count": 28,
+      "avg_views": 87,
+      "avg_score": 62.45,
+      "view_lift": 1.67
+    },
+    {
+      "feature": "hour:11",
+      "count": 9,
+      "avg_views": 153,
+      "avg_score": 59.58,
+      "view_lift": 2.94
     },
     {
       "feature": "hour:19",
       "count": 2,
       "avg_views": 237,
       "avg_score": 58.94,
-      "view_lift": 4.31
+      "view_lift": 4.56
+    },
+    {
+      "feature": "has_local_cta:true",
+      "count": 43,
+      "avg_views": 100,
+      "avg_score": 56.64,
+      "view_lift": 1.91
     },
     {
       "feature": "hour:14",
       "count": 12,
-      "avg_views": 218,
-      "avg_score": 56.63,
-      "view_lift": 3.97
+      "avg_views": 219,
+      "avg_score": 56.64,
+      "view_lift": 4.21
     },
     {
-      "feature": "has_local_cta:true",
-      "count": 39,
-      "avg_views": 99,
-      "avg_score": 55.87,
+      "feature": "opening_type:practitioner_observation",
+      "count": 11,
+      "avg_views": 94,
+      "avg_score": 55.35,
       "view_lift": 1.81
     },
     {
       "feature": "emoji_band:none",
       "count": 16,
-      "avg_views": 65,
-      "avg_score": 55.25,
-      "view_lift": 1.19
-    },
-    {
-      "feature": "opening_type:practitioner_observation",
-      "count": 10,
-      "avg_views": 95,
-      "avg_score": 54.64,
-      "view_lift": 1.73
-    },
-    {
-      "feature": "time_band:noon",
-      "count": 61,
-      "avg_views": 113,
-      "avg_score": 54.57,
-      "view_lift": 2.05
+      "avg_views": 67,
+      "avg_score": 54.98,
+      "view_lift": 1.29
     },
     {
       "feature": "topic:jaw_clenching",
       "count": 2,
-      "avg_views": 108,
-      "avg_score": 54.08,
-      "view_lift": 1.96
+      "avg_views": 109,
+      "avg_score": 54.39,
+      "view_lift": 2.1
     },
     {
-      "feature": "has_numbered_choices:true",
-      "count": 17,
-      "avg_views": 75,
-      "avg_score": 53.58,
-      "view_lift": 1.36
+      "feature": "time_band:noon",
+      "count": 69,
+      "avg_views": 109,
+      "avg_score": 53.85,
+      "view_lift": 2.09
     },
     {
       "feature": "has_booking_link:false",
-      "count": 94,
-      "avg_views": 109,
-      "avg_score": 53.46,
-      "view_lift": 1.97
-    },
-    {
-      "feature": "hour:12",
-      "count": 31,
-      "avg_views": 52,
-      "avg_score": 53.28,
-      "view_lift": 0.95
-    },
-    {
-      "feature": "weekday:3",
-      "count": 16,
-      "avg_views": 84,
-      "avg_score": 53.24,
-      "view_lift": 1.53
-    },
-    {
-      "feature": "weekday:1",
-      "count": 20,
-      "avg_views": 95,
-      "avg_score": 53.2,
-      "view_lift": 1.73
+      "count": 104,
+      "avg_views": 106,
+      "avg_score": 53.4,
+      "view_lift": 2.03
     },
     {
       "feature": "media:text",
-      "count": 93,
-      "avg_views": 102,
-      "avg_score": 53.13,
-      "view_lift": 1.85
-    },
-    {
-      "feature": "topic:availability",
-      "count": 15,
-      "avg_views": 103,
-      "avg_score": 53.06,
-      "view_lift": 1.88
-    },
-    {
-      "feature": "opening_type:question",
-      "count": 36,
-      "avg_views": 101,
-      "avg_score": 52.52,
-      "view_lift": 1.83
-    },
-    {
-      "feature": "hook_question:true",
-      "count": 37,
+      "count": 103,
       "avg_views": 99,
-      "avg_score": 52.19,
-      "view_lift": 1.81
+      "avg_score": 53.08,
+      "view_lift": 1.91
+    },
+    {
+      "feature": "hour:12",
+      "count": 37,
+      "avg_views": 57,
+      "avg_score": 52.83,
+      "view_lift": 1.1
     },
     {
       "feature": "weekday:4",
-      "count": 29,
+      "count": 30,
       "avg_views": 96,
+      "avg_score": 52.56,
+      "view_lift": 1.84
+    },
+    {
+      "feature": "has_numbered_choices:false",
+      "count": 139,
+      "avg_views": 95,
+      "avg_score": 52.46,
+      "view_lift": 1.83
+    },
+    {
+      "feature": "opening_type:question",
+      "count": 41,
+      "avg_views": 98,
+      "avg_score": 52.44,
+      "view_lift": 1.89
+    },
+    {
+      "feature": "has_selfcare:false",
+      "count": 132,
+      "avg_views": 92,
+      "avg_score": 52.4,
+      "view_lift": 1.77
+    },
+    {
+      "feature": "hook_question:false",
+      "count": 117,
+      "avg_views": 90,
+      "avg_score": 52.3,
+      "view_lift": 1.73
+    },
+    {
+      "feature": "weekday:1",
+      "count": 21,
+      "avg_views": 93,
+      "avg_score": 52.29,
+      "view_lift": 1.79
+    },
+    {
+      "feature": "topic:availability",
+      "count": 16,
+      "avg_views": 100,
+      "avg_score": 52.25,
+      "view_lift": 1.93
+    },
+    {
+      "feature": "weekday:3",
+      "count": 17,
+      "avg_views": 82,
+      "avg_score": 52.25,
+      "view_lift": 1.58
+    },
+    {
+      "feature": "hook_question:true",
+      "count": 42,
+      "avg_views": 97,
       "avg_score": 52.15,
-      "view_lift": 1.74
+      "view_lift": 1.87
     },
     {
       "feature": "length_band:long",
       "count": 14,
       "avg_views": 79,
       "avg_score": 52.03,
-      "view_lift": 1.43
-    },
-    {
-      "feature": "has_selfcare:false",
-      "count": 123,
-      "avg_views": 94,
-      "avg_score": 51.92,
-      "view_lift": 1.71
-    },
-    {
-      "feature": "has_selfcare:true",
-      "count": 23,
-      "avg_views": 96,
-      "avg_score": 51.88,
-      "view_lift": 1.75
-    },
-    {
-      "feature": "hook_question:false",
-      "count": 109,
-      "avg_views": 93,
-      "avg_score": 51.82,
-      "view_lift": 1.68
-    },
-    {
-      "feature": "has_numbered_choices:false",
-      "count": 129,
-      "avg_views": 97,
-      "avg_score": 51.7,
-      "view_lift": 1.76
-    },
-    {
-      "feature": "topic:other",
-      "count": 49,
-      "avg_views": 110,
-      "avg_score": 51.68,
-      "view_lift": 2.0
+      "view_lift": 1.51
     },
     {
       "feature": "opening_type:statement",
-      "count": 99,
-      "avg_views": 92,
-      "avg_score": 51.54,
-      "view_lift": 1.68
+      "count": 106,
+      "avg_views": 89,
+      "avg_score": 51.98,
+      "view_lift": 1.72
     },
     {
       "feature": "emoji_band:present",
-      "count": 130,
-      "avg_views": 98,
-      "avg_score": 51.51,
-      "view_lift": 1.78
+      "count": 143,
+      "avg_views": 95,
+      "avg_score": 51.95,
+      "view_lift": 1.82
+    },
+    {
+      "feature": "topic:sleep",
+      "count": 7,
+      "avg_views": 81,
+      "avg_score": 51.75,
+      "view_lift": 1.56
     },
     {
       "feature": "hour:13",
       "count": 8,
-      "avg_views": 136,
-      "avg_score": 50.89,
-      "view_lift": 2.47
+      "avg_views": 139,
+      "avg_score": 51.61,
+      "view_lift": 2.67
     },
     {
-      "feature": "has_local_cta:false",
-      "count": 107,
-      "avg_views": 92,
-      "avg_score": 50.47,
-      "view_lift": 1.68
+      "feature": "has_selfcare:true",
+      "count": 27,
+      "avg_views": 90,
+      "avg_score": 51.55,
+      "view_lift": 1.73
     },
     {
-      "feature": "topic:sleep",
-      "count": 6,
-      "avg_views": 87,
-      "avg_score": 50.14,
-      "view_lift": 1.58
+      "feature": "topic:other",
+      "count": 55,
+      "avg_views": 107,
+      "avg_score": 51.49,
+      "view_lift": 2.06
     },
     {
       "feature": "topic:neck_shoulder",
-      "count": 26,
+      "count": 28,
+      "avg_views": 71,
+      "avg_score": 50.89,
+      "view_lift": 1.36
+    },
+    {
+      "feature": "has_numbered_choices:true",
+      "count": 20,
       "avg_views": 70,
-      "avg_score": 49.9,
-      "view_lift": 1.27
-    },
-    {
-      "feature": "media:image_or_video",
-      "count": 53,
-      "avg_views": 81,
-      "avg_score": 49.78,
-      "view_lift": 1.48
-    },
-    {
-      "feature": "has_booking_link:true",
-      "count": 52,
-      "avg_views": 68,
-      "avg_score": 49.13,
-      "view_lift": 1.24
+      "avg_score": 50.84,
+      "view_lift": 1.34
     },
     {
       "feature": "weekday:6",
-      "count": 18,
-      "avg_views": 125,
-      "avg_score": 49.13,
-      "view_lift": 2.27
+      "count": 20,
+      "avg_views": 126,
+      "avg_score": 50.78,
+      "view_lift": 2.42
+    },
+    {
+      "feature": "media:image_or_video",
+      "count": 56,
+      "avg_views": 78,
+      "avg_score": 50.76,
+      "view_lift": 1.51
+    },
+    {
+      "feature": "has_local_cta:false",
+      "count": 116,
+      "avg_views": 89,
+      "avg_score": 50.63,
+      "view_lift": 1.71
+    },
+    {
+      "feature": "has_booking_link:true",
+      "count": 55,
+      "avg_views": 66,
+      "avg_score": 50.1,
+      "view_lift": 1.27
     },
     {
       "feature": "length_band:short",
-      "count": 105,
-      "avg_views": 104,
-      "avg_score": 48.61,
-      "view_lift": 1.89
+      "count": 117,
+      "avg_views": 100,
+      "avg_score": 49.63,
+      "view_lift": 1.92
     },
     {
       "feature": "hour:8",
       "count": 7,
       "avg_views": 84,
       "avg_score": 48.58,
-      "view_lift": 1.53
-    },
-    {
-      "feature": "hour:15",
-      "count": 2,
-      "avg_views": 122,
-      "avg_score": 47.3,
-      "view_lift": 2.22
-    },
-    {
-      "feature": "weekday:2",
-      "count": 20,
-      "avg_views": 55,
-      "avg_score": 46.45,
-      "view_lift": 1.0
-    },
-    {
-      "feature": "weekday:0",
-      "count": 21,
-      "avg_views": 106,
-      "avg_score": 46.4,
-      "view_lift": 1.92
-    },
-    {
-      "feature": "time_band:evening",
-      "count": 58,
-      "avg_views": 76,
-      "avg_score": 45.49,
-      "view_lift": 1.38
+      "view_lift": 1.62
     },
     {
       "feature": "hour:0",
-      "count": 5,
-      "avg_views": 101,
-      "avg_score": 44.53,
-      "view_lift": 1.84
+      "count": 6,
+      "avg_views": 93,
+      "avg_score": 47.11,
+      "view_lift": 1.79
+    },
+    {
+      "feature": "weekday:0",
+      "count": 22,
+      "avg_views": 104,
+      "avg_score": 46.25,
+      "view_lift": 2.0
+    },
+    {
+      "feature": "weekday:2",
+      "count": 21,
+      "avg_views": 55,
+      "avg_score": 45.93,
+      "view_lift": 1.05
     },
     {
       "feature": "topic:blog",
-      "count": 35,
-      "avg_views": 64,
-      "avg_score": 43.69,
+      "count": 38,
+      "avg_views": 61,
+      "avg_score": 45.53,
       "view_lift": 1.16
+    },
+    {
+      "feature": "time_band:evening",
+      "count": 60,
+      "avg_views": 75,
+      "avg_score": 44.86,
+      "view_lift": 1.43
+    },
+    {
+      "feature": "hour:15",
+      "count": 3,
+      "avg_views": 96,
+      "avg_score": 44.08,
+      "view_lift": 1.85
     },
     {
       "feature": "hour:18",
       "count": 22,
-      "avg_views": 57,
-      "avg_score": 43.61,
-      "view_lift": 1.04
+      "avg_views": 58,
+      "avg_score": 43.67,
+      "view_lift": 1.11
     },
     {
       "feature": "hour:20",
-      "count": 25,
-      "avg_views": 76,
-      "avg_score": 41.51,
+      "count": 27,
+      "avg_views": 72,
+      "avg_score": 40.43,
       "view_lift": 1.38
     },
     {
       "feature": "hour:23",
       "count": 3,
-      "avg_views": 23,
-      "avg_score": 31.86,
-      "view_lift": 0.42
+      "avg_views": 24,
+      "avg_score": 32.12,
+      "view_lift": 0.46
     }
   ],
   "top_posts": [
@@ -381,7 +388,7 @@
       "reposts": 3,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 1059.9,
+      "age_hours": 1228.3,
       "features": {
         "length_band": "medium",
         "hook_question": false,
@@ -406,13 +413,13 @@
       "permalink": "https://www.threads.com/@sorane_headspa/post/DdkvyHakcO7",
       "media_type": "TEXT_POST",
       "type": "問いかけ（選択肢形式）",
-      "views": 59,
+      "views": 61,
       "likes": 1,
       "replies": 3,
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 314.0,
+      "age_hours": 482.4,
       "features": {
         "length_band": "short",
         "hook_question": true,
@@ -428,7 +435,7 @@
         "time_band": "noon",
         "weekday": 1
       },
-      "score": 210.43
+      "score": 205.21
     },
     {
       "id": "18407006692080987",
@@ -443,7 +450,7 @@
       "reposts": 1,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 769.4,
+      "age_hours": 937.7,
       "features": {
         "length_band": "medium",
         "hook_question": false,
@@ -462,6 +469,37 @@
       "score": 147.57
     },
     {
+      "id": "18095732855114344",
+      "text": "ブログを更新しました🌿\n\n「朝起きたばかりなのに、もう疲れている…」\n\nぜひご覧ください✨\nhttps://beauty.hotpepper.jp/kr/slnH000803720/blog/bidA126838252.html",
+      "timestamp": "2026-10-09T17:25:43+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DeSCmaSlaRR",
+      "media_type": "IMAGE",
+      "type": "その他",
+      "views": 17,
+      "likes": 2,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 60.2,
+      "features": {
+        "length_band": "short",
+        "hook_question": false,
+        "has_numbered_choices": false,
+        "has_selfcare": false,
+        "has_local_cta": false,
+        "has_booking_link": true,
+        "opening_type": "statement",
+        "topic": "blog",
+        "media": "image_or_video",
+        "emoji_band": "present",
+        "hour": 2,
+        "time_band": "morning",
+        "weekday": 5
+      },
+      "score": 146.55
+    },
+    {
       "id": "18240530173332418",
       "text": "肩が痛いとき、肩だけ揉んでもすぐ戻る人いませんか？\n\n肩こりの多くは「肩が原因」じゃないんです💦\n\nスマホやPCで首が前に出る\n↓\n後頭部・首がずっと緊張する\n↓\nその負担が肩にくる\n\n肩だけ揉んでも根本が残るので繰り返します。\n\n大事なのは…👇",
       "timestamp": "2026-08-28T13:13:39+0000",
@@ -474,7 +512,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 904.0,
+      "age_hours": 1072.4,
       "features": {
         "length_band": "medium",
         "hook_question": true,
@@ -500,12 +538,12 @@
       "media_type": "TEXT_POST",
       "type": "共感・習慣改善",
       "views": 285,
-      "likes": 5,
+      "likes": 4,
       "replies": 0,
       "reposts": 2,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 1077.0,
+      "age_hours": 1245.4,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -521,7 +559,7 @@
         "time_band": "evening",
         "weekday": 4
       },
-      "score": 102.17
+      "score": 98.67
     },
     {
       "id": "18174680077447050",
@@ -536,7 +574,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 892.0,
+      "age_hours": 1060.4,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -567,7 +605,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 1080.1,
+      "age_hours": 1248.5,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -598,7 +636,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 890.8,
+      "age_hours": 1059.2,
       "features": {
         "length_band": "medium",
         "hook_question": false,
@@ -629,7 +667,7 @@
       "reposts": 0,
       "quotes": 0,
       "shares": 0,
-      "age_hours": 796.1,
+      "age_hours": 964.5,
       "features": {
         "length_band": "short",
         "hook_question": false,
@@ -646,38 +684,7 @@
         "weekday": 2
       },
       "score": 85.0
-    },
-    {
-      "id": "17981179233120304",
-      "text": "未経験だけどヘッドスパやってみたいって方いませんか🙋🏻‍♀️",
-      "timestamp": "2026-08-29T05:44:48+0000",
-      "permalink": "https://www.threads.com/@sorane_headspa/post/DcnNz_TmN9y",
-      "media_type": "TEXT_POST",
-      "type": "セルフケア",
-      "views": 644,
-      "likes": 8,
-      "replies": 0,
-      "reposts": 1,
-      "quotes": 0,
-      "shares": 0,
-      "age_hours": 887.5,
-      "features": {
-        "length_band": "short",
-        "hook_question": true,
-        "has_numbered_choices": false,
-        "has_selfcare": false,
-        "has_local_cta": false,
-        "has_booking_link": false,
-        "opening_type": "question",
-        "topic": "other",
-        "media": "text",
-        "emoji_band": "present",
-        "hour": 14,
-        "time_band": "noon",
-        "weekday": 5
-      },
-      "score": 83.33
     }
   ],
-  "generated_at": "2026-10-05T14:15:33.399645+09:00"
+  "generated_at": "2026-10-12T14:36:46.764985+09:00"
 }
