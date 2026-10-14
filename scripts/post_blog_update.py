@@ -10,7 +10,10 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
-from publishing_policy import should_publish
+try:
+    from .publishing_policy import should_publish
+except ImportError:
+    from publishing_policy import should_publish
 
 BLOG_LIST_URL = "https://beauty.hotpepper.jp/kr/slnH000803720/blog/"
 ROOT = Path(__file__).resolve().parent.parent
@@ -77,6 +80,11 @@ def save_state(item, status):
     )
 
 
+def already_posted_today(state, today):
+    """同じJST日付にブログ紹介を2本以上出さない。"""
+    return state.get("status") == "posted" and state.get("posted_date") == str(today)
+
+
 def publish(item):
     if not ACCESS_TOKEN or not USER_ID:
         raise RuntimeError("THREADS_ACCESS_TOKEN / THREADS_USER_ID が未設定です")
@@ -121,8 +129,11 @@ def main():
     if not publish_allowed:
         print(f"配信ポリシーによりブログ告知をスキップ: {policy_reason}")
         return 0
-    item = latest_blog()
     state = load_state()
+    if already_posted_today(state, today_jst) and not force_post:
+        print(f"本日のブログ紹介は投稿済みのためスキップ: {today_jst}")
+        return 0
+    item = latest_blog()
     print(f"最新ブログ: {item['title']} {item['url']}")
     print(f"記事画像: {item.get('image_url') or 'なし（テキスト投稿へフォールバック）'}")
     if not state and not force_post:
@@ -134,7 +145,7 @@ def main():
         print("新着なし")
         return 0
     post_id = publish(item)
-    save_state({**item, "threads_post_id": post_id}, "posted")
+    save_state({**item, "threads_post_id": post_id, "posted_date": str(today_jst)}, "posted")
     print(f"ブログ更新をThreadsに投稿: {post_id}")
     return 0
 
