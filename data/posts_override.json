@@ -167,9 +167,9 @@
       "topic": "睡眠",
       "aim": "習慣改善",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-18-evening",
+        "experimentId": "2026-10-performance-2026-10-18-evening",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -186,11 +186,10 @@
       "photoPrompt": "Person holding smartphone at eye level, ergonomic posture, clean background",
       "topic": "なし",
       "aim": "施術者目線・知識",
-      "imageUrl": "/uploads/1787536044942.jpg",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-19-noon",
+        "experimentId": "2026-10-performance-2026-10-19-noon",
         "variant": "B_practitioner",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -203,9 +202,9 @@
       "topic": "なし",
       "aim": "セルフケア・共感",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-19-evening",
+        "experimentId": "2026-10-performance-2026-10-19-evening",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -217,15 +216,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "疲れているとき、どちらになりますか？\n\n①誰かに話したい\n②一人で静かにしてほしい\n\nSoraneでは②の方も会話なしで過ごせます。今の自分はどちらですか？",
+      "text": "疲れているとき、誰かに話したいですか？ それとも一人で静かにしたいですか？\n\nSoraneでは、会話なしで静かに過ごすのも大丈夫です。\n\n今の自分に必要なのは、話す時間と静かな時間のどちらですか？",
       "photo": "静かな一人の空間イメージ",
       "photoPrompt": "Quiet personal space, person alone peacefully, soft light, no face",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-20-noon",
-        "variant": "A_choice",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "experimentId": "2026-10-performance-2026-10-20-noon",
+        "variant": "C_question",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -237,11 +236,10 @@
       "photoPrompt": "Head spa treatment, peaceful client, soft lighting, professional salon, no face",
       "topic": "なし",
       "aim": "地域・店舗認知",
-      "imageUrl": "/uploads/1787623450671.png",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-20-evening",
+        "experimentId": "2026-10-performance-2026-10-20-evening",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -259,9 +257,9 @@
       "topic": "眼精疲労",
       "aim": "セルフケア",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-21-noon",
+        "experimentId": "2026-10-performance-2026-10-21-noon",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -274,9 +272,9 @@
       "topic": "なし",
       "aim": "セルフケア・共感",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-21-evening",
+        "experimentId": "2026-10-performance-2026-10-21-evening",
         "variant": "B_practitioner",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -294,9 +292,9 @@
       "topic": "食いしばり",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-22-noon",
+        "experimentId": "2026-10-performance-2026-10-22-noon",
         "variant": "B_practitioner",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -308,11 +306,10 @@
       "photoPrompt": "Therapist hands on client's head and neck, focused, professional, soft light",
       "topic": "なし",
       "aim": "施術者目線・知識",
-      "imageUrl": "/uploads/1787796516580.png",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-22-evening",
+        "experimentId": "2026-10-performance-2026-10-22-evening",
         "variant": "B_practitioner",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -324,15 +321,15 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "疲れた夜、どちらになりますか？😴\n\n①とにかく寝たい\n②疲れすぎて逆に眠れない\n\n②の方ほど、施術中に深く眠られることがあります。皆さんはどちらですか？",
+      "text": "疲れすぎて、逆に眠れない夜はありませんか？😴\n\n頭の中だけ動き続けている方ほど、施術中に深く眠られることがあります。\n\n今夜はすぐ眠れそうですか？",
       "photo": "ベッドでぼんやりしている人",
       "photoPrompt": "Person lying in bed, unable to sleep, dim room, relatable tired mood",
       "topic": "睡眠",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-23-noon",
-        "variant": "A_choice",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "experimentId": "2026-10-performance-2026-10-23-noon",
+        "variant": "C_question",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -345,9 +342,9 @@
       "topic": "なし",
       "aim": "知識・教育",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-23-evening",
+        "experimentId": "2026-10-performance-2026-10-23-evening",
         "variant": "B_practitioner",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -365,9 +362,9 @@
       "topic": "睡眠",
       "aim": "習慣改善・知識",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-24-noon",
+        "experimentId": "2026-10-performance-2026-10-24-noon",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -380,9 +377,9 @@
       "topic": "なし",
       "aim": "店舗・予約",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-24-evening",
+        "experimentId": "2026-10-performance-2026-10-24-evening",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -400,24 +397,24 @@
       "topic": "なし",
       "aim": "身体チェック・セルフケア",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-25-noon",
+        "experimentId": "2026-10-performance-2026-10-25-noon",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
       }
     },
     "evening": {
-      "text": "日曜の夜、明日のことを考え始めるのは何時ごろですか？\n\n①朝から\n②夕方から\n③布団に入ってから\n④月曜の朝まで考えない😂\n\n②③の方は今夜30分だけ、仕事の連絡を見ない時間をつくってみてください。",
+      "text": "日曜の夜、明日のことを考えて頭が休まらなくなっていませんか？\n\n仕事の連絡を30分だけ見ない時間をつくると、頭の切り替えが少し楽になります。\n\n今夜、画面を閉じる時間を決められそうですか？",
       "photo": "日曜夕方の窓辺・夕焼け",
       "photoPrompt": "Sunday afternoon light through window, warm golden hour, bittersweet mood",
       "topic": "睡眠",
       "aim": "習慣改善",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-25-evening",
-        "variant": "A_choice",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "experimentId": "2026-10-performance-2026-10-25-evening",
+        "variant": "C_question",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -435,25 +432,24 @@
       "topic": "なし",
       "aim": "施術者目線・セルフケア",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-26-noon",
+        "experimentId": "2026-10-performance-2026-10-26-noon",
         "variant": "B_practitioner",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
-      },
-      "imageUrl": "/uploads/1788098272916.png"
+      }
     },
     "evening": {
-      "text": "月曜の夜、疲れているのに画面を閉じられない方へ。\n\n①SNS\n②仕事の連絡\n③動画\n④全部😂\n\n頭を強制的に休ませたい方は、DMで『相談』と送ってください。完全個室で静かに過ごせます。",
+      "text": "月曜の夜、疲れているのに画面を閉じられなくなっていませんか？\n\n休みたいのにSNSや動画を見続けると、頭だけ仕事モードのままになりがちです。\n\n頭を静かに休ませたい方は、DMで「相談」と送ってください。完全個室で会話なしでも過ごせます。",
       "photo": "月曜夜・ソファでぼんやりしている人",
       "photoPrompt": "Person sitting on sofa at night, phone in hand but hesitating, dim warm light",
       "topic": "なし",
       "aim": "習慣改善・共感",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-26-evening",
-        "variant": "A_choice",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "experimentId": "2026-10-performance-2026-10-26-evening",
+        "variant": "C_question",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
         "measurementWindowHours": 24,
         "primaryMetric": "views",
         "contentGroup": "normal"
@@ -471,9 +467,12 @@
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-29-noon",
+        "experimentId": "2026-10-performance-2026-10-27-noon",
         "variant": "C_question",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       }
     },
     "evening": {
@@ -483,9 +482,12 @@
       "topic": "なし",
       "aim": "地域・店舗認知",
       "growthTest": {
-        "experimentId": "2026-09-booking-2026-09-29-evening",
+        "experimentId": "2026-10-performance-2026-10-27-evening",
         "variant": "A_choice",
-        "hypothesis": "実績上位の質問・施術者視点と低摩擦DM導線が到達と予約相談を改善する"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       }
     }
   },
@@ -494,28 +496,34 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "デスクワーク中、気づかないうちに呼吸が浅くなっている人は多いです。\n\n肩が上下する、息を止めていた、胸だけで呼吸している。ひとつでも当てはまれば、肩を少し後ろへ引いてゆっくり3呼吸。\n\n昼のうちに一度リセットしておくと、夕方の首肩が少し楽です🌿",
+      "text": "施術をしていて気づくのは、首肩がつらい方ほど呼吸が浅くなっていること。\n\n肩が上下する、息を止めていた、胸だけで呼吸している。ひとつでも当てはまれば、肩を少し後ろへ引いてゆっくり3呼吸。\n\n昼のうちに一度リセットしておくと、夕方の首肩が少し楽です🌿",
       "photo": "胸を開いて呼吸している人",
       "photoPrompt": "Person sitting upright, chest open, deep breath, natural daylight, calm",
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-09-human-14-noon",
-        "variant": "D_statement",
-        "hypothesis": "短く自然な問いかけが共感と非フォロワー到達を改善する"
+        "experimentId": "2026-10-performance-2026-10-28-noon",
+        "variant": "B_practitioner",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "健康"
     },
     "evening": {
-      "text": "今日は「何もしたくない」って思いながら、帰ってからずっとスマホを見てました😂\n\n休みたいのに、画面だけは閉じられない。不思議ですよね。\n\n同じ状態の人いますか？今日は照明だけ暗くして、少し早めに休みます🌙",
+      "text": "休みたいのに、帰宅してからずっとスマホを見続けていませんか？😂\n\n何もしたくないのに画面だけは閉じられない夜、ありますよね。\n\n今夜は照明を少し暗くして、10分だけ画面から離れられそうですか？",
       "photo": "玄関で靴を脱いでいる人",
       "photoPrompt": "Person arriving home, taking off shoes, relief and exhaustion, warm dim home light",
       "topic": "なし",
       "aim": "習慣改善・共感",
       "growthTest": {
-        "experimentId": "2026-09-human-14-evening",
-        "variant": "D_statement",
-        "hypothesis": "実体験・弱さ・店舗の日常を含む人間味が返信率と非フォロワー到達を改善する"
+        "experimentId": "2026-10-performance-2026-10-28-evening",
+        "variant": "C_question",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "美容"
     }
@@ -531,22 +539,28 @@
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-09-recovery-15-noon",
+        "experimentId": "2026-10-performance-2026-10-29-noon",
         "variant": "B_practitioner",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
     "evening": {
-      "text": "木曜になると、施術で触れた瞬間に「今週かなりきてますね」と分かる方が増えます。\n\n自分では平気なつもりでも、首肩は正直です😂\n\n今いちばん近いのはどれですか？\n① ミスが増える\n② 判断が遅い\n③ 人と話したくない\n④ 首肩が限界\n\n番号だけでも教えてください。",
+      "text": "施術をしていて気づくのは、木曜になると首肩だけでなく集中力まで落ちている方が増えること。\n\n自分では平気なつもりでも、身体は正直です。\n\n今週の疲れを持ち越したくない方は、DMで「木曜」と送ってください。状態に合うコースをご案内します。",
       "photo": "疲れた木曜夜・静かな部屋",
       "photoPrompt": "Person sitting quietly at end of week, tired but peaceful, warm dim light",
       "topic": "なし",
       "aim": "共感・知識",
       "growthTest": {
-        "experimentId": "2026-09-recovery-15-evening",
-        "variant": "A_choice",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "experimentId": "2026-10-performance-2026-10-29-evening",
+        "variant": "B_practitioner",
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     }
@@ -562,9 +576,12 @@
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-09-recovery-16-noon",
+        "experimentId": "2026-10-performance-2026-10-30-noon",
         "variant": "B_practitioner",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
@@ -575,9 +592,12 @@
       "topic": "なし",
       "aim": "地域・店舗認知",
       "growthTest": {
-        "experimentId": "2026-09-recovery-16-evening",
+        "experimentId": "2026-10-performance-2026-10-30-evening",
         "variant": "C_question",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     }
@@ -593,11 +613,12 @@
       "topic": "なし",
       "aim": "店舗・予約",
       "growthTest": {
-        "experimentId": "2026-09-reset-booking-2026-10-03",
+        "experimentId": "2026-10-performance-2026-10-31-noon",
         "variant": "B_practitioner",
-        "hypothesis": "施術者視点と統一DMキーワードで、初回不安から相談への遷移を増やす",
-        "measurementWindowHours": 72,
-        "primaryMetric": "dm_inquiries"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
@@ -608,9 +629,12 @@
       "topic": "なし",
       "aim": "店舗・予約",
       "growthTest": {
-        "experimentId": "2026-09-recovery-17-evening",
+        "experimentId": "2026-10-performance-2026-10-31-evening",
         "variant": "B_practitioner",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "measurementWindowHours": 24,
+        "primaryMetric": "views",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     }
