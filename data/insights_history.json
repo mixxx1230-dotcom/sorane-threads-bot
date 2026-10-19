@@ -384,5 +384,58 @@
       "age_hours": 26.2
     },
     "ai_summary": ""
+  },
+  {
+    "week": "10/12〜10/18",
+    "recorded_at": "2026-10-19 13:19",
+    "totals": {
+      "views": 521,
+      "likes": 4,
+      "replies": 0,
+      "posts": 21
+    },
+    "type_stats": {
+      "共感・習慣改善": {
+        "count": 6,
+        "avg_views": 17,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 8,
+        "avg_views": 11,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 2,
+        "avg_views": 30,
+        "avg_replies": 0.0
+      },
+      "店舗・地域": {
+        "count": 3,
+        "avg_views": 75,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 2,
+        "avg_views": 19,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "18118387924980201",
+      "text": "心斎橋で働く方へ。仕事帰り、そのまま頭と首肩を休めて帰りませんか？\n\n『何分コースが合うか分からない』『今日行けるかだけ知りたい』でも大丈夫です。\n\n希望時間を添えて、DMで『仕事帰り』と送ってください。空き時間とおすすめコースをご案内します🙆‍♀️",
+      "timestamp": "2026-10-12T18:50:50+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DeZ6upQFMwd",
+      "media_type": "TEXT_POST",
+      "type": "店舗・地域",
+      "views": 146,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 153.5
+    },
+    "ai_summary": ""
   }
 ]
