@@ -5,7 +5,7 @@ GitHub Actionsの手動実行から TIME_SLOTS 環境変数で時間を受け取
 import os
 import sys
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 
 def post_to_threads(text):
@@ -34,20 +34,19 @@ if __name__ == "__main__":
         print("エラー: TIME_SLOTS が設定されていません")
         sys.exit(1)
 
-    today = datetime.now()
+    jst = timezone(timedelta(hours=9))
+    today = datetime.now(jst)
     weekdays = ["月", "火", "水", "木", "金", "土", "日"]
     weekday = weekdays[today.weekday()]
     date_str = f"{today.month}月{today.day}日（{weekday}）"
 
-    text = f"""おはようございます☀️
+    text = f"""心斎橋で今日ヘッドスパを受けたい方へ。
 
-{date_str}の空き枠をお知らせします。
+{date_str}は、こちらの時間にご案内できます。
 
 {slots}
 
-ご予約・お問い合わせはDMまたはプロフィールのリンクからお気軽にどうぞ✨
-
-#ドライヘッドスパ #sorane #空き枠あり #頭皮ケア #リラクゼーション"""
+コースに迷っている方は、ご来店後の相談でも大丈夫です。空き状況はプロフィールから確認できます。"""
 
     result = post_to_threads(text)
     print(f"投稿完了: {result}")

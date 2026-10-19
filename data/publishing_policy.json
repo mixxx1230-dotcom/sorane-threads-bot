@@ -1,9 +1,9 @@
 {
-  "mode": "two_week_reset",
-  "active_from": "2026-09-26",
-  "active_until": "2026-10-09",
+  "mode": "reservation_conversion",
+  "active_from": "2026-10-20",
+  "active_until": "2030-12-31",
   "allowed_slots": ["noon"],
-  "skip_weekdays": [6],
+  "skip_weekdays": [],
   "blog_enabled": false,
-  "reason": "投稿頻度を1日1本以下へ抑え、昼の施術者目線・質問型を検証する"
+  "reason": "通常投稿は昼の共感・質問型を1日1本。夕方は確定した空き枠がある場合のみ手動配信し、ブログ単独告知は停止する"
 }
