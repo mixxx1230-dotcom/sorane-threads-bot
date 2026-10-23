@@ -38,15 +38,15 @@ if __name__ == "__main__":
     today = datetime.now(jst)
     weekdays = ["月", "火", "水", "木", "金", "土", "日"]
     weekday = weekdays[today.weekday()]
-    date_str = f"{today.month}月{today.day}日（{weekday}）"
+    date_str = f"{today.month}月{today.day}日（{weekday}）夜"
 
-    text = f"""心斎橋で今日ヘッドスパを受けたい方へ。
+    text = f"""心斎橋で、明日以降にヘッドスパを受けたい方へ。
 
-{date_str}は、こちらの時間にご案内できます。
+{date_str}時点の空き状況です。
 
 {slots}
 
-コースに迷っている方は、ご来店後の相談でも大丈夫です。空き状況はプロフィールから確認できます。"""
+コースに迷っている方は、ご来店後の相談でも大丈夫です。最新の空き状況と予約はプロフィールのリンクから確認できます。"""
 
     result = post_to_threads(text)
     print(f"投稿完了: {result}")

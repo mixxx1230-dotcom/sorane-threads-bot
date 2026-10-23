@@ -1,10 +1,10 @@
-name: 夕方の空き枠投稿
+name: 20〜21時の翌日以降空き枠投稿
 
 on:
   workflow_dispatch:
     inputs:
       time_slots:
-        description: '確定した本日の空き枠（例：18:30、20:00）。空欄や推測値では実行しない'
+        description: '確定した翌日以降の空き枠（例：10/28 18:30、10/29 20:00）。20〜21時に実行'
         required: true
         type: string
 
