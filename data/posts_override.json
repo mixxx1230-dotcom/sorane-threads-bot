@@ -391,17 +391,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "日曜の昼、ちゃんとぼんやりできていますか？\n\n椅子に座っているなら、背もたれに体重を預けて足の力を抜いてみてください。\n\n今、少し力が抜けましたか？😌",
+      "text": "夕方になると、目の奥だけでなく首の付け根まで重くなりませんか？\n\n画面を見る時間が長い日は、目だけでなく頭を支える首まわりにも力が入り続けます。目を閉じても重さが残るなら、目元と首肩を一緒に休ませる考え方もあります。\n\nSoraneの施術内容と空き状況は、プロフィールのリンクから確認できます。",
       "photo": "ソファでぼんやりしている人",
       "photoPrompt": "Person sitting in chair relaxed, letting go of tension, soft afternoon light, no face",
-      "topic": "なし",
-      "aim": "身体チェック・セルフケア",
+      "topic": "眼精疲労・首肩",
+      "aim": "悩み解説・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-10-performance-2026-10-25-noon",
+        "experimentId": "2026-10-funnel-2026-10-25-problem",
         "variant": "C_question",
-        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "hypothesis": "悩み解説と単一CTAでプロフィール閲覧を増やす",
         "measurementWindowHours": 24,
-        "primaryMetric": "views",
+        "primaryMetric": "profile_visits",
         "contentGroup": "normal"
       }
     },
@@ -533,17 +533,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "施術していてよく気づくのは、本人が自覚していない肩の左右差です。\n\n「右肩だけ上がっていますね」とお伝えすると、だいたい皆さん驚きます👀\n\n今、鏡で見たらどうですか？右・左・ほぼ同じ、どれでした？",
+      "text": "Soraneでは、全員に同じ順番で施術するのではなく、最初に今日つらい場所を確認します。\n\n目の疲れが強い日、首肩が重い日、静かに眠りたい日。状態に合わせて、頭・目元・首肩の重点を決めます。強さもその場で調整できます。\n\n初めての方は、プロフィールのリンクで施術内容と予約方法をご覧ください。",
       "photo": "肩の高さを確認している人",
       "photoPrompt": "Person checking shoulder alignment, one shoulder slightly higher, casual setting",
-      "topic": "なし",
-      "aim": "セルフケア・知識",
+      "topic": "施術方針",
+      "aim": "施術の考え方・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-10-performance-2026-10-29-noon",
+        "experimentId": "2026-10-funnel-2026-10-29-treatment",
         "variant": "B_practitioner",
-        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "hypothesis": "施術方針の具体化と単一CTAで初回不安を減らす",
         "measurementWindowHours": 24,
-        "primaryMetric": "views",
+        "primaryMetric": "profile_visits",
         "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -570,17 +570,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "男性のお客様を施術していて多いのが、「肩こりはあるけど、サロンへ行くほどではないと思っていた」という声です。\n\nでも頭と首に触れると、かなり力が入っていることも。\n\n男性のみなさん、ヘッドスパに行ったことありますか？ある・ないだけでも教えてください🙋🏻‍♂️",
+      "text": "初めてのお客様からよくいただくのが、『話さず静かに過ごせて安心した』という声です。\n\nSoraneは完全個室。施術中は眠っても、会話をせず休んでも大丈夫です。普段着・メイクをしたまま受けられます。\n\n静かに休める時間を取りたい方は、プロフィールのリンクから空き状況をご確認ください。",
       "photo": "コーヒーを飲んでいる人・一人カフェ",
       "photoPrompt": "Person sitting alone in cafe with coffee, quiet corner, soft afternoon light",
-      "topic": "なし",
-      "aim": "エンゲージメント・投げかけ",
+      "topic": "初回体験",
+      "aim": "利用者の声・予約検討",
       "growthTest": {
-        "experimentId": "2026-10-performance-2026-10-30-noon",
-        "variant": "B_practitioner",
-        "hypothesis": "質問型と施術者目線をテキスト中心で配信し、24時間表示数の中央値45超えを狙う",
+        "experimentId": "2026-10-funnel-2026-10-30-testimonial",
+        "variant": "D_statement",
+        "hypothesis": "利用者の声と単一CTAで予約ページ移動を増やす",
         "measurementWindowHours": 24,
-        "primaryMetric": "views",
+        "primaryMetric": "booking_clicks",
         "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
