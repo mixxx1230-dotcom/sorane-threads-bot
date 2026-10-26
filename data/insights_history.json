@@ -437,5 +437,48 @@
       "age_hours": 153.5
     },
     "ai_summary": ""
+  },
+  {
+    "week": "10/19〜10/25",
+    "recorded_at": "2026-10-26 13:23",
+    "totals": {
+      "views": 199,
+      "likes": 2,
+      "replies": 0,
+      "posts": 8
+    },
+    "type_stats": {
+      "共感・習慣改善": {
+        "count": 5,
+        "avg_views": 26,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 1,
+        "avg_views": 44,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 2,
+        "avg_views": 12,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "17864135160696014",
+      "text": "疲れすぎて、逆に眠れない夜はありませんか？😴\n\n頭の中だけ動き続けている方ほど、施術中に深く眠られることがあります。\n\n今夜はすぐ眠れそうですか？",
+      "timestamp": "2026-10-23T03:31:26+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/De0mQZAFVPr",
+      "media_type": "TEXT_POST",
+      "type": "共感・習慣改善",
+      "views": 53,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 72.9
+    },
+    "ai_summary": ""
   }
 ]
