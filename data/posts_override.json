@@ -539,9 +539,9 @@
       "topic": "施術方針",
       "aim": "施術の考え方・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-10-funnel-2026-10-29-treatment",
+        "experimentId": "2026-10-27-funnel-opening-test",
         "variant": "B_practitioner",
-        "hypothesis": "施術方針の具体化と単一CTAで初回不安を減らす",
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
         "primaryMetric": "profile_visits",
         "contentGroup": "normal"
@@ -570,17 +570,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "初めてのお客様からよくいただくのが、『話さず静かに過ごせて安心した』という声です。\n\nSoraneは完全個室。施術中は眠っても、会話をせず休んでも大丈夫です。普段着・メイクをしたまま受けられます。\n\n静かに休める時間を取りたい方は、プロフィールのリンクから空き状況をご確認ください。",
+      "text": "施術中は、話したい派ですか？それとも静かに休みたい派ですか？\n\n初めてのお客様からよくいただくのが、『話さず過ごせて安心した』という声です。Soraneは完全個室。眠っても、会話をせず休んでも大丈夫です。普段着・メイクをしたまま受けられます。\n\n静かに休める時間を取りたい方は、プロフィールのリンクから空き状況をご確認ください。",
       "photo": "コーヒーを飲んでいる人・一人カフェ",
       "photoPrompt": "Person sitting alone in cafe with coffee, quiet corner, soft afternoon light",
       "topic": "初回体験",
       "aim": "利用者の声・予約検討",
       "growthTest": {
-        "experimentId": "2026-10-funnel-2026-10-30-testimonial",
-        "variant": "D_statement",
-        "hypothesis": "利用者の声と単一CTAで予約ページ移動を増やす",
+        "experimentId": "2026-10-27-funnel-opening-test",
+        "variant": "C_question",
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
-        "primaryMetric": "booking_clicks",
+        "primaryMetric": "profile_visits",
         "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
@@ -644,15 +644,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "休みの日に寝だめしたのに、月曜の朝まだ重い。そんなことありませんか？\n\n施術していると「長く寝た＝回復した」ではない方が意外と多いです。\n\n休日は、たくさん寝る派・いつもと同じ時間に起きる派、どちらですか？",
+      "text": "休みの日に長く寝たのに、月曜の朝まだ頭が重いことはありませんか？\n\n施術していると、『寝た時間は長いのに休んだ感じがしない』という方が少なくありません。眠る長さだけでなく、力が抜ける時間をつくることも大切です。\n\n頭や首肩の重さを持ち越したくない方は、プロフィールで施術内容をご確認ください。",
       "photo": "耳の後ろを触っている人",
       "photoPrompt": "Person gently massaging behind ear, relaxed home setting",
-      "topic": "なし",
-      "aim": "セルフケア",
+      "topic": "睡眠",
+      "aim": "悩み解説・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-09-recovery-18-noon",
+        "experimentId": "2026-10-27-funnel-opening-test",
         "variant": "C_question",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
+        "measurementWindowHours": 24,
+        "primaryMetric": "profile_visits",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
@@ -768,15 +771,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "今、横から見たとき耳が肩より前に出ていませんか？\n\nデスクワーク中は、頭だけ少しずつ前へ出やすくなります。\n\n① かなり前\n② 少し前\n③ 肩の真上\n④ 分からない\n\n一度だけ、あごを軽く引いて頭を後ろへ戻してみてください😌",
+      "text": "今、横から見たとき耳はどこにありますか？\n\n① 肩よりかなり前\n② 少し前\n③ 肩の真上\n④ 分からない\n\nデスクワーク中は、頭だけ少しずつ前へ出やすくなります。あごを軽く引いて、一度だけ頭を後ろへ戻してみてください。\n\n首肩の状態に合わせた施術は、プロフィールのリンクで確認できます。",
       "photo": "横から見たデスクワーク姿勢",
       "photoPrompt": "Side view of person at desk, head jutting forward, posture illustration",
       "topic": "なし",
-      "aim": "施術者目線・知識",
+      "aim": "悩み解説・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-09-recovery-22-noon",
+        "experimentId": "2026-10-27-funnel-opening-test",
         "variant": "A_choice",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
+        "measurementWindowHours": 24,
+        "primaryMetric": "profile_visits",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
@@ -799,15 +805,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "心斎橋で働いている方、金曜の昼でもう疲れてませんか？\n\n私は今日は、静かなところで10分だけ何も考えずに座りたい気分です😂\n\n今ほしいのは、ごはん・睡眠・ひとり時間のどれですか？",
+      "text": "金曜の昼、今ほしいのは『ごはん・睡眠・ひとり時間』のどれですか？\n\n週の終わりは、身体より先に頭が疲れていることもあります。Soraneでは会話をせず、完全個室で静かに休んでも大丈夫です。\n\nひとりで休む時間を取りたい方は、プロフィールから空き状況をご確認ください。",
       "photo": "疲れに気づいていない人・日常",
       "photoPrompt": "Person in daily routine looking tired without realizing, morning or evening light",
       "topic": "なし",
-      "aim": "エンゲージメント・投げかけ",
+      "aim": "利用体験・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-09-recovery-23-noon",
+        "experimentId": "2026-10-27-funnel-opening-test",
         "variant": "C_question",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
+        "measurementWindowHours": 24,
+        "primaryMetric": "profile_visits",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
@@ -861,15 +870,18 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "心斎橋・アメ村あたりで、ひとりでも入りやすい休憩場所ありませんか？\n\nスタッフも休憩中は、にぎやかなお店より静かな場所を探しがちです😂\n\nカフェでも公園でも、おすすめを教えてください。",
+      "text": "施術をしていて感じるのは、疲れている方ほど『休むときまで何かをしよう』としていることです。\n\n動画を見る、予定を立てる、連絡を返す。頭を休ませたい日は、何もしない時間を先に予定へ入れるのも一つです。Soraneでは会話をせず静かに過ごせます。\n\n完全個室で休める施術内容は、プロフィールのリンクからご覧ください。",
       "photo": "頭皮をほぐしている人",
       "photoPrompt": "Person massaging their own scalp with fingertips, eyes closed, relaxed, soft light",
-      "topic": "なし",
-      "aim": "セルフケア・知識",
+      "topic": "休息",
+      "aim": "施術の考え方・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-09-recovery-25-noon",
-        "variant": "C_question",
-        "hypothesis": "実績のある美容コミュニティ内で、専門性のある共感・質問が到達と返信を回復させる"
+        "experimentId": "2026-10-27-funnel-opening-test",
+        "variant": "B_practitioner",
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
+        "measurementWindowHours": 24,
+        "primaryMetric": "profile_visits",
+        "contentGroup": "normal"
       },
       "communityTag": "BEAUTY_FASHION"
     },
