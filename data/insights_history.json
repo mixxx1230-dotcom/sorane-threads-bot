@@ -480,5 +480,48 @@
       "age_hours": 72.9
     },
     "ai_summary": ""
+  },
+  {
+    "week": "10/26〜11/01",
+    "recorded_at": "2026-11-02 14:39",
+    "totals": {
+      "views": 140,
+      "likes": 1,
+      "replies": 0,
+      "posts": 4
+    },
+    "type_stats": {
+      "共感・習慣改善": {
+        "count": 1,
+        "avg_views": 2,
+        "avg_replies": 0.0
+      },
+      "問いかけ（＼質問／形式）": {
+        "count": 1,
+        "avg_views": 70,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 2,
+        "avg_views": 34,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "18119071145087235",
+      "text": "＼本日残り1枠💦／\nサクッとヘッドスパ受けたみたいなって方🙋🏻‍♀️\n本日10/31 18:30よりクイック30分コースご予約可能です✨\nご希望の方はDMでお知らせください📢",
+      "timestamp": "2026-10-31T01:14:09+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/DfI86vEGL5B",
+      "media_type": "TEXT_POST",
+      "type": "問いかけ（＼質問／形式）",
+      "views": 70,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 52.4
+    },
+    "ai_summary": ""
   }
 ]
