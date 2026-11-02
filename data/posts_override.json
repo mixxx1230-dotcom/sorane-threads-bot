@@ -39,17 +39,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "夕方、鏡を見て『目が疲れて見える』と思うことありませんか？\n\n施術では、目の疲れを話す方ほど眉間やこめかみに力が入っていることがあります。\n\n疲れが出やすいのは、目・肩・顔のどこですか？",
+      "text": "夕方、鏡を見て『目が疲れて見える』と思うことありませんか？\n\n施術では、目の疲れを話す方ほど眉間やこめかみに力が入っていることがあります。\n\n疲れが出やすいのは、目・肩・顔のどこですか？\n\n今の疲れに合う施術は、プロフィールのリンクから確認できます。",
       "photo": "こめかみに手を当てている人",
       "photoPrompt": "Person gently touching temple with fingertips, soft light, side angle, no full face",
       "topic": "なし",
       "aim": "セルフケア・知識",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-15-noon",
+        "experimentId": "2026-11-funnel-opening-test",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
-        "primaryMetric": "views",
+        "primaryMetric": "profile_visits",
         "contentGroup": "normal"
       }
     },
@@ -74,17 +74,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "金曜の昼、もう疲れているのはどこですか？\n\n①目\n②首肩\n③頭\n④全部😂\n\n私は夕方になると②が一気にきます。みなさんは何番ですか？",
+      "text": "金曜の昼、もう疲れているのはどこですか？\n\n①目\n②首肩\n③頭\n④全部😂\n\n私は夕方になると②が一気にきます。みなさんは何番ですか？\n\n頭・目・首肩をまとめて休めたい方は、プロフィールで施術内容をご覧ください。",
       "photo": "選択肢イメージ・コメント誘導",
       "photoPrompt": "Simple poll visual, light and engaging, clean minimal design",
       "topic": "なし",
       "aim": "エンゲージメント・投げかけ",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-16-noon",
+        "experimentId": "2026-11-funnel-opening-test",
         "variant": "A_choice",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
-        "primaryMetric": "views",
+        "primaryMetric": "profile_visits",
         "contentGroup": "normal"
       }
     },
@@ -146,17 +146,17 @@
       "timeSlots": ""
     },
     "noon": {
-      "text": "休みの日、横になっても5分でスマホを触ってしまいませんか？\n\n『何もしない』のが落ち着かない方は、まず30分だけで大丈夫。\n\n今日、何も生産しない時間をつくれそうですか？",
+      "text": "休みの日、横になっても5分でスマホを触ってしまいませんか？\n\n『何もしない』のが落ち着かない方は、まず30分だけで大丈夫。\n\n今日、何も生産しない時間をつくれそうですか？\n\n完全個室で静かに休める施術は、プロフィールのリンクから確認できます。",
       "photo": "ソファでぼんやりしている人",
       "photoPrompt": "Person sitting on sofa gazing into space, soft afternoon light, relaxed, no face",
       "topic": "なし",
       "aim": "共感・習慣改善",
       "growthTest": {
-        "experimentId": "2026-10-growth-2026-10-18-noon",
+        "experimentId": "2026-11-funnel-opening-test",
         "variant": "C_question",
-        "hypothesis": "C_questionとB_practitionerを中心にA_choiceも維持し、24時間表示数と返信率を比較する",
+        "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
-        "primaryMetric": "views",
+        "primaryMetric": "profile_visits",
         "contentGroup": "normal"
       }
     },
@@ -777,7 +777,7 @@
       "topic": "なし",
       "aim": "悩み解説・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-10-27-funnel-opening-test",
+        "experimentId": "2026-11-funnel-opening-test",
         "variant": "A_choice",
         "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
@@ -811,7 +811,7 @@
       "topic": "なし",
       "aim": "利用体験・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-10-27-funnel-opening-test",
+        "experimentId": "2026-11-funnel-opening-test",
         "variant": "C_question",
         "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
@@ -876,7 +876,7 @@
       "topic": "休息",
       "aim": "施術の考え方・プロフィール移動",
       "growthTest": {
-        "experimentId": "2026-10-27-funnel-opening-test",
+        "experimentId": "2026-11-funnel-opening-test",
         "variant": "B_practitioner",
         "hypothesis": "同じ単一CTAでA_choice・B_practitioner・C_questionを比較し、プロフィール移動が最も多い冒頭型を残す",
         "measurementWindowHours": 24,
