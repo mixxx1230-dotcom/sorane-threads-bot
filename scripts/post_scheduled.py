@@ -64,7 +64,8 @@ if os.path.exists(OVERRIDE_FILE):
         if slot_data.get("text"):
             text = slot_data["text"]
             override_used = True
-        # 投稿内容ごとにコミュニティを切り替える。未設定は従来値を使用。
+        # 投稿内容ごとにコミュニティを切り替える。
+        # 未設定の既存データは従来どおり BEAUTY_FASHION を使用する。
         raw_topic_tag = slot_data.get("communityTag")
         if raw_topic_tag is not None:
             topic_tag = str(raw_topic_tag).strip()
@@ -88,7 +89,6 @@ print(f"画像URL: {image_url or 'なし（テキスト投稿）'}")
 print(f"コミュニティ: {topic_tag or 'なし'}")
 print(f"投稿内容:\n{text}\n")
 print("===============")
-
 
 # 通常実行と復旧実行が近接しても二重投稿しない
 HISTORY_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "post_history.json")
