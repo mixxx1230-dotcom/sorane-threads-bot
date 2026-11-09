@@ -31,6 +31,10 @@ def should_publish(slot, target_date, force=False):
         return False, policy.get("reason", "blog paused")
     if slot not in policy.get("allowed_slots", []):
         return False, policy.get("reason", "slot paused")
+    weekdays_by_slot = policy.get("allowed_weekdays_by_slot", {})
+    allowed_weekdays = weekdays_by_slot.get(slot)
+    if allowed_weekdays is not None and target_date.weekday() not in allowed_weekdays:
+        return False, policy.get("reason", "weekday paused")
     if target_date.weekday() in policy.get("skip_weekdays", []):
         return False, policy.get("reason", "weekday paused")
     return True, policy.get("reason", "reset test")
