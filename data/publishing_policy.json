@@ -1,9 +1,13 @@
 {
-  "mode": "reservation_conversion",
-  "active_from": "2026-10-20",
-  "active_until": "2030-12-31",
+  "mode": "two_week_reset",
+  "active_from": "2026-11-09",
+  "active_until": "2099-12-31",
+  "experiment_until": "2026-11-22",
   "allowed_slots": ["noon"],
-  "skip_weekdays": [0, 1, 2, 5],
+  "allowed_weekdays_by_slot": {
+    "noon": [0, 2, 4]
+  },
+  "skip_weekdays": [],
   "blog_enabled": false,
-  "reason": "通常投稿は木・金・日の週3本。確定した翌日以降の空き枠がある週だけ20〜21時に1本追加し、ブログ単独告知は停止する"
+  "reason": "月水金の週3本を上限に運用し、2026-11-22までは施術者目線・質問型・選択型を比較する。期間後も自動で多頻度運用へ戻さない"
 }
