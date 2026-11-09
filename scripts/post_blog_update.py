@@ -20,7 +20,6 @@ ROOT = Path(__file__).resolve().parent.parent
 STATE_FILE = ROOT / "data" / "hotpepper_blog_state.json"
 ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN", "").strip()
 USER_ID = os.environ.get("THREADS_USER_ID", "").strip()
-AUTOMATION_START_DATE = os.environ.get("AUTOMATION_START_DATE", "2026-08-29")
 
 
 def latest_blog():
@@ -121,9 +120,6 @@ def publish(item):
 
 def main():
     today_jst = datetime.now(timezone(timedelta(hours=9))).date()
-    if str(today_jst) < AUTOMATION_START_DATE:
-        print(f"自動運用開始前のためスキップ: {today_jst}")
-        return 0
     force_post = os.environ.get("FORCE_POST", "").strip() == "1"
     publish_allowed, policy_reason = should_publish("blog", today_jst, force=force_post)
     if not publish_allowed:
