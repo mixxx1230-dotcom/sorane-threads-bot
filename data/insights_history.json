@@ -571,5 +571,63 @@
       "age_hours": 77.5
     },
     "ai_summary": ""
+  },
+  {
+    "week": "11/09〜11/15",
+    "recorded_at": "2026-11-16 14:59",
+    "totals": {
+      "views": 111,
+      "likes": 1,
+      "replies": 0,
+      "posts": 8
+    },
+    "type_stats": {
+      "共感・習慣改善": {
+        "count": 3,
+        "avg_views": 10,
+        "avg_replies": 0.0
+      },
+      "その他": {
+        "count": 1,
+        "avg_views": 1,
+        "avg_replies": 0.0
+      },
+      "問いかけ（選択肢形式）": {
+        "count": 1,
+        "avg_views": 2,
+        "avg_replies": 0.0
+      },
+      "施術者目線": {
+        "count": 1,
+        "avg_views": 12,
+        "avg_replies": 0.0
+      },
+      "問いかけ（＼質問／形式）": {
+        "count": 1,
+        "avg_views": 17,
+        "avg_replies": 0.0
+      },
+      "店舗・地域": {
+        "count": 1,
+        "avg_views": 47,
+        "avg_replies": 0.0
+      }
+    },
+    "top_post": {
+      "id": "17946536136368243",
+      "text": "心斎橋で、休んだはずなのに頭や首肩が重い方へ。\n\n長く寝ても抜けない疲れは、頭まわりがずっと緊張しているサインかもしれません。\n\n自分に合うコースが分からない方は、予約前でも大丈夫です。DMで『相談』と送ってください。今の悩みに合う時間をご案内します🌿",
+      "timestamp": "2026-11-09T07:40:19+0000",
+      "permalink": "https://www.threads.com/@sorane_headspa/post/Dfg0QJXG685",
+      "media_type": "TEXT_POST",
+      "type": "店舗・地域",
+      "views": 47,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "shares": 0,
+      "age_hours": 166.3
+    },
+    "ai_summary": ""
   }
 ]
